@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-wrap {
+  flex: 1 0 auto;
+}
+
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+}

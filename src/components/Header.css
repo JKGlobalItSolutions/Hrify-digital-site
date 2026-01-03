@@ -1,0 +1,472 @@
+/* Dropdown hover functionality */
+.dropdown:hover > .dropdown-menu {
+  display: block !important;
+}
+
+.dropdown-menu:hover {
+  display: block !important;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+  z-index: 1070;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Smart positioning for all submenus based on position */
+.dropdown-submenu:nth-child(n+6) > .dropdown-menu {
+  /* Items 6 and later (Data & Analytics onwards) - open to the left */
+  left: auto;
+  right: 100%;
+  margin-left: 1px;
+  margin-right: -1px;
+  border-radius: 6px 0 6px 6px;
+}
+
+.dropdown-submenu:nth-last-child(-n+3) > .dropdown-menu {
+  /* Last 3 items - open upwards */
+  top: auto;
+  bottom: 0;
+  margin-top: 6px;
+  margin-bottom: -6px;
+  border-radius: 6px 6px 0 6px;
+}
+
+.dropdown-submenu:nth-child(n+6):nth-last-child(-n+3) > .dropdown-menu {
+  /* Items that are both right-positioned AND bottom-positioned */
+  left: auto;
+  right: 100%;
+  top: auto;
+  bottom: 0;
+  margin-left: 1px;
+  margin-right: -1px;
+  margin-top: 6px;
+  margin-bottom: -6px;
+  border-radius: 6px 0 0 6px;
+}
+
+/* Adjust Cybersecurity dropdown position to avoid touching bottom */
+.dropdown-submenu:nth-child(4) > .dropdown-menu {
+  margin-top: -20px;
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+
+/* .dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+} */
+
+/* Modern Navbar Header */
+.modern-navbar-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+  transition: all 0.3s ease;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.modern-navbar-header.scrolled {
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar */
+.modern-navbar {
+  background: transparent !important;
+  padding: 15px 0;
+  transition: all 0.3s ease;
+}
+
+.modern-navbar-header.scrolled .modern-navbar {
+  padding: 10px 0;
+}
+
+/* Logo */
+.navbar-brand {
+  font-weight: bold;
+  font-size: 24px;
+  color: #333 !important;
+  transition: all 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #007bff !important;
+  transform: scale(1.05);
+}
+
+.navbar-brand img {
+  max-height: 40px;
+  width: auto;
+}
+
+/* Desktop Menu */
+.navbar-nav {
+  justify-content: center !important;
+  flex: 1;
+}
+
+.navbar-nav .nav-link {
+  color: #333 !important;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 10px 15px !important;
+  margin: 0 10px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  position: relative;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff !important;
+  background: rgba(0, 123, 255, 0.05);
+  transform: translateY(-1px);
+}
+
+.navbar-nav .nav-link::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: #007bff;
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.navbar-nav .nav-link:hover::before {
+  width: 100%;
+}
+
+/* Dropdown Toggle */
+.dropdown-toggle::after {
+  margin-left: 8px;
+  transition: transform 0.3s ease;
+}
+
+.dropdown:hover .dropdown-toggle::after {
+  transform: rotate(180deg);
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 8px;
+  animation: fadeInDown 0.3s ease;
+  background: #fff;
+  z-index: 1050;
+  position: absolute;
+}
+
+/* .services-dropdown {
+  width: 400px;
+  max-height: 600px;
+  overflow-y: auto;
+} */
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.dropdown-item {
+  padding: 12px 20px;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  margin: 2px 0;
+  color: #333 !important;
+  text-decoration: none;
+}
+
+.dropdown-item:hover {
+  background: rgba(0, 123, 255, 0.1);
+  color: #007bff !important;
+  transform: translateX(5px);
+}
+
+/* Mega Menu */
+.mega-menu {
+  width: 900px;
+  max-width: 95vw;
+  padding: 30px 20px;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+  margin-top: 12px;
+  left: 50% !important;
+  transform: translateX(-50%);
+  background: #fff;
+}
+
+.mega-menu .container {
+  max-width: 100%;
+}
+
+.mega-menu .col-md-3 {
+  padding: 0 10px;
+}
+
+.mega-menu .dropdown-header {
+  color: #007bff;
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #e3f2fd;
+}
+
+.mega-menu .dropdown-item {
+  padding: 10px 15px;
+  font-size: 14.5px;
+  border-radius: 8px;
+  white-space: nowrap;
+}
+
+.mega-menu .dropdown-item:hover {
+  background: #f0f8ff;
+  color: #007bff !important;
+  transform: translateX(4px);
+}
+
+.dropdown-header {
+  color: #007bff;
+  font-weight: 600;
+  padding: 15px 0 8px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #e9ecef;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+/* Contact Button */
+.contact-btn {
+  background: #007bff !important;
+  border: none;
+  color: #fff !important;
+  padding: 8px 20px;
+  border-radius: 25px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  margin-left: 15px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.contact-btn:hover {
+  background: #0056d2 !important;
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
+}
+
+/* Mobile Menu Overlay */
+.mobile-menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1040;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+
+.mobile-menu-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.mobile-menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+  max-width: 80vw;
+  height: 100vh;
+  background: #fff;
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.mobile-menu-overlay.active .mobile-menu {
+  transform: translateX(0);
+}
+
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 30px;
+  color: #333;
+  cursor: pointer;
+  z-index: 1041;
+}
+
+.mobile-nav {
+  list-style: none;
+  padding: 60px 0 0;
+  margin: 0;
+}
+
+.mobile-nav li {
+  margin-bottom: 20px;
+}
+
+.mobile-nav a {
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  display: block;
+  padding: 10px 0;
+  transition: all 0.3s ease;
+}
+
+.mobile-nav a:hover {
+  color: #007bff;
+  transform: translateX(10px);
+}
+
+.mobile-dropdown span {
+  color: #333;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  display: block;
+  padding: 10px 0;
+  position: relative;
+}
+
+.mobile-dropdown span::after {
+  content: '+';
+  position: absolute;
+  right: 0;
+  font-size: 20px;
+  transition: transform 0.3s ease;
+}
+
+.mobile-dropdown.active span::after {
+  transform: rotate(45deg);
+}
+
+.mobile-submenu {
+  list-style: none;
+  padding: 10px 0 0 20px;
+  margin: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.mobile-dropdown.active .mobile-submenu {
+  max-height: 500px;
+}
+
+/* Navbar Toggler Animation */
+.navbar-toggler {
+  border: none;
+  padding: 8px;
+  background: transparent;
+  transition: all 0.3s ease;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280,0,0,0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  transition: all 0.3s ease;
+}
+
+.navbar-toggler.active .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28220,53,69,0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M6 6l18 18M6 24L24 6'/%3e%3c/svg%3e");
+}
+
+/* Body Padding for Fixed Navbar */
+body {
+  padding-top: 80px;
+}
+
+/* Responsive Design */
+@media (max-width: 991.98px) {
+  .desktop-menu {
+    display: none;
+  }
+
+  .modern-navbar {
+    padding: 10px 0;
+  }
+
+  .navbar-brand img {
+    height: 35px;
+  }
+
+  body {
+    padding-top: 70px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mobile-menu {
+    width: 280px;
+  }
+
+  .modern-navbar-header.scrolled .modern-navbar {
+    padding: 8px 0;
+  }
+
+  .navbar-brand img {
+    height: 30px;
+  }
+
+  .contact-btn {
+    display: none;
+  }
+
+  body {
+    padding-top: 60px;
+  }
+}

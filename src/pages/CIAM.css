@@ -1,0 +1,60 @@
+/* Hover and interactive styles for CIAM page */
+.btn {
+  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+  text-decoration: none;
+}
+.btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12) !important;
+  text-decoration: none !important;
+}
+.btn:focus-visible {
+  outline: 3px solid var(--border-focus);
+  outline-offset: 3px;
+}
+
+.btn.btn-primary:hover {
+  background-color: var(--accent-hover) !important;
+  border-color: var(--accent-hover) !important;
+  color: #fff !important;
+}
+
+.btn.btn-secondary:hover {
+  background-color: #fff !important;
+  color: var(--accent) !important;
+  border-color: #fff !important;
+  transform: translateY(-4px) scale(1.02);
+}
+
+.btn.btn-outline:hover {
+  background-color: rgba(255,255,255,0.12) !important;
+  border-color: #fff !important;
+  color: #fff !important;
+}
+
+.feature-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 14px 40px rgba(2,6,23,0.08) !important;
+  border-color: var(--border-focus) !important;
+}
+.feature-card .feature-icon {
+  transition: transform 0.25s ease, background-color 0.25s ease;
+}
+.feature-card:hover .feature-icon {
+  transform: scale(1.05);
+  background-color: var(--accent) !important;
+}
+.feature-card:hover .feature-icon svg {
+  color: #fff !important;
+  filter: drop-shadow(0 2px 8px rgba(0,0,0,0.12));
+}
+
+.button-group .btn {
+  min-width: 160px;
+}
+
+/* Small helpers to ensure anchors don't get underlined */
+a { text-decoration: none; }

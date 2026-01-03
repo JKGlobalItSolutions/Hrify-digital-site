@@ -1,0 +1,91 @@
+/* Global interactive styles applied across the site */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&display=swap');
+/* Buttons and links */
+.btn, a.btn {
+  transition: transform 0.18s ease, box-shadow 0.18s ease, background-color 0.18s ease, color 0.18s ease;
+  text-decoration: none;
+}
+.btn:hover, a.btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(2,6,23,0.08);
+}
+.btn:focus-visible, a.btn:focus-visible {
+  outline: 3px solid var(--border-focus);
+  outline-offset: 3px;
+}
+
+/* Primary / secondary variations */
+.btn-primary:hover {
+  background-color: var(--accent-hover) !important;
+  border-color: var(--accent-hover) !important;
+  color: #fff !important;
+}
+.btn-secondary:hover {
+  transform: translateY(-4px) scale(1.02);
+  color: var(--accent) !important;
+  background-color: #fff !important;
+}
+.btn-outline:hover {
+  background-color: rgba(255,255,255,0.08) !important;
+  color: #fff !important;
+}
+
+/* Feature / card hover */
+.feature-card {
+  transition: transform 0.28s ease, box-shadow 0.28s ease, border-color 0.28s ease;
+}
+.feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 14px 40px rgba(2,6,23,0.08);
+  border-color: var(--border-focus);
+}
+.feature-card .feature-icon {
+  transition: transform 0.22s ease, background-color 0.22s ease;
+}
+.feature-card:hover .feature-icon {
+  transform: scale(1.05);
+  background-color: var(--accent) !important;
+}
+.feature-card:hover .feature-icon svg {
+  color: #fff !important;
+}
+
+/* Make plain anchors consistent */
+a { text-decoration: none; }
+
+/* Small responsive tweaks */
+@media (hover: none) {
+  .btn:hover, .feature-card:hover { transform: none; box-shadow: none; }
+}
+
+/* Typographic and spacing improvements for feature cards */
+.feature-card {
+  padding: 30px !important;
+  background: linear-gradient(180deg, #ffffff 0%, #fbfbfb 100%);
+  border-radius: 10px;
+  font-family: Georgia, "Times New Roman", serif;
+  color: #0f172a;
+}
+.feature-card h3 {
+  text-align: left;
+  margin: 0 0 0.5rem 0;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  font-size: 1.15rem;
+  color: #111827;
+  font-family: 'Playfair Display', Georgia, "Times New Roman", serif;
+}
+.feature-card p {
+  text-align: left;
+  margin: 0;
+  line-height: 1.7;
+  color: #4b5563;
+  letter-spacing: 0.003em;
+  word-spacing: 0.04em;
+  hyphens: auto;
+}
+
+.feature-card .feature-icon {
+  margin-bottom: 16px;
+}

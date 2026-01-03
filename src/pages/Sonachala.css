@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sonachala-container {
+  width: 100%;
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #333;
+}
+
+/* ---------- HERO ---------- */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 8%;
+  background: linear-gradient(to right, #fff5f5, #ffffff);
+}
+
+.hero-text h1 {
+  font-size: 38px;
+  font-weight: 650;
+}
+
+.hero-logo img {
+  width: 180px;
+  height: auto;
+}
+
+/* ---------- COMMON SECTION ---------- */
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  padding: 80px 8%;
+}
+
+.section:nth-child(even) {
+  background: #ffffff;
+}
+
+.section:nth-child(odd) {
+  background: #ffffff;
+}
+
+/* ---------- CONTENT ---------- */
+.content {
+  flex: 1;
+}
+
+.content h2 {
+  font-size: 32px;
+  margin-bottom: 16px;
+  text-align: left;
+  color: #1b7f3a;
+}
+
+.content p {
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 14px;
+  text-align: justify;
+  hyphens: auto;
+}
+
+.content ul {
+  list-style: none;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.content ul li {
+  font-size: 14.5px;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+/* ---------- IMAGES ---------- */
+.section img {
+  flex: 1;
+  max-width: 480px;
+  width: 100%;
+  height: auto;
+  display: block;
+}
