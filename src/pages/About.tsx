@@ -1,7 +1,9 @@
 import React from 'react';
-const AboutImg = '/assets/images/About.png';
-import Biggest from '../../public/assets/images/biggest.webp';
-import AboutBannerImg from '../../public/assets/images/about-banner.webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const AboutImg = getAssetPath('assets/images/About.png');
+const Biggest = getAssetPath('assets/images/biggest.webp');
+const AboutBannerImg = getAssetPath('assets/images/about-banner.webp');
 
 
 

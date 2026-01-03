@@ -1,7 +1,9 @@
 import React, { useEffect } from 'react';
-import ResponsiveWebDesignBanner from '../../public/assets/images/Responsive-Web-Design.png';
-const ResWebImage2 = new URL('/assets/images/res web image 2.webp', import.meta.url).href;
-import Trip from '../../public/assets/images/trip.webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const ResponsiveWebDesignBanner = getAssetPath('assets/images/Responsive-Web-Design.png');
+const ResWebImage2 = getAssetPath('assets/images/res web image 2.webp');
+const Trip = getAssetPath('assets/images/trip.webp');
 
 const ResponsiveWebDesign = () => {
   useEffect(() => {

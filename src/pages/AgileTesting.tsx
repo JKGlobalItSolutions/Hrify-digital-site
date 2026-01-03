@@ -1,6 +1,8 @@
 import React from 'react';
-import TestEngineer from '../../public/assets/images/Banner/newbanimg/testengineer.webp';
-import AgileBanner from '../../public/assets/images/newBanner/Qua.Eng (1).webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const TestEngineer = getAssetPath('assets/images/Banner/newbanimg/testengineer.webp');
+const AgileBanner = getAssetPath('assets/images/newBanner/Qua.Eng (1).webp');
 
 const AgileTesting = () => {
   return (

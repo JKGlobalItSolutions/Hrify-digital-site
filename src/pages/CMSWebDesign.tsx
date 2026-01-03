@@ -1,8 +1,10 @@
 import React from 'react';
-import Rectangle27 from '../../public/assets/images/Rectangle-27.webp';
-import CmsWebBanner from '../../public/assets/images/CMS-Web-Design.png';
-import CmsImage2 from '../../public/assets/images/cms-image-2.webp';
-import Trip from '../../public/assets/images/trip.webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const Rectangle27 = getAssetPath('assets/images/Rectangle-27.webp');
+const CmsWebBanner = getAssetPath('assets/images/CMS-Web-Design.png');
+const CmsImage2 = getAssetPath('assets/images/cms-image-2.webp');
+const Trip = getAssetPath('assets/images/trip.webp');
 
 
 

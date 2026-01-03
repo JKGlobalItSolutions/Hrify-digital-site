@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import './Header.css';
-import HrifyLogo from '../../public/assets/images/Hrify-dark-bg.webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const HrifyLogo = getAssetPath('assets/images/Hrify-dark-bg.webp');
 
 // Modular menu data to avoid duplication (DRY)
 const menuData = {

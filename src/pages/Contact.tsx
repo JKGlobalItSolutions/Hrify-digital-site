@@ -1,15 +1,17 @@
 import React, { useEffect } from 'react';
-import ContactImage1 from '../../public/assets/images/Contact.png';
-import Frame637 from '../../public/assets/images/contactLogos/Frame 637.png';
-import Frame636 from '../../public/assets/images/contactLogos/Frame 636.png';
-import Frame638 from '../../public/assets/images/contactLogos/Frame 638.png';
-import Frame639 from '../../public/assets/images/contactLogos/Frame 639.png';
-import Frame641 from '../../public/assets/images/contactLogos/Frame 641.png';
-import Frame640 from '../../public/assets/images/contactLogos/Frame 640.png';
-import DownloadIcon from '../../public/assets/images/download-icon.webp';
-import Fevicol from '../../public/assets/images/fevicol.webp';
-const Brochure = new URL('/assets/images/JK Global IT Solutions Portfolio.pdf', import.meta.url).href;
-const NetworkingBrochure = new URL('/assets/images/Networking Solutions Brochure.pdf', import.meta.url).href;
+import { getAssetPath } from '../utils/assetPath';
+
+const ContactImage1 = getAssetPath('assets/images/Contact.png');
+const Frame637 = getAssetPath('assets/images/contactLogos/Frame 637.png');
+const Frame636 = getAssetPath('assets/images/contactLogos/Frame 636.png');
+const Frame638 = getAssetPath('assets/images/contactLogos/Frame 638.png');
+const Frame639 = getAssetPath('assets/images/contactLogos/Frame 639.png');
+const Frame641 = getAssetPath('assets/images/contactLogos/Frame 641.png');
+const Frame640 = getAssetPath('assets/images/contactLogos/Frame 640.png');
+const DownloadIcon = getAssetPath('assets/images/download-icon.webp');
+const Fevicol = getAssetPath('assets/images/fevicol.webp');
+const Brochure = getAssetPath('assets/images/JK Global IT Solutions Portfolio.pdf');
+const NetworkingBrochure = getAssetPath('assets/images/Networking Solutions Brochure.pdf');
 
 
 const Contact = () => {

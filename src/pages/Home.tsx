@@ -1,17 +1,19 @@
 import React, { useEffect } from 'react';
 import './Home.css';
-import Frame1293 from '../../public/assets/images/HomeSlider/Frame 1293.png';
-import Frame1291 from '../../public/assets/images/HomeSlider/Frame 1291.png';
-import Frame1290 from '../../public/assets/images/HomeSlider/Frame 1290.png';
-import Frame1292 from '../../public/assets/images/HomeSlider/Frame 1292.png';
-import Frame1294 from '../../public/assets/images/HomeSlider/Frame 1294.png';
-import Img32 from '../../public/assets/images/Talent/img3-(2).webp';
-import Im7 from '../../public/assets/images/Talent/im7.webp';
-import Icon32 from '../../public/assets/images/Talent/icon3-(2).webp';
-import Icon42 from '../../public/assets/images/Talent/icon4-(2).webp';
-import Icon52 from '../../public/assets/images/Talent/icon5-(2).webp';
-import Icon62 from '../../public/assets/images/Talent/icon6-(2).webp';
-import OurDigitalImg from '../../public/assets/images/OurDigital.png';
+import { getAssetPath } from '../utils/assetPath';
+
+const Frame1293 = getAssetPath('assets/images/HomeSlider/Frame 1293.png');
+const Frame1291 = getAssetPath('assets/images/HomeSlider/Frame 1291.png');
+const Frame1290 = getAssetPath('assets/images/HomeSlider/Frame 1290.png');
+const Frame1292 = getAssetPath('assets/images/HomeSlider/Frame 1292.png');
+const Frame1294 = getAssetPath('assets/images/HomeSlider/Frame 1294.png');
+const Img32 = getAssetPath('assets/images/Talent/img3-(2).webp');
+const Im7 = getAssetPath('assets/images/Talent/im7.webp');
+const Icon32 = getAssetPath('assets/images/Talent/icon3-(2).webp');
+const Icon42 = getAssetPath('assets/images/Talent/icon4-(2).webp');
+const Icon52 = getAssetPath('assets/images/Talent/icon5-(2).webp');
+const Icon62 = getAssetPath('assets/images/Talent/icon6-(2).webp');
+const OurDigitalImg = getAssetPath('assets/images/OurDigital.png');
 
 const Home = () => {
   useEffect(() => {

@@ -1,15 +1,17 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import HrifyLogo from '../../public/assets/images/Hrify-white-bg.webp';
-import Fb from '../../public/assets/images/footer-icon/fb.webp';
-import YoutubeIcon from '../../public/assets/images/youtube-icon.webp';
-import X from '../../public/assets/images/footer-icon/x.webp';
-import Linkdin from '../../public/assets/images/footer-icon/linkdin.webp';
-import Insta from '../../public/assets/images/footer-icon/insta.webp';
-import WhatsappSymbolSvg from '../../public/assets/images/whatsapp_symbol.svg.webp';
-import DownloadIcon from '../../public/assets/images/download-icon.webp';
-const Brochure = new URL('/assets/images/JK Global IT Solutions Portfolio.pdf', import.meta.url).href;
-const NetworkingBrochure = new URL('/assets/images/Networking Solutions Brochure.pdf', import.meta.url).href;
+import { getAssetPath } from '../utils/assetPath';
+
+const HrifyLogo = getAssetPath('assets/images/Hrify-white-bg.webp');
+const Fb = getAssetPath('assets/images/footer-icon/fb.webp');
+const YoutubeIcon = getAssetPath('assets/images/youtube-icon.webp');
+const X = getAssetPath('assets/images/footer-icon/x.webp');
+const Linkdin = getAssetPath('assets/images/footer-icon/linkdin.webp');
+const Insta = getAssetPath('assets/images/footer-icon/insta.webp');
+const WhatsappSymbolSvg = getAssetPath('assets/images/whatsapp_symbol.svg.webp');
+const DownloadIcon = getAssetPath('assets/images/download-icon.webp');
+const Brochure = getAssetPath('assets/images/JK Global IT Solutions Portfolio.pdf');
+const NetworkingBrochure = getAssetPath('assets/images/Networking Solutions Brochure.pdf');
 
 const Footer = () => {
   const [showPopup, setShowPopup] = useState(false);

@@ -1,7 +1,8 @@
 import React from 'react';
+import { getAssetPath } from '../utils/assetPath';
 
-import BannerImage from '../../public/assets/images/newBanner/data.an8.webp';
-import DataFabricImg from '../../public/assets/images/Banner/newbanimg/Data-Fabric.webp';
+const BannerImage = getAssetPath('assets/images/newBanner/data.an8.webp');
+const DataFabricImg = getAssetPath('assets/images/Banner/newbanimg/Data-Fabric.webp');
 
 const DataFabric = () => {
   return (

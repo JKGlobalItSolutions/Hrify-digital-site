@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Rectangle27 from '../../public/assets/images/Rectangle-27.webp';
-import BusinessWebDesignBanner from '../../public/assets/images/Business-Web-Design.png';
-import WorkFlow from '../../public/assets/images/work-flow.webp';
-import Trip from '../../public/assets/images/trip.webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const Rectangle27 = getAssetPath('assets/images/Rectangle-27.webp');
+const BusinessWebDesignBanner = getAssetPath('assets/images/Business-Web-Design.png');
+const WorkFlow = getAssetPath('assets/images/work-flow.webp');
+const Trip = getAssetPath('assets/images/trip.webp');
 
 
 
