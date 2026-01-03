@@ -1,7 +1,7 @@
 import React from 'react';
 
-const BannerImage = '/assets/images/newBanner/data.an8.webp';
-const DataFabricImg = '/assets/images/Banner/newbanimg/Data-Fabric.webp';
+import BannerImage from '../../public/assets/images/newBanner/data.an8.webp';
+import DataFabricImg from '../../public/assets/images/Banner/newbanimg/Data-Fabric.webp';
 
 const DataFabric = () => {
   return (
@@ -518,4 +518,3 @@ const DataFabric = () => {
 };
 
 export default DataFabric;
-

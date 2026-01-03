@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react';
-const ContactImage1 = new URL('/assets/images/Contact.png', import.meta.url).href;
-const Frame637 = new URL('/assets/images/contactLogos/Frame 637.png', import.meta.url).href;
-const Frame636 = new URL('/assets/images/contactLogos/Frame 636.png', import.meta.url).href;
-const Frame638 = new URL('/assets/images/contactLogos/Frame 638.png', import.meta.url).href;
-const Frame639 = new URL('/assets/images/contactLogos/Frame 639.png', import.meta.url).href;
-const Frame641 = new URL('/assets/images/contactLogos/Frame 641.png', import.meta.url).href;
-const Frame640 = new URL('/assets/images/contactLogos/Frame 640.png', import.meta.url).href;
-const DownloadIcon = new URL('/assets/images/download-icon.webp', import.meta.url).href;
-const Fevicol = new URL('/assets/images/fevicol.webp', import.meta.url).href;
+import ContactImage1 from '../../public/assets/images/Contact.png';
+import Frame637 from '../../public/assets/images/contactLogos/Frame 637.png';
+import Frame636 from '../../public/assets/images/contactLogos/Frame 636.png';
+import Frame638 from '../../public/assets/images/contactLogos/Frame 638.png';
+import Frame639 from '../../public/assets/images/contactLogos/Frame 639.png';
+import Frame641 from '../../public/assets/images/contactLogos/Frame 641.png';
+import Frame640 from '../../public/assets/images/contactLogos/Frame 640.png';
+import DownloadIcon from '../../public/assets/images/download-icon.webp';
+import Fevicol from '../../public/assets/images/fevicol.webp';
 const Brochure = new URL('/assets/images/JK Global IT Solutions Portfolio.pdf', import.meta.url).href;
 const NetworkingBrochure = new URL('/assets/images/Networking Solutions Brochure.pdf', import.meta.url).href;
 

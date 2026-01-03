@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react';
-const ResponsiveWebDesignBanner = '/assets/images/Responsive-Web-Design.png';
+import ResponsiveWebDesignBanner from '../../public/assets/images/Responsive-Web-Design.png';
+const ResWebImage2 = new URL('/assets/images/res web image 2.webp', import.meta.url).href;
+import Trip from '../../public/assets/images/trip.webp';
 
 const ResponsiveWebDesign = () => {
   useEffect(() => {
@@ -137,7 +139,7 @@ const ResponsiveWebDesign = () => {
               <p style={{ color: '#686D76' }}><i className="fa fa-circle-o" style={{ fontSize: '20px', background: 'linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}></i> &nbsp; Reduced bounces as a result of the website's structured content display</p>
             </div>
             <div className="col-12 col-lg-4">
-              <img className="img-fluid" src="/assets/images/res web image 2.webp" alt="" />
+              <img className="img-fluid" src={ResWebImage2} alt="" />
             </div>
           </div>
         </div>
@@ -149,7 +151,7 @@ const ResponsiveWebDesign = () => {
             <div className="col-12 col-md-4 mb-3">
               <a style={{ textDecoration: 'none' }} href="businessweb.html">
                 <span className="box">
-                  <img src="/assets/images/trip.webp" alt="" className="me-2" />
+                  <img src={Trip} alt="" className="me-2" />
                   Business web-design
                 </span>
               </a>
@@ -157,7 +159,7 @@ const ResponsiveWebDesign = () => {
             <div className="col-12 col-md-4 mb-3">
               <a style={{ textDecoration: 'none' }} href="resweb.html">
                 <span className="box">
-                  <img src="/assets/images/trip.webp" alt="" className="me-2" />
+                  <img src={Trip} alt="" className="me-2" />
                   Responsive web-design
                 </span>
               </a>
@@ -165,7 +167,7 @@ const ResponsiveWebDesign = () => {
             <div className="col-12 col-md-4 mb-3">
               <a style={{ textDecoration: 'none' }} href="cmsweb.html">
                 <span className="box">
-                  <img src="/assets/images/trip.webp" alt="" className="me-2" />
+                  <img src={Trip} alt="" className="me-2" />
                   CMS Web-design solution
                 </span>
               </a>
