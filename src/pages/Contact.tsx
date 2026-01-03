@@ -1,13 +1,15 @@
 import React, { useEffect } from 'react';
-const ContactImage1 = '/assets/images/Contact.png';
-const Frame637 = '/assets/images/contactLogos/Frame 637.png';
-const Frame636 = '/assets/images/contactLogos/Frame 636.png';
-const Frame638 = '/assets/images/contactLogos/Frame 638.png';
-const Frame639 = '/assets/images/contactLogos/Frame 639.png';
-const Frame641 = '/assets/images/contactLogos/Frame 641.png';
-const Frame640 = '/assets/images/contactLogos/Frame 640.png';
-const DownloadIcon = '/assets/images/download-icon.webp';
-const Fevicol = '/assets/images/fevicol.webp';
+const ContactImage1 = new URL('/assets/images/Contact.png', import.meta.url).href;
+const Frame637 = new URL('/assets/images/contactLogos/Frame 637.png', import.meta.url).href;
+const Frame636 = new URL('/assets/images/contactLogos/Frame 636.png', import.meta.url).href;
+const Frame638 = new URL('/assets/images/contactLogos/Frame 638.png', import.meta.url).href;
+const Frame639 = new URL('/assets/images/contactLogos/Frame 639.png', import.meta.url).href;
+const Frame641 = new URL('/assets/images/contactLogos/Frame 641.png', import.meta.url).href;
+const Frame640 = new URL('/assets/images/contactLogos/Frame 640.png', import.meta.url).href;
+const DownloadIcon = new URL('/assets/images/download-icon.webp', import.meta.url).href;
+const Fevicol = new URL('/assets/images/fevicol.webp', import.meta.url).href;
+const Brochure = new URL('/assets/images/JK Global IT Solutions Portfolio.pdf', import.meta.url).href;
+const NetworkingBrochure = new URL('/assets/images/Networking Solutions Brochure.pdf', import.meta.url).href;
 
 
 const Contact = () => {
@@ -201,7 +203,7 @@ const Contact = () => {
                 <h4>Download IT Brochure</h4>
               </div>
               <div className="col-12 col-lg-3 text-center">
-                <a href="/assets/images/JK Global IT Solutions Portfolio.pdf" target="_blank" rel="noopener noreferrer">
+                <a href={Brochure} target="_blank" rel="noopener noreferrer">
                   <img className="img-fluid" src={DownloadIcon} alt="Download IT Brochure" />
                 </a>
               </div>
@@ -214,7 +216,7 @@ const Contact = () => {
                 <h4>Download Networking Solutions Brochure</h4>
               </div>
               <div className="col-12 col-lg-3 text-center">
-                <a href="/assets/images/Networking Solutions Brochure.pdf" target="_blank" rel="noopener noreferrer">
+                <a href={NetworkingBrochure} target="_blank" rel="noopener noreferrer">
                   <img className="img-fluid" src={DownloadIcon} alt="Download Networking Brochure" />
                 </a>
               </div>

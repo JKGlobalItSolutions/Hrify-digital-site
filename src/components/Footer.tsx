@@ -8,6 +8,8 @@ import Linkdin from '../../public/assets/images/footer-icon/linkdin.webp';
 import Insta from '../../public/assets/images/footer-icon/insta.webp';
 import WhatsappSymbolSvg from '../../public/assets/images/whatsapp_symbol.svg.webp';
 import DownloadIcon from '../../public/assets/images/download-icon.webp';
+const Brochure = new URL('/assets/images/JK Global IT Solutions Portfolio.pdf', import.meta.url).href;
+const NetworkingBrochure = new URL('/assets/images/Networking Solutions Brochure.pdf', import.meta.url).href;
 
 const Footer = () => {
   const [showPopup, setShowPopup] = useState(false);
@@ -103,7 +105,7 @@ const Footer = () => {
                   <h4>Download IT Brochure</h4>
                 </div>
                 <div className="col-3">
-                  <a href="/assets/images/JK Global IT Solutions Portfolio.pdf" download>
+                  <a href={Brochure} download>
                     <img className="img-fluid" src={DownloadIcon} alt="Download" />
                   </a>
                 </div>
@@ -116,7 +118,7 @@ const Footer = () => {
                   <h4 className="text-center text-lg-start">Download Networking Solutions Brochure</h4>
                 </div>
                 <div className="col-3">
-                  <a href="/assets/images/Networking Solutions Brochure.pdf" download>
+                  <a href={NetworkingBrochure} download>
                     <img className="img-fluid" src={DownloadIcon} alt="Download" />
                   </a>
                 </div>
@@ -191,4 +193,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
