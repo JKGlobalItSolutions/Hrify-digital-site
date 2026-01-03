@@ -1,62 +1,25 @@
 import React from 'react';
-const InternImage2 = '/assets/images/intern-image-2.webp';
-
+const InternImage2 = '/assets/images/Internship.png';
 
 const Internship = () => {
   return (
     <>
-      {/* Hero Banner Section */}
-      <div className="banner container-fluid d-flex align-items-center justify-content-center" style={{ backgroundColor: '#e6f7ff' }}>
-        <div className="row w-100 h-100 gx-0">
-          <div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center text-center px-4 py-5">
-            <h1 className="fw-bolder mb-0" style={{ fontSize: '4rem', color: '#000', lineHeight: '1.2' }}>
-              Internship<br />Program
-            </h1>
-          </div>
-          <div className="col-12 col-lg-6 d-flex justify-content-center align-items-center p-4">
-            <img
-              className="img-fluid"
-              src={InternImage2}
-              alt="Internship Program at JK Global IT Solutions"
-              style={{ maxHeight: '520px', objectFit: 'contain' }}
-            />
-          </div>
-        </div>
+      {/* Full-width Banner Image */}
+      <div className="banner-full-image">
+        <img src={InternImage2} alt="Internship Program Banner" className="banner-img" />
       </div>
 
-      {/* Banner Responsive Styles */}
+      {/* Banner styles */}
       <style dangerouslySetInnerHTML={{
         __html: `
-          .banner {
-            min-height: 600px;
-            background-color: #e6f7ff;
+          .banner-full-image {
+            width: 100%;
+            overflow: hidden;
           }
 
-          @media (max-width: 992px) {
-            .banner h1 {
-              font-size: 3.2rem !important;
-            }
-          }
-
-          @media (max-width: 768px) {
-            .banner {
-              min-height: 500px;
-            }
-            .banner h1 {
-              font-size: 2.8rem !important;
-            }
-          }
-
-          @media (max-width: 576px) {
-            .banner {
-              min-height: 450px;
-            }
-            .banner h1 {
-              font-size: 2.3rem !important;
-            }
-            .banner img {
-              max-height: 300px !important;
-            }
+          .banner-img {
+            width: 100%;
+            display: block;
           }
         `
       }} />
@@ -351,9 +314,9 @@ const Internship = () => {
               </p>
             </div>
             <div className="col-12 col-lg-4 text-center">
-              <img 
-                src={InternImage2} 
-                alt="Internship Program" 
+              <img
+                src={InternImage2}
+                alt="Internship Program"
                 className="img-fluid rounded shadow-lg"
                 style={{ maxWidth: '100%', borderRadius: '16px' }}
               />
@@ -493,66 +456,66 @@ const Internship = () => {
                 <div className="row g-3">
                   <div className="col-12 col-md-6">
                     <label className="form-label">Full Name *</label>
-                    <input 
-                      type="text" 
-                      className="form-control" 
+                    <input
+                      type="text"
+                      className="form-control"
                       placeholder="John Doe"
-                      required 
+                      required
                     />
                   </div>
 
                   <div className="col-12 col-md-6">
                     <label className="form-label">Email Address *</label>
-                    <input 
-                      type="email" 
-                      className="form-control" 
+                    <input
+                      type="email"
+                      className="form-control"
                       placeholder="john.doe@example.com"
-                      required 
+                      required
                     />
                   </div>
 
                   <div className="col-12 col-md-6">
                     <label className="form-label">Phone Number *</label>
-                    <input 
-                      type="tel" 
-                      className="form-control" 
+                    <input
+                      type="tel"
+                      className="form-control"
                       placeholder="+1 (555) 123-4567"
-                      required 
+                      required
                     />
                   </div>
 
                   <div className="col-12 col-md-6">
                     <label className="form-label">Current School/University</label>
-                    <input 
-                      type="text" 
-                      className="form-control" 
+                    <input
+                      type="text"
+                      className="form-control"
                       placeholder="University Name"
                     />
                   </div>
 
                   <div className="col-12 col-md-6">
                     <label className="form-label">Current Year/Semester</label>
-                    <input 
-                      type="text" 
-                      className="form-control" 
+                    <input
+                      type="text"
+                      className="form-control"
                       placeholder="e.g., 3rd Year"
                     />
                   </div>
 
                   <div className="col-12 col-md-6">
                     <label className="form-label">Field of Study</label>
-                    <input 
-                      type="text" 
-                      className="form-control" 
+                    <input
+                      type="text"
+                      className="form-control"
                       placeholder="e.g., Computer Science"
                     />
                   </div>
 
                   <div className="col-12 col-md-6">
                     <label className="form-label">GPA/CGPA</label>
-                    <input 
-                      type="text" 
-                      className="form-control" 
+                    <input
+                      type="text"
+                      className="form-control"
                       placeholder="e.g., 8.5/10"
                     />
                   </div>
@@ -574,60 +537,60 @@ const Internship = () => {
 
                   <div className="col-12">
                     <label className="form-label">Complete Address</label>
-                    <input 
-                      type="text" 
-                      className="form-control" 
+                    <input
+                      type="text"
+                      className="form-control"
                       placeholder="Street Address"
                     />
                   </div>
 
                   <div className="col-12 col-md-4">
-                    <input 
-                      type="text" 
-                      className="form-control" 
+                    <input
+                      type="text"
+                      className="form-control"
                       placeholder="City"
                     />
                   </div>
 
                   <div className="col-12 col-md-4">
-                    <input 
-                      type="text" 
-                      className="form-control" 
+                    <input
+                      type="text"
+                      className="form-control"
                       placeholder="State/Province"
                     />
                   </div>
 
                   <div className="col-12 col-md-4">
-                    <input 
-                      type="text" 
-                      className="form-control" 
+                    <input
+                      type="text"
+                      className="form-control"
                       placeholder="ZIP/Postal Code"
                     />
                   </div>
 
                   <div className="col-12 col-md-6">
                     <label className="form-label">Time Zone</label>
-                    <input 
-                      type="text" 
-                      className="form-control" 
+                    <input
+                      type="text"
+                      className="form-control"
                       placeholder="e.g., IST, EST, GMT"
                     />
                   </div>
 
                   <div className="col-12 col-md-6">
                     <label className="form-label">Previous Work Experience</label>
-                    <input 
-                      type="text" 
-                      className="form-control" 
+                    <input
+                      type="text"
+                      className="form-control"
                       placeholder="Any internships or jobs"
                     />
                   </div>
 
                   <div className="col-12">
                     <label className="form-label">How did you find out about us?</label>
-                    <input 
-                      type="text" 
-                      className="form-control" 
+                    <input
+                      type="text"
+                      className="form-control"
                       placeholder="e.g., LinkedIn, University Career Fair, etc."
                     />
                   </div>
@@ -638,19 +601,19 @@ const Internship = () => {
                 <div className="row g-3">
                   <div className="col-12 col-md-6">
                     <label className="form-label">Preferred Start Date *</label>
-                    <input 
-                      type="date" 
-                      className="form-control" 
-                      required 
+                    <input
+                      type="date"
+                      className="form-control"
+                      required
                     />
                   </div>
 
                   <div className="col-12 col-md-6">
                     <label className="form-label">Preferred End Date *</label>
-                    <input 
-                      type="date" 
-                      className="form-control" 
-                      required 
+                    <input
+                      type="date"
+                      className="form-control"
+                      required
                     />
                   </div>
 
@@ -680,8 +643,8 @@ const Internship = () => {
 
                   <div className="col-12">
                     <label className="form-label">What are you hoping to achieve in this internship? *</label>
-                    <textarea 
-                      className="form-control" 
+                    <textarea
+                      className="form-control"
                       placeholder="Describe your learning goals and what you want to accomplish..."
                       required
                     ></textarea>
@@ -689,33 +652,33 @@ const Internship = () => {
 
                   <div className="col-12">
                     <label className="form-label">What skills will you demonstrate?</label>
-                    <textarea 
-                      className="form-control" 
+                    <textarea
+                      className="form-control"
                       placeholder="List your technical and soft skills relevant to the internship..."
                     ></textarea>
                   </div>
 
                   <div className="col-12">
                     <label className="form-label">Describe your work style</label>
-                    <textarea 
-                      className="form-control" 
+                    <textarea
+                      className="form-control"
                       placeholder="How do you approach tasks, collaborate with teams, and manage deadlines?"
                     ></textarea>
                   </div>
 
                   <div className="col-12">
                     <label className="form-label">Anything specific you want to learn?</label>
-                    <textarea 
-                      className="form-control" 
+                    <textarea
+                      className="form-control"
                       placeholder="Any particular technologies, tools, or concepts you're eager to explore..."
                     ></textarea>
                   </div>
 
                   <div className="col-12">
                     <label className="form-label">Resume Upload (Optional)</label>
-                    <input 
-                      type="file" 
-                      className="form-control" 
+                    <input
+                      type="file"
+                      className="form-control"
                       accept=".pdf,.doc,.docx"
                     />
                   </div>
@@ -788,8 +751,8 @@ const Internship = () => {
               <p className="mb-4" style={{ fontSize: '1.1rem', maxWidth: '700px', margin: '0 auto 2rem', opacity: '0.95' }}>
                 Reach out to our internship coordinator at internships@jkglobalit.com or call us at +91 123-456-7890
               </p>
-              <a 
-                href="/contact" 
+              <a
+                href="/contact"
                 style={{
                   background: 'white',
                   color: '#1e3a8a',
@@ -818,4 +781,3 @@ const Internship = () => {
 };
 
 export default Internship;
-

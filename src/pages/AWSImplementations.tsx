@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 const Rectangle27 = '/assets/images/Rectangle-27.webp';
-const AwsImage1 = '/assets/images/aws-image-1.webp';
+const AwsImage1 = '/assets/images/AWS-Services-Implementations.png';
 const AwsImage2 = '/assets/images/aws-image-2.webp';
 const AIm1 = '/assets/images/a-im-1.webp';
 const AIm2 = '/assets/images/a-im-2.webp';
@@ -19,58 +19,28 @@ const Construction = '/assets/images/construction.webp';
 const Trip = '/assets/images/trip.webp';
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const AWSImplementations = () => {
   return (
     <main>
-      {/* Banner section */}
-      <div className="banner container-fluid" style={{backgroundColor:'#e1f561ff'}}>
-        <div className="row h-100 p-lg-5">
-          <div className=" col-12 col-lg-6 d-flex justify-content-center align-items-center text-light">
-            <h2 style={{ color: 'black' }} className="fw-bolder text-center">AWS Services Implementations</h2>
-            <style dangerouslySetInnerHTML={{
-              __html: `
-                h2 {
-                    font-size: 36px;
-                    color: black;
-                }
-
-                @media only screen and (max-width: 600px) {
-                    h2 {
-                        font-size: 24px;
-                    }
-                }
-              `
-            }} />
-          </div>
-          <div className="col-12 col-lg-6 d-flex justify-content-center align-items-center">
-            <img className="img-fluid" src={AwsImage1} alt="" />
-          </div>
-        </div>
+      {/* Full-width Banner Image */}
+      <div className="banner-full-image">
+        <img src={AwsImage1} alt="AWS Services Implementations Banner" className="banner-img" />
       </div>
+
+      {/* Banner styles */}
       <style dangerouslySetInnerHTML={{
         __html: `
-          .banner {
-            background-image: url(${Rectangle27});
-            height: 300px;
+          .banner-full-image {
+            width: 100%;
+            overflow: hidden;
+          }
+
+          .banner-img {
+            width: 100%;
+            display: block;
           }
         `
-      }} /> <br/>
+      }} />
 
       {/* Content Section */}
       <div className="container">
@@ -224,4 +194,3 @@ const AWSImplementations = () => {
 };
 
 export default AWSImplementations;
-

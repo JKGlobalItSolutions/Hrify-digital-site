@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 const Rectangle27 = '/assets/images/Rectangle-27.webp';
-const WorkplaceBanner = '/assets/images/workplace-banner.webp';
+const WorkplaceBanner = '/assets/images/WorkplaceSurveillance.png';
 const WoekplaceImage2 = '/assets/images/woekplace-image-2.webp';
 const WorkplaceGlobe1 = '/assets/images/workplace-globe-1.webp';
 const SysLog1 = '/assets/images/sys-log-1.webp';
@@ -12,66 +12,30 @@ const SysLogo5 = '/assets/images/sys-logo-5.webp';
 const SysLogo6 = '/assets/images/sys-logo-6.webp';
 const SysLogo7 = '/assets/images/sys-logo-7.webp';
 
-
-
-
-
-
-
-
-
-
-
-
 const WorkplaceSurveillance = () => {
   return (
     <main>
-      {/* Banner section */}
-      <div className="banner container-fluid d-flex" style={{ height: '500px', backgroundImage: `url(${Rectangle27})`, position: 'relative', backgroundColor: '#e0ed6cff' }}>
-        <h2 style={{ color: 'black', textAlign: 'center', marginLeft: '10%' }} className="fw-bolder">Workplace Surveillance</h2>
-        <div style={{ position: 'absolute', right: '10%', top: '50%', transform: 'translateY(-50%)' }}>
-          <img className="img-fluid" src={WorkplaceBanner} alt="" style={{ height: '380px' }} />
-        </div>
-        <style dangerouslySetInnerHTML={{
-          __html: `
-            @media only screen and (max-width: 600px) {
-              .banner {
-                height: 400px;
-              }
-              h2 {
-                font-size: 30px;
-              }
-            }
-          `
-        }} />
+      {/* Full-width Banner Image */}
+      <div className="banner-full-image">
+        <img src={WorkplaceBanner} alt="Workplace Surveillance Banner" className="banner-img" />
       </div>
+
+      {/* Banner styles */}
       <style dangerouslySetInnerHTML={{
         __html: `
-          .banner {
-            background-image: url(${Rectangle27});
-            height: 500px;
+          .banner-full-image {
+            width: 100%;
+            overflow: hidden;
           }
 
-          h2 {
-            font-size: 40px;
-            color: black;
-          }
-
-          @media only screen and (max-width: 600px) {
-            .banner {
-              height: 400px;
-            }
-
-            h2 {
-              font-size: 30px;
-            }
+          .banner-img {
+            width: 100%;
+            display: block;
           }
         `
       }} />
-      {/* Banner section */}
-      {/* Content  Section*/}
 
-
+      {/* Content Section */}
       <div className="container" style={{textAlign:'justify'}}>
         <div className="row align-items-center my-5">
           <div className="col-12 col-lg-8" >
@@ -100,8 +64,6 @@ const WorkplaceSurveillance = () => {
         </div>
 
       </div>
-
-
 
       <div style={{ backgroundColor: '#F1F1F1' }} className="container-fluid p-2 p-lg-5 py-5">
         <div className="container">

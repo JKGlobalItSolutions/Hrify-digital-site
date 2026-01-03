@@ -4,44 +4,27 @@ import { Link } from 'react-router-dom';
 const CloudNativeSolutions = () => {
   return (
     <main>
-      {/* Banner section */}
-      <div className="banner container-fluid" style={{backgroundColor:'#e0ed6cff'}} >
-        <div className="row h-100">
-          <div className=" col-12 col-lg-6 d-flex justify-content-center align-items-center text-center text-light">
-            <h2 className="fw-bolder">Cloud Native Solutions</h2>
-          </div>
-          <div className="col-12 col-lg-6 d-flex justify-content-center align-items-center">
-            <img className="img-fluid" src="/assets/images/cloud native banner.webp" alt="Network Security" />
-          </div>
-        </div>
+      {/* Full-width Banner Image */}
+      <div className="banner-full-image">
+        <img src="/assets/images/CloudNativeSolutions.png" alt="Cloud Native Solutions Banner" className="banner-img" />
       </div>
+
+      {/* Banner styles */}
       <style dangerouslySetInnerHTML={{
         __html: `
-          .banner {
-            background-image: url(/assets/images/Rectangle 27.webp);
-            height: 600px;
+          .banner-full-image {
+            width: 100%;
+            overflow: hidden;
           }
 
-          h2 {
-            font-size: 40px;
-            color: black;
-          }
-
-          @media only screen and (max-width: 600px) {
-            .banner {
-              height: 400px;
-            }
-
-            h2 {
-              font-size: 30px;
-            }
+          .banner-img {
+            width: 100%;
+            display: block;
           }
         `
       }} />
-      {/* Banner section */}
-      {/* Content  Section*/}
 
-
+      {/* Content Section */}
       <div className="container" style={{textAlign:'justify'}}>
         <div className="row align-items-center my-5">
           <div className="col-12 col-lg-8">
@@ -174,4 +157,3 @@ const CloudNativeSolutions = () => {
 };
 
 export default CloudNativeSolutions;
-

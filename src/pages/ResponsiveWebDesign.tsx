@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-const ResponsiveWebDesignBanner = '/assets/images/Responsive Web Design.png';
+const ResponsiveWebDesignBanner = '/assets/images/Responsive-Web-Design.png';
 
 const ResponsiveWebDesign = () => {
   useEffect(() => {

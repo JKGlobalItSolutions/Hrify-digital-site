@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-const MatrimonyImage1 = '/assets/images/Matrimony Web Solutions.png';
+const MatrimonyImage1 = '/assets/images/Matrimony-Web-Solutions.png';
 const MatrimonyImage2 = '/assets/images/matrimony-image-2.webp';
 const Rectangle27 = '/assets/images/Rectangle-27.webp';
 const Trip = '/assets/images/trip.webp';

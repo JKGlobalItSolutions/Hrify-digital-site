@@ -1,61 +1,25 @@
 import React from 'react';
-const CareersBanner = '/assets/images/newBanner/enterprise.webp';
+const CareersBanner = '/assets/images/Career.png';
 
 const Careers = () => {
   return (
     <main>
-      {/* Hero Banner Section */}
-      <div className="banner container-fluid d-flex align-items-center justify-content-center" style={{ backgroundColor: '#e6f7ff' }}>
-        <div className="row w-100 h-100 gx-0">
-          <div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center text-center px-4 py-5">
-            <h1 className="fw-bolder mb-0" style={{ fontSize: '4rem', color: '#000', lineHeight: '1.2' }}>
-              Join Our Team
-            </h1>
-          </div>
-          <div className="col-12 col-lg-6 d-flex justify-content-center align-items-center p-4">
-            <img
-              className="img-fluid"
-              src={CareersBanner}
-              alt="Careers at JK Global IT Solutions"
-              style={{ maxHeight: '520px', objectFit: 'contain' }}
-            />
-          </div>
-        </div>
+      {/* Full-width Banner Image */}
+      <div className="banner-full-image">
+        <img src={CareersBanner} alt="Career Banner" className="banner-img" />
       </div>
 
-      {/* Banner Responsive Styles */}
+      {/* Banner styles */}
       <style dangerouslySetInnerHTML={{
         __html: `
-          .banner {
-            min-height: 600px;
-            background-color: #e6f7ff;
+          .banner-full-image {
+            width: 100%;
+            overflow: hidden;
           }
 
-          @media (max-width: 992px) {
-            .banner h1 {
-              font-size: 3.2rem !important;
-            }
-          }
-
-          @media (max-width: 768px) {
-            .banner {
-              min-height: 500px;
-            }
-            .banner h1 {
-              font-size: 2.8rem !important;
-            }
-          }
-
-          @media (max-width: 576px) {
-            .banner {
-              min-height: 450px;
-            }
-            .banner h1 {
-              font-size: 2.3rem !important;
-            }
-            .banner img {
-              max-height: 300px !important;
-            }
+          .banner-img {
+            width: 100%;
+            display: block;
           }
         `
       }} />
@@ -292,7 +256,7 @@ const Careers = () => {
           <p className="section-subtitle">
             We believe in empowering our people to do their best work while making a meaningful difference in the tech industry.
           </p>
-          
+
           <div className="row g-4">
             <div className="col-12 col-md-4">
               <div className="value-card">
@@ -346,39 +310,39 @@ const Careers = () => {
                   {/* Personal Information */}
                   <div className="col-12 col-md-6">
                     <label className="form-label">Full Name *</label>
-                    <input 
-                      type="text" 
-                      className="form-control" 
+                    <input
+                      type="text"
+                      className="form-control"
                       placeholder="John Doe"
-                      required 
+                      required
                     />
                   </div>
 
                   <div className="col-12 col-md-6">
                     <label className="form-label">Email Address *</label>
-                    <input 
-                      type="email" 
-                      className="form-control" 
+                    <input
+                      type="email"
+                      className="form-control"
                       placeholder="john.doe@example.com"
-                      required 
+                      required
                     />
                   </div>
 
                   <div className="col-12 col-md-6">
                     <label className="form-label">Phone Number *</label>
-                    <input 
-                      type="tel" 
-                      className="form-control" 
+                    <input
+                      type="tel"
+                      className="form-control"
                       placeholder="+1 (555) 123-4567"
-                      required 
+                      required
                     />
                   </div>
 
                   <div className="col-12 col-md-6">
                     <label className="form-label">LinkedIn Profile</label>
-                    <input 
-                      type="url" 
-                      className="form-control" 
+                    <input
+                      type="url"
+                      className="form-control"
                       placeholder="https://linkedin.com/in/johndoe"
                     />
                   </div>
@@ -386,11 +350,11 @@ const Careers = () => {
                   {/* Position & Location */}
                   <div className="col-12 col-md-6">
                     <label className="form-label">Position Interested In *</label>
-                    <input 
-                      type="text" 
-                      className="form-control" 
+                    <input
+                      type="text"
+                      className="form-control"
                       placeholder="e.g., Senior React Developer"
-                      required 
+                      required
                     />
                   </div>
 
@@ -425,9 +389,9 @@ const Careers = () => {
 
                   <div className="col-12 col-md-6">
                     <label className="form-label">Resume Upload</label>
-                    <a 
-                      href="https://forms.google.com/your-form-link" 
-                      target="_blank" 
+                    <a
+                      href="https://forms.google.com/your-form-link"
+                      target="_blank"
                       rel="noopener noreferrer"
                       className="upload-link d-block text-center"
                     >
@@ -438,8 +402,8 @@ const Careers = () => {
                   {/* Experience & Motivation */}
                   <div className="col-12">
                     <label className="form-label">Professional Experience & Skills *</label>
-                    <textarea 
-                      className="form-control" 
+                    <textarea
+                      className="form-control"
                       placeholder="Tell us about your relevant experience, technical skills, achievements, and what makes you a great fit for this role..."
                       required
                     ></textarea>
@@ -447,8 +411,8 @@ const Careers = () => {
 
                   <div className="col-12">
                     <label className="form-label">Why JK Global IT Solutions? *</label>
-                    <textarea 
-                      className="form-control" 
+                    <textarea
+                      className="form-control"
                       placeholder="What excites you about joining our team? How do you see yourself contributing to our mission?"
                       required
                     ></textarea>
@@ -456,8 +420,8 @@ const Careers = () => {
 
                   <div className="col-12">
                     <label className="form-label">Additional Information</label>
-                    <textarea 
-                      className="form-control" 
+                    <textarea
+                      className="form-control"
                       placeholder="Any other information you'd like to share (e.g., availability, salary expectations, portfolio links)..."
                     ></textarea>
                   </div>
@@ -523,4 +487,3 @@ const Careers = () => {
 };
 
 export default Careers;
-

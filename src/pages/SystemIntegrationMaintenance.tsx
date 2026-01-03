@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 const Rectangle27 = '/assets/images/Rectangle-27.webp';
-const SystemImage = '/assets/images/system-image.webp';
+const SystemImage = '/assets/images/SystemIntegrationMaintenance.png';
 const InternImage2 = '/assets/images/intern-image-2.webp';
 const SysLog1 = '/assets/images/sys-log-1.webp';
 const SysLogo2 = '/assets/images/sys-logo-2.webp';
@@ -11,51 +11,25 @@ const SysLogo5 = '/assets/images/sys-logo-5.webp';
 const SysLogo6 = '/assets/images/sys-logo-6.webp';
 const SysLogo7 = '/assets/images/sys-logo-7.webp';
 
-
-
-
-
-
-
-
-
-
-
-
 const SystemIntegrationMaintenance = () => {
   return (
     <main>
-      {/* Banner section */}
-      <div className="banner container-fluid" style={{backgroundColor:'rgba(111, 212, 23, 0.66)'}}>
-        <div className="row h-100">
-          <div className=" col-12 col-lg-6 d-flex justify-content-center align-items-center text-light">
-            <h2 style={{ color: 'black' }} className="fw-bolder">System Integration &
-              Maintenance</h2>
-            <style dangerouslySetInnerHTML={{
-              __html: `
-                h2 {
-                  font-size: 40px;
-                  color: black;
-                }
-
-                @media only screen and (max-width: 600px) {
-                  h2 {
-                    font-size: 30px;
-                  }
-                }
-              `
-            }} />
-          </div>
-          <div className="col-12 col-lg-6 d-flex justify-content-center align-items-center">
-            <img className="img-fluid" src={SystemImage} alt="" />
-          </div>
-        </div>
+      {/* Full-width Banner Image */}
+      <div className="banner-full-image">
+        <img src={SystemImage} alt="System Integration Maintenance Banner" className="banner-img" />
       </div>
+
+      {/* Banner styles */}
       <style dangerouslySetInnerHTML={{
         __html: `
-          .banner {
-            background-image: url(${Rectangle27});
-            height: 300px;
+          .banner-full-image {
+            width: 100%;
+            overflow: hidden;
+          }
+
+          .banner-img {
+            width: 100%;
+            display: block;
           }
         `
       }} />
@@ -186,4 +160,3 @@ const SystemIntegrationMaintenance = () => {
 };
 
 export default SystemIntegrationMaintenance;
-

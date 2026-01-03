@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-const NetworkImage = '/assets/images/network-image.webp';
+const NetworkImage = '/assets/images/NetworkSecurity.png';
 const NetworkImage2 = '/assets/images/network-image-2.webp';
 const NetworkLogo1 = '/assets/images/network-logo-1.webp';
 const NetworkLogo2 = '/assets/images/network-logo-2.webp';
@@ -20,31 +20,27 @@ const Rectangle27 = '/assets/images/Rectangle-27.webp';
 const NetworkSecurity = () => {
   return (
     <main>
-      {/* Banner section */}
-      <div className="banner container-fluid d-flex justify-content-center align-items-center" style={{ height: '400px', backgroundImage: `url(${Rectangle27})`, position: 'relative', backgroundColor:'#eea166ff' }}>
-        <h2 style={{ color: 'black', textAlign: 'center', marginLeft:'-60%' }} className="fw-bolder">Network Security</h2>
-        <div style={{ position: 'absolute', right: '10%', top: '50%', transform: 'translateY(-50%)' }}>
-          <img className="img-fluid" src={NetworkImage} alt="" />
-        </div>
-        <style dangerouslySetInnerHTML={{
-          __html: `
-            h2 {
-              font-size: 40px;
-              color: black;
-            }
-
-            @media only screen and (max-width: 600px) {
-              h2 {
-                font-size: 30px;
-              }
-            }
-          `
-        }} />
+      {/* Full-width Banner Image */}
+      <div className="banner-full-image">
+        <img src={NetworkImage} alt="Network Security Banner" className="banner-img" />
       </div>
-      {/* Banner section */}
-      {/* Content  Section*/}
 
+      {/* Banner styles */}
+      <style dangerouslySetInnerHTML={{
+        __html: `
+          .banner-full-image {
+            width: 100%;
+            overflow: hidden;
+          }
 
+          .banner-img {
+            width: 100%;
+            display: block;
+          }
+        `
+      }} />
+
+      {/* Content Section */}
       <div className="container">
         <div className="row align-items-center my-5">
           <div className="col-12 col-lg-7">
@@ -90,29 +86,29 @@ const NetworkSecurity = () => {
         <h5 style={{ color: '#1B8DBB' }} className="text-center fw-bolder d-lg-none">Solutions for Network Security in Tamilnadu | Guarantee Network Security | Chennai Display Solution Service</h5>
         <div className="row mt-4">
           <div className="col-12 col-lg-4 align-items-center text-center">
-            <img style={{ height: '50px', display: 'block', margin: '0 auto' }} src={NetworkLogo1} alt="" />
+            <img style={{ height: '50px', display: 'block', margin: '0 auto', filter: 'hue-rotate(180deg) saturate(2) brightness(0.8)' }} src={NetworkLogo1} alt="" />
             <p className="mt-3 fw-bolder"> Network Defense As a Service ( NDaas )</p>
           </div>
           <div className="col-12 col-lg-4 align-items-center text-center">
-            <img style={{ height: '50px', display: 'block', margin: '0 auto' }} src={NetworkLogo2} alt="" />
+            <img style={{ height: '50px', display: 'block', margin: '0 auto', filter: 'hue-rotate(180deg) saturate(2) brightness(0.8)' }} src={NetworkLogo2} alt="" />
             <p className="mt-3 fw-bolder">Backup Solutions</p>
           </div>
           <div className="col-12 col-lg-4 align-items-center text-center">
-            <img style={{ height: '50px', display: 'block', margin: '0 auto' }} src={NetworkLogo3} alt="" />
+            <img style={{ height: '50px', display: 'block', margin: '0 auto', filter: 'hue-rotate(180deg) saturate(2) brightness(0.8)' }} src={NetworkLogo3} alt="" />
             <p className="mt-3 fw-bolder">Server Security</p>
           </div>
         </div>
         <div className="row mt-4">
           <div className="col-12 col-lg-4 align-items-center text-center">
-            <img style={{ height: '50px', display: 'block', margin: '0 auto' }} src={NetworkLogo4} alt="" />
+            <img style={{ height: '50px', display: 'block', margin: '0 auto', filter: 'hue-rotate(180deg) saturate(2) brightness(0.8)' }} src={NetworkLogo4} alt="" />
             <p className="mt-3 fw-bolder">Endpoint Security</p>
           </div>
           <div className="col-12 col-lg-4 align-items-center text-center">
-            <img style={{ height: '50px', display: 'block', margin: '0 auto' }} src={NetworkLogo5} alt="" />
+            <img style={{ height: '50px', display: 'block', margin: '0 auto', filter: 'hue-rotate(180deg) saturate(2) brightness(0.8)' }} src={NetworkLogo5} alt="" />
             <p className="mt-3 fw-bolder">Secure Remote Enabling</p>
           </div>
           <div className="col-12 col-lg-4 align-items-center text-center">
-            <img style={{ height: '50px', display: 'block', margin: '0 auto' }} src={NetworkLogo6} alt="" />
+            <img style={{ height: '50px', display: 'block', margin: '0 auto', filter: 'hue-rotate(180deg) saturate(2) brightness(0.8)' }} src={NetworkLogo6} alt="" />
             <p className="mt-3 fw-bolder">Gateway Audits</p>
           </div>
         </div>
@@ -213,4 +209,3 @@ const NetworkSecurity = () => {
 };
 
 export default NetworkSecurity;
-

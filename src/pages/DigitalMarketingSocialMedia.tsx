@@ -1,48 +1,29 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 const Rectangle27 = '/assets/images/Rectangle-27.webp';
-const DigitalImage1 = '/assets/images/digital-image-1.webp';
+const DigitalImage1 = '/assets/images/DigitalMarketing&SocialMediaSolutions.png';
 const DigitalImage2 = '/assets/images/digital-image-2.webp';
 const Trip = '/assets/images/trip.webp';
-
-
-
-
-
 
 const DigitalMarketingSocialMedia = () => {
   return (
     <main>
-      {/* Banner section */}
-      <div className="banner container-fluid" style={{backgroundColor:"#ea77e8ff"}}>
-        <div className="row h-100 p-lg-5">
-          <div className=" col-12 col-lg-6 d-flex justify-content-center align-items-center text-light">
-            <h2 style={{ color: 'black' }} className="fw-bolder text-center">Digital Marketing & Social Media Solutions</h2>
-            <style dangerouslySetInnerHTML={{
-              __html: `
-                h2 {
-                    font-size: 36px;
-                    color: black;
-                }
-
-                @media only screen and (max-width: 600px) {
-                    h2 {
-                        font-size: 24px;
-                    }
-                }
-              `
-            }} />
-          </div>
-          <div className="col-12 col-lg-6 d-flex justify-content-center align-items-center">
-            <img className="img-fluid" src={DigitalImage1} alt="" />
-          </div>
-        </div>
+      {/* Full-width Banner Image */}
+      <div className="banner-full-image">
+        <img src={DigitalImage1} alt="Digital Marketing & Social Media Solutions Banner" className="banner-img" />
       </div>
+
+      {/* Banner styles */}
       <style dangerouslySetInnerHTML={{
         __html: `
-          .banner {
-            background-image: url(${Rectangle27});
-            height: 300px;
+          .banner-full-image {
+            width: 100%;
+            overflow: hidden;
+          }
+
+          .banner-img {
+            width: 100%;
+            display: block;
           }
         `
       }} />
@@ -140,4 +121,3 @@ const DigitalMarketingSocialMedia = () => {
 };
 
 export default DigitalMarketingSocialMedia;
-

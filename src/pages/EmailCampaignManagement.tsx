@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 const Rectangle27 = '/assets/images/Rectangle-27.webp';
-const Email1Image = '/assets/images/email-1-image.webp';
+const Email1Image = '/assets/images/Email-Campaign-Management-Solutions.png';
 const EmailImage2 = '/assets/images/email-image-2.webp';
 const EmailImage3 = '/assets/images/email-image-3.webp';
 const Trip = '/assets/images/trip.webp';
@@ -15,33 +15,22 @@ const Trip = '/assets/images/trip.webp';
 const EmailCampaignManagement = () => {
   return (
     <main>
-      {/* Banner section */}
-      <div className="banner container-fluid" style={{backgroundColor: '#6ca5f0ff'}}>
-        <div className="row h-100 p-lg-5">
-          <div className="col-12 col-lg-6 d-flex justify-content-center align-items-center text-light">
-            <h2 className="fw-bolder text-center">Email Campaign 
-              Management Solutions
-            </h2>
-          </div>
-          <div className="col-12 col-lg-6 d-flex justify-content-center align-items-center">
-            <img className="img-fluid" src={Email1Image} alt="" />
-          </div>
-        </div>
+      {/* Full-width Banner Image */}
+      <div className="banner-full-image">
+        <img src={Email1Image} alt="Email Campaign Management Solutions Banner" className="banner-img" />
       </div>
+
+      {/* Banner styles */}
       <style dangerouslySetInnerHTML={{
         __html: `
-          .banner {
-            background-image: url(${Rectangle27});
-            height: 300px;
+          .banner-full-image {
+            width: 100%;
+            overflow: hidden;
           }
-          h2 {
-            font-size: 36px;
-            color: black;
-          }
-          @media only screen and (max-width: 600px) {
-            h2 {
-              font-size: 24px;
-            }
+
+          .banner-img {
+            width: 100%;
+            display: block;
           }
         `
       }} />
@@ -182,4 +171,3 @@ const EmailCampaignManagement = () => {
 };
 
 export default EmailCampaignManagement;
-

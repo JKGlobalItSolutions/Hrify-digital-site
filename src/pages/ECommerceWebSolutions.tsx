@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-const ECommerceImage1 = '/assets/images/E-Commerce Web Solutions.png';
+const ECommerceImage1 = '/assets/images/E-Commerce-Web-Solutions.png';
 const ECommerceImage2 = '/assets/images/e-commerce-image-2.webp';
 const Rectangle27 = '/assets/images/Rectangle-27.webp';
 const Trip = '/assets/images/trip.webp';

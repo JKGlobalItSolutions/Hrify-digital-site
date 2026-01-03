@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-const GoogleImage1 = '/assets/images/google-image-1.webp';
+const GoogleImage1 = '/assets/images/Google-Work-Partner.png';
 const GoogleImage2 = '/assets/images/google-image-2.webp';
 const GIm1 = '/assets/images/g-im-1.webp';
 const GIm2 = '/assets/images/g-im-2.webp';
@@ -18,30 +18,25 @@ const Trip = '/assets/images/trip.webp';
 const GoogleWorkPartner = () => {
   return (
     <main>
-      {/* Banner section */}
-      <div className="banner container-fluid" style={{backgroundImage: `url(${Rectangle27})`, height: '400px', backgroundColor:'#ecd675ff'}}>
-        <div className="row h-100 p-lg-5">
-          <div className=" col-12 col-lg-6 d-flex justify-content-center align-items-center text-light">
-            <h2 style={{color: 'black'}} className="fw-bolder text-center">Google Work Partner</h2>
-            <style>
-              {`
-                h2 {
-                  font-size: 50px;
-                  color: black;
-                }
-                @media only screen and (max-width: 600px) {
-                  h2 {
-                    font-size: 30px;
-                  }
-                }
-              `}
-            </style>
-          </div>
-          <div className="col-12 col-lg-6 d-flex justify-content-center align-items-center">
-            <img className="img-fluid" src={GoogleImage1} alt="" />
-          </div>
-        </div>
+      {/* Full-width Banner Image */}
+      <div className="banner-full-image">
+        <img src={GoogleImage1} alt="Google Work Partner Banner" className="banner-img" />
       </div>
+
+      {/* Banner styles */}
+      <style dangerouslySetInnerHTML={{
+        __html: `
+          .banner-full-image {
+            width: 100%;
+            overflow: hidden;
+          }
+
+          .banner-img {
+            width: 100%;
+            display: block;
+          }
+        `
+      }} />
       {/* Banner section */}
       {/* Content  Section*/}
       <div className="container my-3" style={{textAlign:'justify'}}>
@@ -208,4 +203,3 @@ const GoogleWorkPartner = () => {
 };
 
 export default GoogleWorkPartner;
-

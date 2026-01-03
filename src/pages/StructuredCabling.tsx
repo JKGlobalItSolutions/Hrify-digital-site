@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 const Rectangle27 = '/assets/images/Rectangle-27.webp';
-const StrucuturedCablingBanner = '/assets/images/strucutred-image-2.webp';
+const StrucuturedCablingBanner = '/assets/images/StructuredCabling.png';
 const StrucutredImage2 = '/assets/images/strucutred-image-2.webp';
 const BringLogo1 = '/assets/images/bring-logo-1.webp';
 const BringLogo2 = '/assets/images/bring-logo-2.webp';
@@ -16,62 +16,30 @@ const SysLogo5 = '/assets/images/sys-logo-5.webp';
 const SysLogo6 = '/assets/images/sys-logo-6.webp';
 const SysLogo7 = '/assets/images/sys-logo-7.webp';
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const StructuredCabling = () => {
   return (
     <main>
-      {/* Banner section */}
-      <div className="banner container-fluid" style={{backgroundColor: '#dd4949ff'}}>
-        <div className="row h-100">
-          <div className=" col-12 col-lg-6 d-flex justify-content-center align-items-center text-light">
-            <h2 className="fw-bolder">Structured Cabling</h2>
-          </div>
-          <div className="col-12 col-lg-6 d-flex justify-content-center align-items-center">
-            <img className="img-fluid" src={StrucuturedCablingBanner} alt="Network Security" />
-          </div>
-        </div>
+      {/* Full-width Banner Image */}
+      <div className="banner-full-image">
+        <img src={StrucuturedCablingBanner} alt="Structured Cabling Banner" className="banner-img" />
       </div>
+
+      {/* Banner styles */}
       <style dangerouslySetInnerHTML={{
         __html: `
-          .banner {
-            background-image: url(${Rectangle27});
-            height: 600px;
+          .banner-full-image {
+            width: 100%;
+            overflow: hidden;
           }
 
-          h2 {
-            font-size: 40px;
-            color: black;
-          }
-
-          @media only screen and (max-width: 600px) {
-            .banner {
-              height: 400px;
-            }
-
-            h2 {
-              font-size: 30px;
-            }
+          .banner-img {
+            width: 100%;
+            display: block;
           }
         `
       }} />
-      {/* Banner section */}
-      {/* Content  Section*/}
 
-
+      {/* Content Section */}
       <div className="container">
         <div className="row align-items-center my-5">
           <div className="col-12 col-lg-8">
@@ -298,4 +266,3 @@ const StructuredCabling = () => {
 };
 
 export default StructuredCabling;
-

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-const PersonalImage1 = '/assets/images/personal-image-1.webp';
+const PersonalImage1 = '/assets/images/Personal-and-Enterprise-Email-Solutions.png';
 const PersonalImage2 = '/assets/images/personal-image-2.webp';
 const Rectangle27 = '/assets/images/Rectangle-27.webp';
 const Trip = '/assets/images/trip.webp';
@@ -9,30 +9,25 @@ const Trip = '/assets/images/trip.webp';
 const PersonalEnterpriseEmail = () => {
   return (
     <main>
-      {/* Banner section */}
-      <div className="banner container-fluid" style={{backgroundImage: `url(${Rectangle27})`, height: '400px', backgroundColor:'#c8a5ebff'}}>
-        <div className="row h-100 p-lg-5">
-          <div className=" col-12 col-lg-6 d-flex justify-content-center align-items-center text-light">
-            <h2 style={{color: 'black'}} className="fw-bolder text-center">Personal and Enterprise Email Solutions</h2>
-            <style>
-              {`
-                h2 {
-                  font-size: 50px;
-                  color: black;
-                }
-                @media only screen and (max-width: 600px) {
-                  h2 {
-                    font-size: 30px;
-                  }
-                }
-              `}
-            </style>
-          </div>
-          <div className="col-12 col-lg-6 d-flex justify-content-center align-items-center">
-            <img className="img-fluid" src={PersonalImage1} alt="" />
-          </div>
-        </div>
+      {/* Full-width Banner Image */}
+      <div className="banner-full-image">
+        <img src={PersonalImage1} alt="Personal and Enterprise Email Solutions Banner" className="banner-img" />
       </div>
+
+      {/* Banner styles */}
+      <style dangerouslySetInnerHTML={{
+        __html: `
+          .banner-full-image {
+            width: 100%;
+            overflow: hidden;
+          }
+
+          .banner-img {
+            width: 100%;
+            display: block;
+          }
+        `
+      }} />
       <br />
       {/* Banner section */}
       {/* Content  Section*/}
@@ -127,4 +122,3 @@ const PersonalEnterpriseEmail = () => {
 };
 
 export default PersonalEnterpriseEmail;
-

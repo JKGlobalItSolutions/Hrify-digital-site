@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-const ContactImage1 = '/assets/images/contact-image-1.webp';
+const ContactImage1 = '/assets/images/Contact.png';
 const Frame637 = '/assets/images/contactLogos/Frame 637.png';
 const Frame636 = '/assets/images/contactLogos/Frame 636.png';
 const Frame638 = '/assets/images/contactLogos/Frame 638.png';
@@ -62,61 +62,25 @@ const Contact = () => {
 
   return (
     <div>
-        {/* Hero Banner Section - Matching Referral Program style */}
-        <div className="banner container-fluid d-flex align-items-center justify-content-center" style={{ backgroundColor: '#e6f7ff' }}>
-          <div className="row w-100 h-100 gx-0">
-            <div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center text-center px-4 py-5">
-              <h1 className="fw-bolder mb-0" style={{ fontSize: '4rem', color: '#000', lineHeight: '1.2' }}>
-                Contact
-              </h1>
-            </div>
-            <div className="col-12 col-lg-6 d-flex justify-content-center align-items-center p-4">
-              <img
-                className="img-fluid"
-                src={ContactImage1}
-                alt="Contact JK Global IT Solutions"
-                style={{ maxHeight: '520px', objectFit: 'contain' }}
-              />
-            </div>
-          </div>
-        </div>
+      {/* Full-width Banner Image */}
+      <div className="banner-full-image">
+        <img src={ContactImage1} alt="Contact Banner" className="banner-img" />
+      </div>
 
-        {/* Banner Responsive Styles - Matching Referral Program */}
-        <style dangerouslySetInnerHTML={{
-          __html: `
-            .banner {
-              min-height: 600px;
-              background-color: #e6f7ff;
-            }
+      {/* Banner styles */}
+      <style dangerouslySetInnerHTML={{
+        __html: `
+          .banner-full-image {
+            width: 100%;
+            overflow: hidden;
+          }
 
-            @media (max-width: 992px) {
-              .banner h1 {
-                font-size: 3.2rem !important;
-              }
-            }
-
-            @media (max-width: 768px) {
-              .banner {
-                min-height: 500px;
-              }
-              .banner h1 {
-                font-size: 2.8rem !important;
-              }
-            }
-
-            @media (max-width: 576px) {
-              .banner {
-                min-height: 450px;
-              }
-              .banner h1 {
-                font-size: 2.3rem !important;
-              }
-              .banner img {
-                max-height: 300px !important;
-              }
-            }
-          `
-        }} />
+          .banner-img {
+            width: 100%;
+            display: block;
+          }
+        `
+      }} />
 
         {/* Registered Office */}
         <div className="container my-4 p-4">
@@ -125,10 +89,10 @@ const Contact = () => {
               <h3 className="text-primary my-2" style={{ fontWeight: 700 }}>
                 Registered Office:
               </h3>
-              <p style={{ color: '#686D76' }}>
+              <h6 style={{ color: '#686D76' }}>
                 <i className="fa fa-map-marker" style={{ fontSize: '30px', background: 'linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }} aria-hidden="true"></i>{' '}
                 NO.7 4th Street, Shanmuga Nagar-2, Near Collector Office, Vengikkal, Tiruvannamalai 606604
-              </p>
+              </h6>
             </div>
           </div>
         </div>
@@ -140,14 +104,14 @@ const Contact = () => {
               <h3 className="text-primary" style={{ color: '#686D76' }}>
                 Phone
               </h3>
-              <p style={{ color: '#686D76' }}>8438438413</p>
+              <h6 style={{ color: '#686D76' }}>8438438413</h6>
             </div>
             <div className="col-2 d-none d-lg-block">
               <h1 style={{ color: '#686D76' }}>|</h1>
             </div>
             <div className="col-lg-5 col-12">
               <h3 style={{ background: 'linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>Email</h3>
-              <p>jkglobalitsolution@gmail.com</p>
+              <h6>jkglobalitsolution@gmail.com</h6>
             </div>
           </div>
         </div>
@@ -378,4 +342,3 @@ const Contact = () => {
 };
 
 export default Contact;
-

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-const DomainImage1 = '/assets/images/Domains, Hosting and Cloud Solutions.png';
+const DomainImage1 = '/assets/images/Domains,Hosting-and-Cloud-Solutions.png';
 const DomainImage2 = '/assets/images/domain-image-2.webp';
 const DomainImage3 = '/assets/images/domain-image-3.webp';
 const Rectangle27 = '/assets/images/Rectangle-27.webp';

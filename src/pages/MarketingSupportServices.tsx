@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-const MarketImage1 = '/assets/images/market-image-1.webp';
+const MarketImage1 = '/assets/images/MarketingSupportServices.png';
 const MarketImage2 = '/assets/images/market-image-2.webp';
 const MarketImage3 = '/assets/images/market-image-3.webp';
 
@@ -55,58 +55,22 @@ const MarketingSupportServices = () => {
 
   return (
     <div>
-      {/* Hero Banner Section - Matching Referral Program style */}
-      <div className="banner container-fluid d-flex align-items-center justify-content-center" style={{ backgroundColor: '#e6f7ff' }}>
-        <div className="row w-100 h-100 gx-0">
-          <div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center text-center px-4 py-5">
-            <h1 className="fw-bolder mb-0" style={{ fontSize: '4rem', color: '#000', lineHeight: '1.2' }}>
-              Marketing<br />Support Services
-            </h1>
-          </div>
-          <div className="col-12 col-lg-6 d-flex justify-content-center align-items-center p-4">
-            <img
-              className="img-fluid"
-              src={MarketImage1}
-              alt="Marketing Support Services"
-              style={{ maxHeight: '520px', objectFit: 'contain' }}
-            />
-          </div>
-        </div>
+      {/* Full-width Banner Image */}
+      <div className="banner-full-image">
+        <img src={MarketImage1} alt="Marketing Support Services Banner" className="banner-img" />
       </div>
 
-      {/* Banner Responsive Styles - Matching Referral Program */}
+      {/* Banner styles */}
       <style dangerouslySetInnerHTML={{
         __html: `
-          .banner {
-            min-height: 600px;
-            background-color: #e6f7ff;
+          .banner-full-image {
+            width: 100%;
+            overflow: hidden;
           }
 
-          @media (max-width: 992px) {
-            .banner h1 {
-              font-size: 3.2rem !important;
-            }
-          }
-
-          @media (max-width: 768px) {
-            .banner {
-              min-height: 500px;
-            }
-            .banner h1 {
-              font-size: 2.8rem !important;
-            }
-          }
-
-          @media (max-width: 576px) {
-            .banner {
-              min-height: 450px;
-            }
-            .banner h1 {
-              font-size: 2.3rem !important;
-            }
-            .banner img {
-              max-height: 300px !important;
-            }
+          .banner-img {
+            width: 100%;
+            display: block;
           }
         `
       }} />
@@ -284,7 +248,7 @@ const MarketingSupportServices = () => {
             <input type="text" id="company" name="company" required />
 
             <label htmlFor="description">Describe what you need:</label>
-            <textarea id="description" name="description" rows="4" required></textarea>
+            <textarea id="description" name="description" rows={4} required></textarea>
 
             <button type="submit">Send</button>
           </form>
@@ -359,4 +323,3 @@ const MarketingSupportServices = () => {
 };
 
 export default MarketingSupportServices;
-

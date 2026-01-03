@@ -1,6 +1,6 @@
 import React from 'react';
 const Rectangle27 = '/assets/images/Rectangle-27.webp';
-const WebMainBanner = '/assets/images/Web Maintence.png';
+const WebMainBanner = '/assets/images/Web-Maintence.png';
 const WebMainImage2 = '/assets/images/web-main-image-2.webp';
 
 
