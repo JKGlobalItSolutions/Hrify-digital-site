@@ -1,48 +1,30 @@
 import React from "react";
-const MobileAppImage = '/assets/images/mobile-app-image.webp';
+const MobileAppImage = '/assets/images/Mobile Application.png';
 const MobileImage2 = '/assets/images/mobile-image-2.webp';
 const Rectangle27 = '/assets/images/Rectangle-27.webp';
 
 const MobileApplication = () => {
   return (
     <main>
-      {/* Banner section */}
-      <div
-        className="banner container-fluid"
-        style={{
-          backgroundImage: `url(${Rectangle27})`,
-          height: "400px",
-          backgroundColor: "#c2f379ff",
-        }}
-      >
-        <div className="row h-100">
-          <div className=" col-12 col-lg-6 d-flex justify-content-center align-items-center text-light">
-            <h2 style={{ color: "black" }} className="fw-bolder">
-              Mobile Application
-            </h2>
-            <style>
-              {`
-                h2 {
-                  font-size: 50px;
-                  color: black;
-                }
-                @media only screen and (max-width: 600px) {
-                  h2 {
-                    font-size: 30px;
-                  }
-                }
-              `}
-            </style>
-          </div>
-          <div className="col-12 col-lg-6 d-flex justify-content-center align-items-center">
-            <img
-              className="img-fluid"
-              src={MobileAppImage}
-              alt=""
-            />
-          </div>
-        </div>
+      {/* Full-width Banner Image */}
+      <div className="banner-full-image">
+        <img src={MobileAppImage} alt="Mobile Application Banner" className="banner-img" />
       </div>
+
+      {/* Banner styles */}
+      <style dangerouslySetInnerHTML={{
+        __html: `
+          .banner-full-image {
+            width: 100%;
+            overflow: hidden;
+          }
+
+          .banner-img {
+            width: 100%;
+            display: block;
+          }
+        `
+      }} />
       {/* Banner section */}
       {/* Content  Section*/}
       <div className="content container-fluid ">

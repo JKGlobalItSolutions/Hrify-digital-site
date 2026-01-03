@@ -1,5 +1,5 @@
 import React from 'react';
-const VendorManagementImg = '/assets/images/Vendor-Management.webp';
+const VendorManagementImg = '/assets/images/newBanner/enterprise.webp';
 
 const VendorManagement = () => {
   return (
@@ -8,7 +8,7 @@ const VendorManagement = () => {
       <div className="slider">
         <div className="slides">
           <div className="slide">
-            <img src="/assets/images/newBanner/enterprise.webp" alt="Vendor Management Banner" />
+            <img src={VendorManagementImg} alt="Vendor Management Banner" />
           </div>
         </div>
       </div>
@@ -257,3 +257,4 @@ const VendorManagement = () => {
 };
 
 export default VendorManagement;
+

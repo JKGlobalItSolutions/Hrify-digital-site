@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 const BannerImage = '/assets/images/newBanner/cy10.webp';
 
 const SecurityEngineering = () => {
@@ -310,3 +310,4 @@ const SecurityEngineering = () => {
 };
 
 export default SecurityEngineering;
+

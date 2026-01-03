@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+const ResponsiveWebDesignBanner = '/assets/images/Responsive Web Design.png';
 
 const ResponsiveWebDesign = () => {
   useEffect(() => {
@@ -102,34 +103,22 @@ const ResponsiveWebDesign = () => {
       }} />
 
       <main>
-        {/* Banner section */}
-        <div className="banner container-fluid">
-          <div className="row h-100">
-            <div className="col-12 col-lg-6 d-flex justify-content-center align-items-center text-light">
-              <h2 className="fw-bolder text-center">Responsive Web-Design</h2>
-            </div>
-            <div className="col-12 col-lg-6 d-flex justify-content-center align-items-center">
-              <img className="img-fluid" src="/assets/images/res web bannner.webp" alt="" />
-            </div>
-          </div>
+        {/* Full-width Banner Image */}
+        <div className="banner-full-image">
+          <img src={ResponsiveWebDesignBanner} alt="Responsive Web Design Banner" className="banner-img" />
         </div>
+
+        {/* Banner styles */}
         <style dangerouslySetInnerHTML={{
           __html: `
-            .banner {
-              background-image: url(/assets/images/Rectangle\\ 27.webp);
-              height: 600px;
+            .banner-full-image {
+              width: 100%;
+              overflow: hidden;
             }
-            h2 {
-              font-size: 50px;
-              color: black;
-            }
-            @media only screen and (max-width: 600px) {
-              .banner {
-                height: 400px;
-              }
-              h2 {
-                font-size: 30px;
-              }
+
+            .banner-img {
+              width: 100%;
+              display: block;
             }
           `
         }} />
@@ -200,7 +189,7 @@ const ResponsiveWebDesign = () => {
             <label htmlFor="company">Your Company:</label>
             <input type="text" id="company" name="company" required />
             <label htmlFor="description">Describe what you need:</label>
-            <textarea id="description" name="description" rows="4" required></textarea>
+            <textarea id="description" name="description" rows={4} required></textarea>
             <button type="submit">Send</button>
           </form>
         </div>

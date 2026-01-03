@@ -1,6 +1,7 @@
 import React from 'react';
-const AboutBanner = '/assets/images/newBanner/data.an.webp';
-const Biggest = '/assets/images/biggest.webp';
+const AboutImg = '/assets/images/About.png';
+import Biggest from '../../public/assets/images/biggest.webp';
+import AboutBannerImg from '../../public/assets/images/about-banner.webp';
 
 
 
@@ -8,9 +9,13 @@ const About = () => {
   const SDECartoon = ".";
   return (
     <div>
-      {/* About Banner */}
-      <div className="container-fluid p-0">
-        <img src="/assets/images/About.png" alt="About Us" className="img-fluid w-100" />
+      {/* Static Banner Section - Similar to Home but Single Image */}
+      <div className="slider">
+        <div className="slides">
+          <div className="slide">
+            <img src={AboutImg} alt="About Banner" />
+          </div>
+        </div>
       </div>
 
       {/* About Content Section */}
@@ -18,7 +23,7 @@ const About = () => {
         <div className="container">
           <div className="row align-items-center mb-5">
             <div className="col-12 col-lg-6">
-              <img className="img-fluid" src="/assets/images/about-banner.webp" alt="About Hrify Digital" />
+              <img className="img-fluid" src={AboutBannerImg} alt="About Hrify Digital" />
             </div>
             <div className="col-12 col-lg-6">
               <h2 className="text-primary fw-bold mb-4">About Hrify Digital</h2>

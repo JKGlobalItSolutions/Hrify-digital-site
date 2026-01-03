@@ -186,3 +186,4 @@ const SystemIntegrationMaintenance = () => {
 };
 
 export default SystemIntegrationMaintenance;
+

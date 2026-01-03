@@ -1,5 +1,6 @@
 import React from 'react';
-const TestEngineer = '/assets/images/Banner/newbanimg/testengineer.webp';
+import TestEngineer from '../../public/assets/images/Banner/newbanimg/testengineer.webp';
+import AgileBanner from '../../public/assets/images/newBanner/Qua.Eng (1).webp';
 
 const AgileTesting = () => {
   return (
@@ -8,7 +9,7 @@ const AgileTesting = () => {
       <div className="slider">
         <div className="slides">
           <div className="slide">
-            <img src="/assets/images/newBanner/Qua.Eng (1).webp" alt="Agile Testing Banner" />
+            <img src={AgileBanner} alt="Agile Testing Banner" />
           </div>
         </div>
       </div>

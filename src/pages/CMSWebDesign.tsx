@@ -1,6 +1,6 @@
 import React from 'react';
 const Rectangle27 = '/assets/images/Rectangle-27.webp';
-const CmsWebBanner = '/assets/images/cms-web-banner.webp';
+const CmsWebBanner = '/assets/images/CMS Web Design.png';
 const CmsImage2 = '/assets/images/cms-image-2.webp';
 const Trip = '/assets/images/trip.webp';
 
@@ -12,42 +12,25 @@ const Trip = '/assets/images/trip.webp';
 const CMSWebDesign = () => {
   return (
     <main>
-        {/* Banner section */}
-        <div className="banner container-fluid p-md-5">
-          <div className="row h-100">
-              <div className="col-12 col-lg-6 d-flex justify-content-center align-items-center text-light">
-                  <h2 className="fw-bolder">CMS Web-Design</h2>
-              </div>
-              <div className="col-12 col-lg-6 d-flex justify-content-center align-items-center">
-                  <img className="img-fluid" src={CmsWebBanner} alt="CMS Web Design" />
-              </div>
-          </div>
-      </div>
-      <style>
-        {`
-          /* Internal CSS for the banner and heading */
-          .banner {
-              background-image: url(${Rectangle27});
-              background-color: #e3b1e4ff;
-              height: 600px;
-          }
+        {/* Full-width Banner Image */}
+        <div className="banner-full-image">
+          <img src={CmsWebBanner} alt="CMS Web Design Banner" className="banner-img" />
+        </div>
 
-          h2 {
-              font-size: 50px;
-              color: black;
-          }
+        {/* Banner styles */}
+        <style dangerouslySetInnerHTML={{
+          __html: `
+            .banner-full-image {
+              width: 100%;
+              overflow: hidden;
+            }
 
-          @media only screen and (max-width: 600px) {
-              .banner {
-                  height: 400px;
-              }
-
-              h2 {
-                  font-size: 30px;
-              }
-          }
-        `}
-      </style>
+            .banner-img {
+              width: 100%;
+              display: block;
+            }
+          `
+        }} />
         {/* Banner section */}
         {/* Content  Section*/}
 

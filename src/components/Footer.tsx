@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-const HrifyLogo = '/assets/images/Hrify-white-bg.webp';
-const Fb = '/assets/images/footer-icon/fb.webp';
-const YoutubeIcon = '/assets/images/youtube-icon.webp';
-const X = '/assets/images/footer-icon/x.webp';
-const Linkdin = '/assets/images/footer-icon/linkdin.webp';
-const Insta = '/assets/images/footer-icon/insta.webp';
-const WhatsappSymbolSvg = '/assets/images/whatsapp_symbol.svg.webp';
-const DownloadIcon = '/assets/images/download-icon.webp';
+import HrifyLogo from '../../public/assets/images/Hrify-white-bg.webp';
+import Fb from '../../public/assets/images/footer-icon/fb.webp';
+import YoutubeIcon from '../../public/assets/images/youtube-icon.webp';
+import X from '../../public/assets/images/footer-icon/x.webp';
+import Linkdin from '../../public/assets/images/footer-icon/linkdin.webp';
+import Insta from '../../public/assets/images/footer-icon/insta.webp';
+import WhatsappSymbolSvg from '../../public/assets/images/whatsapp_symbol.svg.webp';
+import DownloadIcon from '../../public/assets/images/download-icon.webp';
 
 const Footer = () => {
   const [showPopup, setShowPopup] = useState(false);
@@ -191,3 +191,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

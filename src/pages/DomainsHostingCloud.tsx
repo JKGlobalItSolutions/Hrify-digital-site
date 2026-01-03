@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-const DomainImage1 = '/assets/images/domain-image-1.webp';
+const DomainImage1 = '/assets/images/Domains, Hosting and Cloud Solutions.png';
 const DomainImage2 = '/assets/images/domain-image-2.webp';
 const DomainImage3 = '/assets/images/domain-image-3.webp';
 const Rectangle27 = '/assets/images/Rectangle-27.webp';
@@ -10,30 +10,25 @@ const Trip = '/assets/images/trip.webp';
 const DomainsHostingCloud = () => {
   return (
     <main>
-      {/* Banner section */}
-      <div className="banner container-fluid" style={{backgroundImage: `url(${Rectangle27})`, height: '400px', backgroundColor:'#65d8daff'}}>
-        <div className="row h-100 p-lg-5">
-          <div className=" col-12 col-lg-6 d-flex justify-content-center align-items-center text-light">
-            <h2 style={{color: 'black'}} className="fw-bolder text-center">Domains, Hosting and Cloud Solutions</h2>
-            <style>
-              {`
-                h2 {
-                  font-size: 50px;
-                  color: black;
-                }
-                @media only screen and (max-width: 600px) {
-                  h2 {
-                    font-size: 30px;
-                  }
-                }
-              `}
-            </style>
-          </div>
-          <div className="col-12 col-lg-6 d-flex justify-content-center align-items-center">
-            <img className="img-fluid" src={DomainImage1} alt="" />
-          </div>
-        </div>
+      {/* Full-width Banner Image */}
+      <div className="banner-full-image">
+        <img src={DomainImage1} alt="Domains, Hosting and Cloud Solutions Banner" className="banner-img" />
       </div>
+
+      {/* Banner styles */}
+      <style dangerouslySetInnerHTML={{
+        __html: `
+          .banner-full-image {
+            width: 100%;
+            overflow: hidden;
+          }
+
+          .banner-img {
+            width: 100%;
+            display: block;
+          }
+        `
+      }} />
       {/* Banner section */}
       {/* Content  Section*/}
       <div className="container" style={{textAlign:'justify'}}>
