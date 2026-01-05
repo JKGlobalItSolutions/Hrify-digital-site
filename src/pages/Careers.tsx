@@ -1,5 +1,7 @@
 import React from 'react';
-const CareersBanner = '/assets/images/Career.png';
+import { getAssetPath } from '../utils/assetPath';
+
+const CareersBanner = getAssetPath('assets/images/Career.png');
 
 const Careers = () => {
   return (

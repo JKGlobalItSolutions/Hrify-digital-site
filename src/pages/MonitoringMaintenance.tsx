@@ -1,5 +1,7 @@
 import React from 'react';
-const Monitoring = '/assets/images/Banner/newbanimg/monitoring.webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const Monitoring = getAssetPath('assets/images/Banner/newbanimg/monitoring.webp');
 
 const MonitoringMaintenance = () => {
   return (

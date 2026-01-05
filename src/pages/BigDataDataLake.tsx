@@ -1,6 +1,8 @@
 import React from 'react';
-const BannerImage = '/assets/images/newBanner/data.an7.webp';
-const Bigdata = '/assets/images/Banner/newbanimg/bigdata.webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const BannerImage = getAssetPath('assets/images/newBanner/data.an7.webp');
+const Bigdata = getAssetPath('assets/images/Banner/newbanimg/bigdata.webp');
 
 const BigDataDataLake = () => {
   return (

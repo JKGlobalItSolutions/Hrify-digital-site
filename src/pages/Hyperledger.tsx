@@ -1,6 +1,9 @@
 import React from 'react';
-const HyperledgerImg = '/assets/images/Banner/newbanimg/Hyperledger.webp';
-import image from '../public/assets/images/newBanner/Block_Chain.jpg';
+import { getAssetPath } from '../utils/assetPath';
+
+const HyperledgerImg = getAssetPath('assets/images/Banner/newbanimg/Hyperledger.webp');
+const BannerImage = getAssetPath('assets/images/newBanner/BL_11.webp');
+const BlockchainImage = getAssetPath('assets/images/blockchain/blockchain.webp');
 
 
 const Hyperledger = () => {
@@ -10,7 +13,7 @@ const Hyperledger = () => {
       <div className="slider">
         <div className="slides">
           <div className="slide">
-            <img src="/assets/images/newBanner/BL_11.webp" alt="Hyperledger Banner" />
+            <img src={BannerImage} alt="Hyperledger Banner" />
           </div>
         </div>
       </div>
@@ -225,7 +228,7 @@ const Hyperledger = () => {
           </p>
 
           <div className="image-showcase">
-            <img src="/assets/images/blockchain/blockchain.webp" alt="Enterprise Blockchain Solution" />
+            <img src={BlockchainImage} alt="Enterprise Blockchain Solution" />
           </div>
         </div>
 

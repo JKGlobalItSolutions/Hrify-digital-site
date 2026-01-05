@@ -1,21 +1,23 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-const ServerImage1 = '/assets/images/ServerStorage.png';
-const ServerImage2 = '/assets/images/server-image-2.webp';
-const Vast1 = '/assets/images/vast-1.webp';
-const Vast2 = '/assets/images/vast-2.webp';
-const Vast3 = '/assets/images/vast-3.webp';
-const Vast4 = '/assets/images/vast4.webp';
-const Vast5 = '/assets/images/vast-5.webp';
-const Vast6 = '/assets/images/vast-6.webp';
-const SysLog1 = '/assets/images/sys-log-1.webp';
-const SysLogo2 = '/assets/images/sys-logo-2.webp';
-const SysLogo3 = '/assets/images/sys-logo-3.webp';
-const SysLogo4 = '/assets/images/sys-logo-4.webp';
-const SysLogo5 = '/assets/images/sys-logo-5.webp';
-const SysLogo6 = '/assets/images/sys-logo-6.webp';
-const SysLogo7 = '/assets/images/sys-logo-7.webp';
-const Rectangle27 = '/assets/images/Rectangle-27.webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const ServerImage1 = getAssetPath('assets/images/ServerStorage.png');
+const ServerImage2 = getAssetPath('assets/images/server-image-2.webp');
+const Vast1 = getAssetPath('assets/images/vast-1.webp');
+const Vast2 = getAssetPath('assets/images/vast-2.webp');
+const Vast3 = getAssetPath('assets/images/vast-3.webp');
+const Vast4 = getAssetPath('assets/images/vast4.webp');
+const Vast5 = getAssetPath('assets/images/vast-5.webp');
+const Vast6 = getAssetPath('assets/images/vast-6.webp');
+const SysLog1 = getAssetPath('assets/images/sys-log-1.webp');
+const SysLogo2 = getAssetPath('assets/images/sys-logo-2.webp');
+const SysLogo3 = getAssetPath('assets/images/sys-logo-3.webp');
+const SysLogo4 = getAssetPath('assets/images/sys-logo-4.webp');
+const SysLogo5 = getAssetPath('assets/images/sys-logo-5.webp');
+const SysLogo6 = getAssetPath('assets/images/sys-logo-6.webp');
+const SysLogo7 = getAssetPath('assets/images/sys-logo-7.webp');
+const Rectangle27 = getAssetPath('assets/images/Rectangle-27.webp');
 
 const ServerStorage = () => {
   return (

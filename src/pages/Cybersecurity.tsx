@@ -1,6 +1,8 @@
 import React from 'react';
-const Cybersecuritybackground = '/assets/images/Rectangle-27.webp';
-const Cybersecurity_banner = '/assets/images/cyber-security.webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const Cybersecuritybackground = getAssetPath('assets/images/Rectangle-27.webp');
+const Cybersecurity_banner = getAssetPath('assets/images/cyber-security.webp');
 
 
 
@@ -132,4 +134,3 @@ const Cybersecurity = () => {
 };
 
 export default Cybersecurity;
-

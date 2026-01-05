@@ -1,9 +1,11 @@
 import React from 'react';
-const BannerImage = '/assets/images/newBanner/cy13.webp';
-const Govtrisk11 = '/assets/images/govtrisk1-(1).webp';
-const Govtrisk12 = '/assets/images/govtrisk1-(2).webp';
-const Govtrisk13 = '/assets/images/govtrisk1-(3).webp';
-const Govtrisk = '/assets/images/govtrisk.webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const BannerImage = getAssetPath('assets/images/newBanner/cy13.webp');
+const Govtrisk11 = getAssetPath('assets/images/govtrisk1-(1).webp');
+const Govtrisk12 = getAssetPath('assets/images/govtrisk1-(2).webp');
+const Govtrisk13 = getAssetPath('assets/images/govtrisk1-(3).webp');
+const Govtrisk = getAssetPath('assets/images/govtrisk.webp');
 
 
 const GovernanceRiskManagementCompliance = () => {

@@ -1,5 +1,7 @@
 import React from 'react';
-const MlMlOpsImg = '/assets/images/Banner/newbanimg/mlmlops.webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const MlMlOpsImg = getAssetPath('assets/images/Banner/newbanimg/mlmlops.webp');
 
 const MlMlOps = () => {
   return (

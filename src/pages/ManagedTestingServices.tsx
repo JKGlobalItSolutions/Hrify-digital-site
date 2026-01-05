@@ -1,9 +1,11 @@
 import React from 'react';
-const ManagedTestingServices1 = '/assets/images/newBanner/ma.ser.webp';
-const Performance = '/assets/images/placeholder.webp';
-const Ci = '/assets/images/placeholder.webp';
-const Softwarvald = '/assets/images/placeholder.webp';
-const Softwareqa = '/assets/images/placeholder.webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const ManagedTestingServices1 = getAssetPath('assets/images/newBanner/ma.ser.webp');
+const Performance = getAssetPath('assets/images/placeholder.webp');
+const Ci = getAssetPath('assets/images/placeholder.webp');
+const Softwarvald = getAssetPath('assets/images/placeholder.webp');
+const Softwareqa = getAssetPath('assets/images/placeholder.webp');
 
 
 

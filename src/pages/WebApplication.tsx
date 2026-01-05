@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-const CustomImage1 = '/assets/images/custom-image-1.webp';
-const CustomWebImage2 = '/assets/images/custom-web-image-2.webp';
-const Rectangle27 = '/assets/images/Rectangle-27.webp';
-const Trip = '/assets/images/trip.webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const CustomImage1 = getAssetPath('assets/images/custom-image-1.webp');
+const CustomWebImage2 = getAssetPath('assets/images/custom-web-image-2.webp');
+const Rectangle27 = getAssetPath('assets/images/Rectangle-27.webp');
+const Trip = getAssetPath('assets/images/trip.webp');
 
 
 const WebApplication = () => {

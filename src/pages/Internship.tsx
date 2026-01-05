@@ -1,5 +1,7 @@
 import React from 'react';
-const InternImage2 = '/assets/images/Internship.png';
+import { getAssetPath } from '../utils/assetPath';
+
+const InternImage2 = getAssetPath('assets/images/Internship.png');
 
 const Internship = () => {
   return (

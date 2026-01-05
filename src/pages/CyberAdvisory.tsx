@@ -1,9 +1,11 @@
 import React from 'react';
-const BannerImage = '/assets/images/newBanner/cy15.webp';
-const Cybermanifacter1 = '/assets/images/cyber_manifacter-(1).webp';
-const CyberSecurity = '/assets/images/cyber-security.webp';
-const Cyber_finace = '/assets/images/cyber_finace.webp';
-const Cyber_helth = '/assets/images/cyber_helth.webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const BannerImage = getAssetPath('assets/images/newBanner/cy15.webp');
+const Cybermanifacter1 = getAssetPath('assets/images/cyber_manifacter-(1).webp');
+const CyberSecurity = getAssetPath('assets/images/cyber-security.webp');
+const Cyber_finace = getAssetPath('assets/images/cyber_finace.webp');
+const Cyber_helth = getAssetPath('assets/images/cyber_helth.webp');
 
 const CyberAdvisory = () => {
   return (

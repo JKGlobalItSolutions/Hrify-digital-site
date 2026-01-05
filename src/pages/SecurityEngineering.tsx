@@ -1,5 +1,7 @@
 import React from 'react';
-const BannerImage = '/assets/images/newBanner/cy10.webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const BannerImage = getAssetPath('assets/images/newBanner/cy10.webp');
 
 const SecurityEngineering = () => {
   return (

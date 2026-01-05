@@ -1,5 +1,7 @@
 import React from 'react';
-const ComputerVisionImg = '/assets/images/Banner/newbanimg/computervision.webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const ComputerVisionImg = getAssetPath('assets/images/Banner/newbanimg/computervision.webp');
 
 const ComputerVision = () => {
   return (

@@ -1,21 +1,23 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-const NetworkImage = '/assets/images/NetworkSecurity.png';
-const NetworkImage2 = '/assets/images/network-image-2.webp';
-const NetworkLogo1 = '/assets/images/network-logo-1.webp';
-const NetworkLogo2 = '/assets/images/network-logo-2.webp';
-const NetworkLogo3 = '/assets/images/network-logo-3.webp';
-const NetworkLogo4 = '/assets/images/network-logo-4.webp';
-const NetworkLogo5 = '/assets/images/network-logo-5.webp';
-const NetworkLogo6 = '/assets/images/network-logo-6.webp';
-const SysLog1 = '/assets/images/sys-log-1.webp';
-const SysLogo2 = '/assets/images/sys-logo-2.webp';
-const SysLogo3 = '/assets/images/sys-logo-3.webp';
-const SysLogo4 = '/assets/images/sys-logo-4.webp';
-const SysLogo5 = '/assets/images/sys-logo-5.webp';
-const SysLogo6 = '/assets/images/sys-logo-6.webp';
-const SysLogo7 = '/assets/images/sys-logo-7.webp';
-const Rectangle27 = '/assets/images/Rectangle-27.webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const NetworkImage = getAssetPath('assets/images/NetworkSecurity.png');
+const NetworkImage2 = getAssetPath('assets/images/network-image-2.webp');
+const NetworkLogo1 = getAssetPath('assets/images/network-logo-1.webp');
+const NetworkLogo2 = getAssetPath('assets/images/network-logo-2.webp');
+const NetworkLogo3 = getAssetPath('assets/images/network-logo-3.webp');
+const NetworkLogo4 = getAssetPath('assets/images/network-logo-4.webp');
+const NetworkLogo5 = getAssetPath('assets/images/network-logo-5.webp');
+const NetworkLogo6 = getAssetPath('assets/images/network-logo-6.webp');
+const SysLog1 = getAssetPath('assets/images/sys-log-1.webp');
+const SysLogo2 = getAssetPath('assets/images/sys-logo-2.webp');
+const SysLogo3 = getAssetPath('assets/images/sys-logo-3.webp');
+const SysLogo4 = getAssetPath('assets/images/sys-logo-4.webp');
+const SysLogo5 = getAssetPath('assets/images/sys-logo-5.webp');
+const SysLogo6 = getAssetPath('assets/images/sys-logo-6.webp');
+const SysLogo7 = getAssetPath('assets/images/sys-logo-7.webp');
+const Rectangle27 = getAssetPath('assets/images/Rectangle-27.webp');
 
 const NetworkSecurity = () => {
   return (

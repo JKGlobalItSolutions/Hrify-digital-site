@@ -1,5 +1,7 @@
 import React from 'react';
-const HeroIndepcertbodiesRemovebgPreview1 = '/assets/images/Banner/newbanimg/hero-indepcertbodies-removebg-preview-1.webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const HeroIndepcertbodiesRemovebgPreview1 = getAssetPath('assets/images/Banner/newbanimg/hero-indepcertbodies-removebg-preview-1.webp');
 
 const IndependentCertification = () => {
   return (

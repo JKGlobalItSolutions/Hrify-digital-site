@@ -1,6 +1,8 @@
 import React from 'react';
-const BannerImage = '/assets/images/newBanner/bl8.webp';
-const Nft = '/assets/images/Banner/newbanimg/nft.webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const BannerImage = getAssetPath('assets/images/newBanner/bl8.webp');
+const Nft = getAssetPath('assets/images/Banner/newbanimg/nft.webp');
 
 const NFT = () => {
   return (

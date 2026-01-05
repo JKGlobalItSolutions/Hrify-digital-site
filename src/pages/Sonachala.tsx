@@ -1,12 +1,14 @@
 import React from 'react';
+import { getAssetPath } from '../utils/assetPath';
 import './Sonachala.css'; // Assuming we might need CSS
-const Logo = '/assets/images/sonachala/logo.webp';
-const Revenue = '/assets/images/sonachala/revenune.webp';
-const Engine = '/assets/images/sonachala/Engine.webp';
-const Tech = '/assets/images/sonachala/tech.webp';
-const Travel = '/assets/images/sonachala/traval.webp';
-const Facility = '/assets/images/sonachala/Facility.webp';
-const Ota = '/assets/images/sonachala/ota.webp';
+
+const Logo = getAssetPath('assets/images/sonachala/logo.webp');
+const Revenue = getAssetPath('assets/images/sonachala/revenune.webp');
+const Engine = getAssetPath('assets/images/sonachala/Engine.webp');
+const Tech = getAssetPath('assets/images/sonachala/tech.webp');
+const Travel = getAssetPath('assets/images/sonachala/traval.webp');
+const Facility = getAssetPath('assets/images/sonachala/Facility.webp');
+const Ota = getAssetPath('assets/images/sonachala/ota.webp');
 
 const Sonachala = () => {
   return (

@@ -1,6 +1,8 @@
 import React from 'react';
-const BannerImage = '/assets/images/newBanner/enterprise.webp';
-const EnterpriseImg = '/assets/images/Banner/newbanimg/enterprise.webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const BannerImage = getAssetPath('assets/images/newBanner/enterprise.webp');
+const EnterpriseImg = getAssetPath('assets/images/Banner/newbanimg/enterprise.webp');
 
 
 const Enterprise = () => {
@@ -386,4 +388,3 @@ const Enterprise = () => {
 };
 
 export default Enterprise;
-

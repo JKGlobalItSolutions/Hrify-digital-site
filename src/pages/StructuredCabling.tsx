@@ -1,20 +1,22 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-const Rectangle27 = '/assets/images/Rectangle-27.webp';
-const StrucuturedCablingBanner = '/assets/images/StructuredCabling.png';
-const StrucutredImage2 = '/assets/images/strucutred-image-2.webp';
-const BringLogo1 = '/assets/images/bring-logo-1.webp';
-const BringLogo2 = '/assets/images/bring-logo-2.webp';
-const BringLogo3 = '/assets/images/bring-logo-3.webp';
-const BringLogo4 = '/assets/images/bring-logo-4.webp';
-const BringLogo5 = '/assets/images/bring-logo-5.webp';
-const SysLog1 = '/assets/images/sys-log-1.webp';
-const SysLogo2 = '/assets/images/sys-logo-2.webp';
-const SysLogo3 = '/assets/images/sys-logo-3.webp';
-const SysLogo4 = '/assets/images/sys-logo-4.webp';
-const SysLogo5 = '/assets/images/sys-logo-5.webp';
-const SysLogo6 = '/assets/images/sys-logo-6.webp';
-const SysLogo7 = '/assets/images/sys-logo-7.webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const Rectangle27 = getAssetPath('assets/images/Rectangle-27.webp');
+const StrucuturedCablingBanner = getAssetPath('assets/images/StructuredCabling.png');
+const StrucutredImage2 = getAssetPath('assets/images/strucutred-image-2.webp');
+const BringLogo1 = getAssetPath('assets/images/bring-logo-1.webp');
+const BringLogo2 = getAssetPath('assets/images/bring-logo-2.webp');
+const BringLogo3 = getAssetPath('assets/images/bring-logo-3.webp');
+const BringLogo4 = getAssetPath('assets/images/bring-logo-4.webp');
+const BringLogo5 = getAssetPath('assets/images/bring-logo-5.webp');
+const SysLog1 = getAssetPath('assets/images/sys-log-1.webp');
+const SysLogo2 = getAssetPath('assets/images/sys-logo-2.webp');
+const SysLogo3 = getAssetPath('assets/images/sys-logo-3.webp');
+const SysLogo4 = getAssetPath('assets/images/sys-logo-4.webp');
+const SysLogo5 = getAssetPath('assets/images/sys-logo-5.webp');
+const SysLogo6 = getAssetPath('assets/images/sys-logo-6.webp');
+const SysLogo7 = getAssetPath('assets/images/sys-logo-7.webp');
 
 const StructuredCabling = () => {
   return (

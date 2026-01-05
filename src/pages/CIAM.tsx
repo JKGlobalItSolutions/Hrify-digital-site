@@ -1,8 +1,9 @@
 import React from 'react';
+import { getAssetPath } from '../utils/assetPath';
 import './CIAM.css';
-const BannerImage = '/assets/images/newBanner/cy9.webp';
-const Rectangle27 = '/assets/images/Rectangle-27.webp';
-const Ciam = '/assets/images/about-image.webp';
+const BannerImage = getAssetPath('assets/images/newBanner/cy9.webp');
+const Rectangle27 = getAssetPath('assets/images/Rectangle-27.webp');
+const Ciam = getAssetPath('assets/images/about-image.webp');
 
 
 const CIAM = () => {

@@ -1,7 +1,9 @@
 import React from 'react';
-const BannerImage = '/assets/images/newBanner/data.an.webp';
-const InternetOfThingsImg = '/assets/images/Banner/newbanimg/Internet-of-Things.webp';
-const Iot = '/assets/images/erp/iot.webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const BannerImage = getAssetPath('assets/images/newBanner/data.an.webp');
+const InternetOfThingsImg = getAssetPath('assets/images/Banner/newbanimg/Internet-of-Things.webp');
+const Iot = getAssetPath('assets/images/erp/iot.webp');
 
 const InternetOfThings = () => {
   return (

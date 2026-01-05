@@ -1,5 +1,7 @@
 import React from 'react';
-const BannerImage = '/assets/images/newBanner/bl7.webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const BannerImage = getAssetPath('assets/images/newBanner/bl7.webp');
 
 const DistributedTrust = () => {
   return (

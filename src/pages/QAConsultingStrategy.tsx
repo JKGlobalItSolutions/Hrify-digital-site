@@ -1,5 +1,8 @@
 import React from 'react';
-const QaCon = '/assets/images/Banner/newbanimg/qa_con.webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const QaCon = getAssetPath('assets/images/Banner/newbanimg/qa_con.webp');
+const QaBanner = getAssetPath('assets/images/newBanner/Qua.Eng (2).webp');
 
 const QAConsultingStrategy = () => {
   return (
@@ -8,7 +11,7 @@ const QAConsultingStrategy = () => {
       <div className="slider">
         <div className="slides">
           <div className="slide">
-            <img src="/assets/images/newBanner/Qua.Eng (2).webp" alt="QA Consulting Strategy Banner" />
+            <img src={QaBanner} alt="QA Consulting Strategy Banner" />
           </div>
         </div>
       </div>
@@ -288,4 +291,3 @@ const QAConsultingStrategy = () => {
 };
 
 export default QAConsultingStrategy;
-

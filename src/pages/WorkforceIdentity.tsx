@@ -1,6 +1,8 @@
 import React from 'react';
-const BannerImage = '/assets/images/newBanner/cy16.webp';
-const Rectangle27 = '/assets/images/Rectangle-27.webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const BannerImage = getAssetPath('assets/images/newBanner/cy16.webp');
+const Rectangle27 = getAssetPath('assets/images/Rectangle-27.webp');
 
 const WorkforceIdentity = () => {
   return (

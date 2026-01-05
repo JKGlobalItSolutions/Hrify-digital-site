@@ -1,6 +1,7 @@
 import React from 'react';
+import { getAssetPath } from '../utils/assetPath';
 
-const BannerImage = '/assets/images/newBanner/data.an5.webp';
+const BannerImage = getAssetPath('assets/images/newBanner/data.an5.webp');
 
 const Analytics = () => {
   return (

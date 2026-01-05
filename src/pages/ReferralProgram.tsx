@@ -1,5 +1,7 @@
 import React from 'react';
-const Refferlbanner = '/assets/images/ReferralProgram.png';
+import { getAssetPath } from '../utils/assetPath';
+
+const Refferlbanner = getAssetPath('assets/images/ReferralProgram.png');
 
 const ReferralProgram = () => {
   return (

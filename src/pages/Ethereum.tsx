@@ -1,5 +1,7 @@
 import React from 'react';
-const BannerImage = '/assets/images/newBanner/bl10.webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const BannerImage = getAssetPath('assets/images/newBanner/bl10.webp');
 
 const Ethereum = () => {
   return (
@@ -298,4 +300,3 @@ const Ethereum = () => {
 };
 
 export default Ethereum;
-

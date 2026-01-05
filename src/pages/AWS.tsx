@@ -1,6 +1,8 @@
 import React from 'react';
-const Cloudnativebanner = '/assets/images/cloud-native-banner.webp';
-const AwsImage1 = '/assets/images/aws-image-1.webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const Cloudnativebanner = getAssetPath('assets/images/cloud-native-banner.webp');
+const AwsImage1 = getAssetPath('assets/images/aws-image-1.webp');
 
 
 

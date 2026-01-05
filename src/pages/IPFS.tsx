@@ -1,6 +1,8 @@
 import React from 'react';
-const BannerImage = '/assets/images/newBanner/bl9.webp';
-const Ipfs = '/assets/images/Banner/newbanimg/ipfs.webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const BannerImage = getAssetPath('assets/images/newBanner/bl9.webp');
+const Ipfs = getAssetPath('assets/images/Banner/newbanimg/ipfs.webp');
 
 const IPFS = () => {
   return (

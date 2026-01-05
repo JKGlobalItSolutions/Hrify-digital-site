@@ -1,6 +1,8 @@
 import React from 'react';
-const BannerImage = '/assets/images/newBanner/ma_ser4.webp';
-const Endusercom = '/assets/images/Banner/newbanimg/endusercom.webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const BannerImage = getAssetPath('assets/images/newBanner/ma_ser4.webp');
+const Endusercom = getAssetPath('assets/images/Banner/newbanimg/endusercom.webp');
 
 const HelpDesk = () => {
   return (

@@ -1,15 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-const Rectangle27 = '/assets/images/Rectangle-27.webp';
-const SystemImage = '/assets/images/SystemIntegrationMaintenance.png';
-const InternImage2 = '/assets/images/intern-image-2.webp';
-const SysLog1 = '/assets/images/sys-log-1.webp';
-const SysLogo2 = '/assets/images/sys-logo-2.webp';
-const SysLogo3 = '/assets/images/sys-logo-3.webp';
-const SysLogo4 = '/assets/images/sys-logo-4.webp';
-const SysLogo5 = '/assets/images/sys-logo-5.webp';
-const SysLogo6 = '/assets/images/sys-logo-6.webp';
-const SysLogo7 = '/assets/images/sys-logo-7.webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const Rectangle27 = getAssetPath('assets/images/Rectangle-27.webp');
+const SystemImage = getAssetPath('assets/images/SystemIntegrationMaintenance.png');
+const InternImage2 = getAssetPath('assets/images/intern-image-2.webp');
+const SysLog1 = getAssetPath('assets/images/sys-log-1.webp');
+const SysLogo2 = getAssetPath('assets/images/sys-logo-2.webp');
+const SysLogo3 = getAssetPath('assets/images/sys-logo-3.webp');
+const SysLogo4 = getAssetPath('assets/images/sys-logo-4.webp');
+const SysLogo5 = getAssetPath('assets/images/sys-logo-5.webp');
+const SysLogo6 = getAssetPath('assets/images/sys-logo-6.webp');
+const SysLogo7 = getAssetPath('assets/images/sys-logo-7.webp');
 
 const SystemIntegrationMaintenance = () => {
   return (

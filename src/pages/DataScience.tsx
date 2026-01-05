@@ -1,6 +1,8 @@
 import React from 'react';
-const BannerImage = '/assets/images/newBanner/data.an4.webp';
-const DataScienceImg = '/assets/images/Banner/newbanimg/datascience.webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const BannerImage = getAssetPath('assets/images/newBanner/data.an4.webp');
+const DataScienceImg = getAssetPath('assets/images/Banner/newbanimg/datascience.webp');
 
 const DataScience = () => {
   return (

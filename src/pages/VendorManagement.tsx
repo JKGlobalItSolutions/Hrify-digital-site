@@ -1,5 +1,7 @@
 import React from 'react';
-const VendorManagementImg = '/assets/images/newBanner/enterprise.webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const VendorManagementImg = getAssetPath('assets/images/newBanner/enterprise.webp');
 
 const VendorManagement = () => {
   return (

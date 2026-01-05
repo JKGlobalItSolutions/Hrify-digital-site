@@ -1,6 +1,8 @@
 import React from 'react';
-const BannerImage = '/assets/images/newBanner/cy12.webp';
-const ZeroTrust1 = '/assets/images/Banner/newbanimg/zero-trust-1.webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const BannerImage = getAssetPath('assets/images/newBanner/cy12.webp');
+const ZeroTrust1 = getAssetPath('assets/images/Banner/newbanimg/zero-trust-1.webp');
 
 const ZeroTrustArchitecture = () => {
   return (
