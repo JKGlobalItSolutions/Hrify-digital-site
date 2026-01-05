@@ -9,43 +9,109 @@ const HrifyLogo = getAssetPath('assets/images/Hrify-dark-bg.webp');
 const menuData = {
   services: [
     {
-      category: 'Web Development',
+      category: 'Design & Development',
       items: [
-        { to: '/businessweb', label: 'Business Web Design' },
-        { to: '/resweb', label: 'Responsive Web Design' },
-        { to: '/cmsweb', label: 'CMS Web Design' },
-        { to: '/webapp', label: 'Web Applications' },
-        { to: '/ecommerceweb', label: 'E-Commerce Solutions' },
+        { label: 'Web Design', subItems: [
+          { to: '/businessweb', label: 'Business Web Design' },
+          { to: '/resweb', label: 'Responsive Web Design' },
+          { to: '/cmsweb', label: 'CMS Web Design' },
+        ]},
+        { to: '/webmaintenance', label: 'Web Maintenance' },
+        { label: 'Web Application', subItems: [
+          { to: '/customweb', label: 'Custom Web Applications' },
+          { to: '/ecommerceweb', label: 'E-Commerce Web Solutions' },
+          { to: '/matrimonyweb', label: 'Matrimony Web Solutions' },
+        ]},
+        { to: '/mobileapp', label: 'Mobile Application' },
       ],
     },
     {
-      category: 'Digital Solutions',
+      category: 'Business Solutions',
       items: [
-        { to: '/mobileapp', label: 'Mobile Applications' },
-        { to: '/awsimpl', label: 'AWS Services' },
-        { to: '/digitalmarketing', label: 'Digital Marketing' },
-        { to: '/designbranding', label: 'Design & Branding' },
-        { to: '/marketting', label: 'Marketing Support' },
+        { to: '/domains', label: 'Domains, Hosting and Cloud Solutions' },
+        { to: '/personalemail', label: 'Personal and Enterprise Email Solutions' },
+        { to: '/googlework', label: 'Google Work Partner' },
+        { to: '/emailcampaign', label: 'Email Campaign Management Solutions' },
+        { to: '/awsimpl', label: 'AWS Services Implementations' },
+        { to: '/designbranding', label: 'Design and Branding Solutions' },
+        { to: '/digitalmarketing', label: 'Digital Marketing & Social Media Solutions' },
+        { to: '/marketting', label: 'Marketing Support Services' },
+        { to: '/webaudit', label: 'Website Auditing Consulting Services' },
       ],
     },
     {
-      category: 'Security & IT',
+      category: 'Networking Solutions',
       items: [
-        { to: '/cybersecurity', label: 'Cybersecurity' },
+        { to: '/systemintegration', label: 'System Integration & Maintenance' },
+        { to: '/infrastructure', label: 'Infrastructure Management' },
+        { to: '/serverstorage', label: 'Server & Storage' },
         { to: '/networksecurity', label: 'Network Security' },
-        { to: '/cloudnative', label: 'Cloud Solutions' },
-        { to: '/infrastructure', label: 'Infrastructure' },
-        { to: '/enterprise', label: 'Enterprise Solutions' },
+        { to: '/structuredcabling', label: 'Structured Cabling' },
+        { to: '/cloudnative', label: 'Cloud Native Solutions' },
+        { to: '/workplace', label: 'Workplace Surveillance' },
+      ],
+    },
+    {
+      category: 'Cybersecurity',
+      items: [
+        { to: '/ciam', label: 'CIAM' },
+        { to: '/workforceidentity', label: 'Workforce Identity' },
+        { to: '/securityengineering', label: 'Security Engineering' },
+        { to: '/zerotrustarchitecture', label: 'Zero Trust Architecture' },
+        { to: '/governanceriskmanagementcompliance', label: 'Governance Risk Management & Compliance' },
+        { to: '/cyberdefenseinvestigation', label: 'Cyber Defense & Investigation' },
+        { to: '/cyberadvisory', label: 'Cyber Advisory' },
+        { to: '/cyberresilience', label: 'Cyber Resilience' },
+      ],
+    },
+    {
+      category: 'Blockchain',
+      items: [
+        { to: '/distributedtrust', label: 'Distributed Trust' },
+        { to: '/ethereum', label: 'Ethereum' },
+        { to: '/hyperledger', label: 'Hyperledger' },
+        { to: '/dapps', label: 'dApps' },
+        { to: '/nft', label: 'NFT' },
+        { to: '/ipfs', label: 'IPFS' },
+      ],
+    },
+    {
+      category: 'Enterprise',
+      items: [
+        { to: '/enterprise', label: 'Enterprise' },
+      ],
+    },
+    {
+      category: 'Managed Services',
+      items: [
+        { to: '/securitymanagement', label: 'Security Management' },
+        { to: '/sitereliability', label: 'Site Reliability' },
+        { to: '/monitoringmaintenance', label: 'Monitoring & Maintenance' },
+        { to: '/helpdesk', label: 'Help Desk / End User Compute' },
+        { to: '/vendormanagement', label: 'Vendor Management' },
       ],
     },
     {
       category: 'AI & ML',
       items: [
+        { to: '/internetofthings', label: 'internet of things(iot)' },
+        { to: '/ai_nlp', label: 'Ai & Nlp' },
+        { to: '/computervision', label: 'computer vision' },
+        { to: '/ml_mlops', label: 'ML,ML Ops' },
         { to: '/datascience', label: 'Data Science' },
         { to: '/analytics', label: 'Analytics' },
-        { to: '/ai_nlp', label: 'AI & NLP' },
-        { to: '/ml_mlops', label: 'ML & MLOps' },
-        { to: '/bigdata_datalake', label: 'Big Data' },
+        { to: '/reports', label: 'Reports' },
+        { to: '/bigdata_datalake', label: 'Big Data ,Data Lake' },
+        { to: '/datafabric', label: 'Data Fabric' },
+      ],
+    },
+    {
+      category: 'Quality Engineering',
+      items: [
+        { to: '/qa_consulting_strategy', label: 'QA Consulting & Strategy' },
+        { to: '/agile_testing', label: 'Agile Testing' },
+        { to: '/independent_certification', label: 'Independent Certification' },
+        { to: '/managed_testing_services', label: 'Managed Testing Services' },
       ],
     },
   ],
@@ -64,6 +130,7 @@ const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [expandedMobileItems, setExpandedMobileItems] = useState<string[]>([]);
   const [expandedMobileCategories, setExpandedMobileCategories] = useState<string[]>([]);
+  const [expandedMobileSubCategories, setExpandedMobileSubCategories] = useState<string[]>([]);
   const location = useLocation();
 
   useEffect(() => {
@@ -87,12 +154,14 @@ const Header = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
     setExpandedMobileItems([]);
     setExpandedMobileCategories([]);
+    setExpandedMobileSubCategories([]);
   };
 
   const closeMobileMenu = () => {
     setIsMobileMenuOpen(false);
     setExpandedMobileItems([]);
     setExpandedMobileCategories([]);
+    setExpandedMobileSubCategories([]);
   };
 
   const toggleMobileDropdown = (item: keyof typeof menuData) => {
@@ -104,6 +173,12 @@ const Header = () => {
   const toggleMobileCategory = (category: string) => {
     setExpandedMobileCategories(prev =>
       prev.includes(category) ? prev.filter(c => c !== category) : [...prev, category]
+    );
+  };
+
+  const toggleMobileSubCategory = (subCategory: string) => {
+    setExpandedMobileSubCategories(prev =>
+      prev.includes(subCategory) ? prev.filter(c => c !== subCategory) : [...prev, subCategory]
     );
   };
 
@@ -301,40 +376,69 @@ const Header = () => {
           <ul className="mobile-nav">
             <li><Link className={isActive('/')} to="/" onClick={closeMobileMenu}>Home</Link></li>
             <li><Link className={isActive('/about')} to="/about" onClick={closeMobileMenu}>About</Link></li>
-            <li className="nav-item dropdown">
-              <a 
-                className="nav-link dropdown-toggle" 
-                href="#" 
-                role="button" 
-                data-bs-toggle="dropdown" 
-                aria-expanded="false"
+            <li className={`mobile-dropdown ${expandedMobileItems.includes('services') ? 'active' : ''}`}>
+              <button
+                className="mobile-toggle"
+                onClick={() => toggleMobileDropdown('services')}
+                onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') toggleMobileDropdown('services'); }}
+                role="button"
+                tabIndex={0}
+                aria-expanded={expandedMobileItems.includes('services')}
+                aria-controls="services-submenu"
               >
                 Services
-              </a>
-              <div className="dropdown-menu mega-menu">  {/* Replaces services-dropdown + all dropdown-submenu */}
-                <div className="container">
-                  <div className="row g-4">
-                    {menuData.services.map((group, idx) => (
-                      <div key={idx} className="col-lg-3 col-md-6">
-                        <h6 className="dropdown-header">{group.category}</h6>
-                        <ul className="list-unstyled">
-                          {group.items.map((item) => (
-                            <li key={item.to}>
-                              <Link 
-                                className={`dropdown-item ${isActive(item.to)}`} 
-                                to={item.to} 
-                                onClick={closeMobileMenu}
-                              >
-                                {item.label}
-                              </Link>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </div>
+              </button>
+              <ul className="mobile-submenu" id="services-submenu">
+                {menuData.services.map((group, idx) => (
+                  <li key={idx} className={`mobile-category ${expandedMobileCategories.includes(group.category) ? 'active' : ''}`}>
+                    <button
+                      className="mobile-category-toggle"
+                      onClick={() => toggleMobileCategory(group.category)}
+                      onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') toggleMobileCategory(group.category); }}
+                      role="button"
+                      tabIndex={0}
+                      aria-expanded={expandedMobileCategories.includes(group.category)}
+                      aria-controls={`category-${idx}-submenu`}
+                    >
+                      {group.category}
+                    </button>
+                    <ul className="mobile-sub-submenu" id={`category-${idx}-submenu`}>
+                      {group.items.map((item, itemIdx) => (
+                        'to' in item ? (
+                          <li key={item.to}>
+                            <Link className={isActive(item.to)} to={item.to} onClick={closeMobileMenu}>
+                              {item.label}
+                            </Link>
+                          </li>
+                        ) : (
+                          <li key={itemIdx} className={`mobile-sub-category ${expandedMobileSubCategories.includes(item.label) ? 'active' : ''}`}>
+                            <button
+                              className="mobile-sub-category-toggle"
+                              onClick={() => toggleMobileSubCategory(item.label)}
+                              onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') toggleMobileSubCategory(item.label); }}
+                              role="button"
+                              tabIndex={0}
+                              aria-expanded={expandedMobileSubCategories.includes(item.label)}
+                              aria-controls={`sub-category-${idx}-${itemIdx}-submenu`}
+                            >
+                              {item.label}
+                            </button>
+                            <ul className="mobile-sub-sub-submenu" id={`sub-category-${idx}-${itemIdx}-submenu`}>
+                              {item.subItems.map((subItem) => (
+                                <li key={subItem.to}>
+                                  <Link className={isActive(subItem.to)} to={subItem.to} onClick={closeMobileMenu}>
+                                    {subItem.label}
+                                  </Link>
+                                </li>
+                              ))}
+                            </ul>
+                          </li>
+                        )
+                      ))}
+                    </ul>
+                  </li>
+                ))}
+              </ul>
             </li>
             <li className={`mobile-dropdown ${expandedMobileItems.includes('products') ? 'active' : ''}`}>
               <button

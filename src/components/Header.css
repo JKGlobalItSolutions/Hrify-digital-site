@@ -317,11 +317,11 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6); /* Slightly darker overlay for opulence */
   z-index: 1040;
   opacity: 0;
   visibility: hidden;
-  transition: all 0.3s ease;
+  transition: all 0.4s ease; /* Smoother transition */
 }
 
 .mobile-menu-overlay.active {
@@ -333,14 +333,15 @@
   position: absolute;
   top: 0;
   right: 0;
-  width: 300px;
-  max-width: 80vw;
+  width: 320px; /* Slightly wider for luxury feel */
+  max-width: 85vw;
   height: 100vh;
-  background: #fff;
+  background: linear-gradient(145deg, #ffffff, #f8f9fa); /* Subtle gradient for opulence */
   transform: translateX(100%);
-  transition: transform 0.3s ease;
-  padding: 20px;
+  transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94); /* Ease-in-out for smooth slide */
+  padding: 30px 20px; /* Increased padding */
   overflow-y: auto;
+  box-shadow: -10px 0 30px rgba(0, 0, 0, 0.15); /* Deeper shadow for depth */
 }
 
 .mobile-menu-overlay.active .mobile-menu {
@@ -349,79 +350,238 @@
 
 .close-btn {
   position: absolute;
-  top: 15px;
-  right: 15px;
+  top: 20px;
+  right: 20px;
   background: none;
   border: none;
-  font-size: 30px;
+  font-size: 32px;
   color: #333;
   cursor: pointer;
   z-index: 1041;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.close-btn:hover {
+  color: #1B8DBB;
+  transform: rotate(90deg); /* Subtle animation */
 }
 
 .mobile-nav {
   list-style: none;
-  padding: 60px 0 0;
+  padding: 70px 0 0; /* Adjusted for better spacing */
   margin: 0;
 }
 
 .mobile-nav li {
-  margin-bottom: 20px;
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05); /* Lighter border for elegance */
+  padding: 12px 0; /* More padding */
 }
 
 .mobile-nav a {
   color: #333;
   text-decoration: none;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600; /* Bolder for professionalism */
   display: block;
-  padding: 10px 0;
+  padding: 12px 20px; /* Better padding */
   transition: all 0.3s ease;
+  border-radius: 8px; /* Rounded corners */
 }
 
 .mobile-nav a:hover {
   color: #1B8DBB;
-  transform: translateX(10px);
+  background: rgba(27, 141, 187, 0.05);
+  transform: translateX(8px); /* Slightly more shift */
 }
 
 .mobile-nav a.active {
   color: #1B8DBB;
-  font-weight: 600;
+  font-weight: 700;
+  background: rgba(27, 141, 187, 0.1);
 }
 
-.mobile-dropdown span {
+.mobile-dropdown button.mobile-toggle {
   color: #333;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
   cursor: pointer;
   display: block;
-  padding: 10px 0;
-  position: relative;
+  padding: 12px 20px;
+  text-align: left; /* Left align for professionalism */
+  background: none;
+  border: none;
+  width: 100%;
+  transition: all 0.3s ease;
+  border-radius: 8px;
 }
 
-.mobile-dropdown span::after {
-  content: '+';
-  position: absolute;
-  right: 0;
-  font-size: 20px;
-  transition: transform 0.3s ease;
+.mobile-dropdown button.mobile-toggle::after {
+  content: ' ▾'; /* More elegant down arrow */
+  float: right;
+  color: rgba(0, 0, 0, 0.6);
+  transition: all 0.3s ease;
 }
 
-.mobile-dropdown.active span::after {
-  transform: rotate(45deg);
+.mobile-dropdown.active button.mobile-toggle::after {
+  content: ' ▴'; /* Up arrow */
+  transform: rotate(180deg);
+}
+
+.mobile-dropdown.active button.mobile-toggle {
+  color: #1B8DBB;
+  background: rgba(27, 141, 187, 0.05);
 }
 
 .mobile-submenu {
   list-style: none;
-  padding: 10px 0 0 20px;
+  padding: 10px 0 0 15px; /* Indented for hierarchy */
   margin: 0;
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.3s ease;
+  transition: max-height 0.4s ease, padding 0.3s ease;
+}
+
+.mobile-submenu a {
+  text-align: left; /* Left align */
 }
 
 .mobile-dropdown.active .mobile-submenu {
-  max-height: 500px;
+  max-height: 800px; /* Increased for more content */
+  padding: 10px 0;
+}
+
+.mobile-category {
+  margin-bottom: 10px;
+}
+
+.mobile-category-toggle {
+  color: #444; /* Slightly darker */
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  display: block;
+  padding: 10px 15px;
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: left;
+  transition: all 0.3s ease;
+  border-radius: 6px;
+}
+
+.mobile-category-toggle::after {
+  content: ' ▾';
+  float: right;
+  color: rgba(0, 0, 0, 0.6);
+  transition: all 0.3s ease;
+}
+
+.mobile-category.active .mobile-category-toggle::after {
+  content: ' ▴';
+  transform: rotate(180deg);
+}
+
+.mobile-category.active .mobile-category-toggle {
+  color: #1B8DBB;
+  background: rgba(27, 141, 187, 0.03);
+}
+
+.mobile-sub-submenu {
+  list-style: none;
+  padding: 8px 0 0 20px;
+  margin: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+
+.mobile-category.active .mobile-sub-submenu {
+  max-height: 600px;
+}
+
+.mobile-sub-submenu a {
+  color: #555;
+  font-size: 15px;
+  font-weight: 500;
+  display: block;
+  padding: 8px 10px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border-radius: 4px;
+}
+
+.mobile-sub-submenu a:hover,
+.mobile-sub-submenu a.active {
+  color: #1B8DBB;
+  background: rgba(27, 141, 187, 0.05);
+  transform: translateX(5px);
+}
+
+.mobile-sub-category {
+  margin-bottom: 8px;
+}
+
+.mobile-sub-category-toggle {
+  color: #555;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  display: block;
+  padding: 8px 10px;
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: left;
+  transition: all 0.3s ease;
+  border-radius: 4px;
+}
+
+.mobile-sub-category-toggle::after {
+  content: ' ▾';
+  float: right;
+  color: rgba(0, 0, 0, 0.6);
+  transition: all 0.3s ease;
+}
+
+.mobile-sub-category.active .mobile-sub-category-toggle::after {
+  content: ' ▴';
+  transform: rotate(180deg);
+}
+
+.mobile-sub-category.active .mobile-sub-category-toggle {
+  color: #1B8DBB;
+}
+
+.mobile-sub-sub-submenu {
+  list-style: none;
+  padding: 6px 0 0 15px;
+  margin: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+
+.mobile-sub-category.active .mobile-sub-sub-submenu {
+  max-height: 400px;
+}
+
+.mobile-sub-sub-submenu a {
+  color: #666;
+  font-size: 13px;
+  font-weight: 500;
+  display: block;
+  padding: 6px 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border-radius: 4px;
+}
+
+.mobile-sub-sub-submenu a:hover,
+.mobile-sub-sub-submenu a.active {
+  color: #1B8DBB;
+  background: rgba(27, 141, 187, 0.05);
+  transform: translateX(3px);
 }
 
 /* Navbar Toggler Animation */
