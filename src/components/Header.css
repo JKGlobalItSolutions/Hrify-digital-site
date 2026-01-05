@@ -449,6 +449,7 @@
 .mobile-dropdown.active .mobile-submenu {
   max-height: 800px; /* Increased for more content */
   padding: 10px 0;
+  overflow-y: auto;
 }
 
 .mobile-category {
@@ -498,6 +499,7 @@
 
 .mobile-category.active .mobile-sub-submenu {
   max-height: 600px;
+  overflow-y: auto;
 }
 
 .mobile-sub-submenu a {
@@ -564,6 +566,7 @@
 
 .mobile-sub-category.active .mobile-sub-sub-submenu {
   max-height: 400px;
+  overflow-y: auto;
 }
 
 .mobile-sub-sub-submenu a {
