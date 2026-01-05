@@ -73,9 +73,20 @@ const Contact = () => {
                 Registered Office:
               </h3>
               <h6 style={{ color: '#686D76' }}>
-                <i className="fa fa-map-marker" style={{ fontSize: '30px', background: 'linear-gradient(135deg, #1B8DBB 0%, #1B8DBB 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }} aria-hidden="true"></i>{' '}
-               Annai Parvathi Nagar, Opp. collectorate Office, Vengikkal, Tiruvannamalai - 606 604.
+                <i
+                  className="fa fa-map-marker"
+                  style={{
+                    fontSize: '30px',
+                    // background: 'linear-gradient(135deg, #1B8DBB 0%, #00C6FF 100%)',
+                    WebkitBackgroundClip: 'border-box',
+                    WebkitTextFillColor: 'initial',
+                    color: '#1B8DBB'
+                  }}
+                  aria-hidden="true"
+                ></i>{' '}
+                Annai Parvathi Nagar, Opp. collectorate Office, Vengikkal, Tiruvannamalai - 606 604.
               </h6>
+
             </div>
           </div>
         </div>
