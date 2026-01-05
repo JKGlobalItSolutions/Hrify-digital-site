@@ -115,7 +115,7 @@ const Contact = () => {
             </div>
             <div className="col-lg-5 col-12">
               <h3 style={{ background: 'linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>Email</h3>
-              <h6>jkglobalitsolution@gmail.com</h6>
+              <h6>hrifydigital@gmail.com</h6>
             </div>
           </div>
         </div>

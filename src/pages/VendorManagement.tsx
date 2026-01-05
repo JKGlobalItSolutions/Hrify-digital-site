@@ -172,7 +172,7 @@ const VendorManagement = () => {
           </p>
 
           <p className="main-subtitle">
-            At JK Global IT Solutions, we ensure effective vendor selection and contract management, reducing operational risks and maximizing business efficiency. Our team fosters strong vendor relationships by maintaining transparency and adhering to industry best practices. By leveraging innovative vendor management strategies, we help businesses gain a competitive edge and optimize resources for sustainable growth.
+            At Hrify Digital, we ensure effective vendor selection and contract management, reducing operational risks and maximizing business efficiency. Our team fosters strong vendor relationships by maintaining transparency and adhering to industry best practices. By leveraging innovative vendor management strategies, we help businesses gain a competitive edge and optimize resources for sustainable growth.
           </p>
 
           <p className="main-subtitle">

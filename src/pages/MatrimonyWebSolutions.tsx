@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-const MatrimonyImage1 = '/assets/images/Matrimony-Web-Solutions.png';
-const MatrimonyImage2 = '/assets/images/matrimony-image-2.webp';
-const Rectangle27 = '/assets/images/Rectangle-27.webp';
-const Trip = '/assets/images/trip.webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const MatrimonyImage1 = getAssetPath('assets/images/Matrimony-Web-Solutions.png');
+const MatrimonyImage2 = getAssetPath('assets/images/matrimony-image-2.webp');
+const Rectangle27 = getAssetPath('assets/images/Rectangle-27.webp');
+const Trip = getAssetPath('assets/images/trip.webp');
 
 
 const MatrimonyWebSolutions = () => {
@@ -33,8 +35,7 @@ const MatrimonyWebSolutions = () => {
       <div className="container my-4 justify-content-center p-3" style={{textAlign:'justify'}}>
         <div className="row justify-content-center align-items-center">
           <div className="col-12 col-lg-8">
-            <p style={{color: '#686D76'}}>Marriages are formed in paradise, and marriage websites are built using the JK
-              Global IT Solutions. We are well-known for the numerous successful matrimony websites that we have supplied
+            <p style={{color: '#686D76'}}>Marriages are formed in paradise, and marriage websites are built using the Hrify Digital. We are well-known for the numerous successful matrimony websites that we have supplied
               to our clientele. We have developed successful matrimonial websites with thousands of profiles. Our
               expertise in understanding marriage requirements and user experience distinguishes us in providing
               exceptional solutions.</p>

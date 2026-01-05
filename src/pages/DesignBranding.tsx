@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-const Rectangle27 = '/assets/images/Rectangle-27.webp';
-const DesignImage1 = '/assets/images/Design-and-Branding-Solutions.png';
-const DesignImage2 = '/assets/images/design-image-2.webp';
-const Trip = '/assets/images/trip.webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const Rectangle27 = getAssetPath('assets/images/Rectangle-27.webp');
+const DesignImage1 = getAssetPath('assets/images/Design-and-Branding-Solutions.png');
+const DesignImage2 = getAssetPath('assets/images/design-image-2.webp');
+const Trip = getAssetPath('assets/images/trip.webp');
 
 const DesignBranding = () => {
   return (
@@ -32,7 +34,7 @@ const DesignBranding = () => {
       <div className="container">
         <div className="row align-items-center justify-content-center ms-lg-0">
           <div className="col-12 col-lg-8 p-4" style={{textAlign:'justify'}}>
-            <p style={{ color: '#686D76', textAlign: 'justify' }}>Whether you need a logo designed or a complete branding solution that includes design for all of your business props, JK Global IT Solution provides customized design and branding solutions for your company. To deliver the greatest results for your business design expectations, we have devoted designers that only use Photoshop and Illustrator. Please provide me with a concise explanation in the exact same terms.</p> <br/>
+            <p style={{ color: '#686D76', textAlign: 'justify' }}>Whether you need a logo designed or a complete branding solution that includes design for all of your business props, Hrify Digital provides customized design and branding solutions for your company. To deliver the greatest results for your business design expectations, we have devoted designers that only use Photoshop and Illustrator. Please provide me with a concise explanation in the exact same terms.</p> <br/>
             <h3>Services Included in Our Design Solutions:</h3> <br/>
             <ul>
               <li>

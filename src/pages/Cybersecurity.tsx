@@ -52,7 +52,7 @@ const Cybersecurity = () => {
           </p>
 
           <p className="text-dark mx-auto mb-5" style={{ maxWidth: '900px' }}>
-            At JK Global IT Solutions, we offer end-to-end cybersecurity solutions tailored to your specific needs. From threat assessment and risk management to incident response and compliance, our expert team implements robust security measures to safeguard your valuable assets.
+            At Hrify Digital, we offer end-to-end cybersecurity solutions tailored to your specific needs. From threat assessment and risk management to incident response and compliance, our expert team implements robust security measures to safeguard your valuable assets.
           </p>
 
           {/* Feature Section */}

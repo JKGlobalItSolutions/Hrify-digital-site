@@ -38,8 +38,8 @@ const WebApplication = () => {
           <div className="container my-4">
             <div className="row justify-content-center align-items-center">
               <div className="col-12 col-lg-8">
-                <p style={{color: '#686D76'}}>Customized web apps are now in high demand. Custom web apps are necessary for providing more functionality or sophistication to your team or consumers after establishing a website. JK Global IT Solutions can provide extra capabilities based on your specific requirements.</p>
-                <p style={{color: '#686D76'}}>JK Global IT Solutions has provided high-quality, cost-effective IT solutions to organizations of all sizes for over a decade. We can handle both small and large scale bespoke web applications. Our services include third-party integrations and API implementations. Our team has extensive expertise dealing with APIs such as eBay, Amazon, AWS, Facebook, MailChimp, SMS gateways, and payment gateways.</p>
+                <p style={{color: '#686D76'}}>Customized web apps are now in high demand. Custom web apps are necessary for providing more functionality or sophistication to your team or consumers after establishing a website. Hrify Digital can provide extra capabilities based on your specific requirements.</p>
+                <p style={{color: '#686D76'}}>Hrify Digital has provided high-quality, cost-effective IT solutions to organizations of all sizes for over a decade. We can handle both small and large scale bespoke web applications. Our services include third-party integrations and API implementations. Our team has extensive expertise dealing with APIs such as eBay, Amazon, AWS, Facebook, MailChimp, SMS gateways, and payment gateways.</p>
               </div>
               <div className="col-12 col-lg-4">
                 <img className="img-fluid" src={CustomWebImage2} alt="" />

@@ -171,11 +171,11 @@ const DistributedTrust = () => {
           </p>
 
           <p className="content-text">
-            <strong>JK Global IT Solutions</strong> leverages Ethereum's rapid transaction capabilities to empower businesses and developers alike. By providing seamless decentralized applications (DApps) and robust smart contract creation without intermediaries, we are committed to fostering transparency, security, and innovation across industries.
+            <strong>Hrify Digital</strong> leverages Ethereum's rapid transaction capabilities to empower businesses and developers alike. By providing seamless decentralized applications (DApps) and robust smart contract creation without intermediaries, we are committed to fostering transparency, security, and innovation across industries.
           </p>
 
           <p className="content-text">
-            <strong>Why Choose JK Global IT Solutions Ethereum Solutions?</strong> Our strategic partnership with Ethereum opens opportunities for industries to leverage decentralized finance (DeFi), supply chain transparency, healthcare, gaming, real estate, and more.
+            <strong>Why Choose Hrify Digital Ethereum Solutions?</strong> Our strategic partnership with Ethereum opens opportunities for industries to leverage decentralized finance (DeFi), supply chain transparency, healthcare, gaming, real estate, and more.
           </p>
 
           <ul className="features-list">
@@ -186,7 +186,7 @@ const DistributedTrust = () => {
           </ul>
 
           <p className="content-text">
-            Our expert team enables businesses to minimize fraud, increase efficiency, and stay ahead in the decentralized ecosystem. With JK Global IT Solutions, you gain access to an evolving infrastructure that delivers real-world value through blockchain technology.
+            Our expert team enables businesses to minimize fraud, increase efficiency, and stay ahead in the decentralized ecosystem. With Hrify Digital, you gain access to an evolving infrastructure that delivers real-world value through blockchain technology.
           </p>
 
           <a href="#contact" className="cta-button">
@@ -208,7 +208,7 @@ const DistributedTrust = () => {
             <p className="content-text"><strong>🛡️ Smart Contract Security:</strong> Formal verification, penetration testing, and third-party audits ensure our smart contracts are secure, reliable, and fully tested before deployment.</p>
             <p className="content-text"><strong>🔧 Seamless Upgrade Pathways:</strong> Our proactive involvement in Ethereum's Improvement Proposals (EIPs) allows us to stay ahead of the curve and deliver seamless upgrades that ensure compatibility and efficiency.</p>
             <p className="content-text"><strong>👨‍💻 User-Centric Interfaces:</strong> We design intuitive interfaces and user-friendly wallets that simplify onboarding for users while integrating Layer 2 scaling solutions for seamless user experiences.</p>
-            <p className="content-text"><strong>📜 Regulatory Compliance:</strong> JK Global IT Solutions collaborates with legal teams and regulatory experts to ensure our solutions are compliant with evolving regulations across multiple jurisdictions.</p>
+            <p className="content-text"><strong>📜 Regulatory Compliance:</strong> Hrify Digital collaborates with legal teams and regulatory experts to ensure our solutions are compliant with evolving regulations across multiple jurisdictions.</p>
           </div>
         </section>
 
@@ -251,23 +251,23 @@ const DistributedTrust = () => {
 
             <div className="testimonial-grid">
               <div className="testimonial-card">
-                <p>"JK Global IT Solutions transformed our supply chain transparency with their Ethereum blockchain solutions. We now have real-time product tracking and complete trust from our customers!"</p>
+                <p>"Hrify Digital transformed our supply chain transparency with their Ethereum blockchain solutions. We now have real-time product tracking and complete trust from our customers!"</p>
                 <div className="testimonial-author">— Rahul V., Supply Chain Manager</div>
               </div>
 
               <div className="testimonial-card">
-                <p>"With JK Global IT Solutions's help, we launched our DeFi lending platform in record time. Their smart contract expertise is unmatched!"</p>
+                <p>"With Hrify Digital's help, we launched our DeFi lending platform in record time. Their smart contract expertise is unmatched!"</p>
                 <div className="testimonial-author">— Anjali K., CEO of FinTech Startup</div>
               </div>
 
               <div className="testimonial-card">
-                <p>"The team at JK Global IT Solutions guided us through every step of our NFT-based game development. They made complex blockchain technology simple and effective!"</p>
+                <p>"The team at Hrify Digital guided us through every step of our NFT-based game development. They made complex blockchain technology simple and effective!"</p>
                 <div className="testimonial-author">— Varun S., Lead Game Developer</div>
               </div>
             </div>
 
             <a href="#contact" className="cta-button">
-              Get Started with JK Global IT Solutions
+              Get Started with Hrify Digital
             </a>
           </div>
         </section>

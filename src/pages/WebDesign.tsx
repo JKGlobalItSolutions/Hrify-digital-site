@@ -47,7 +47,7 @@ const WebDesign = () => {
           </p>
 
           <p className="text-dark mx-auto mb-5" style={{ maxWidth: '900px' }}>
-            At JK Global IT Solutions, we specialize in custom web design that reflects your brand identity and provides an exceptional user experience. Our team uses the latest design trends and technologies to build websites that are not only beautiful but also optimized for performance and SEO.
+            At Hrify Digital, we specialize in custom web design that reflects your brand identity and provides an exceptional user experience. Our team uses the latest design trends and technologies to build websites that are not only beautiful but also optimized for performance and SEO.
           </p>
 
           {/* Feature Section */}

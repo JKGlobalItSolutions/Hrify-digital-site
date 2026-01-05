@@ -1,7 +1,9 @@
 import React, { useEffect } from 'react';
-const MarketImage1 = '/assets/images/MarketingSupportServices.png';
-const MarketImage2 = '/assets/images/market-image-2.webp';
-const MarketImage3 = '/assets/images/market-image-3.webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const MarketImage1 = getAssetPath('assets/images/MarketingSupportServices.png');
+const MarketImage2 = getAssetPath('assets/images/market-image-2.webp');
+const MarketImage3 = getAssetPath('assets/images/market-image-3.webp');
 
 const MarketingSupportServices = () => {
   useEffect(() => {
@@ -137,7 +139,7 @@ const MarketingSupportServices = () => {
       <div className="container p-4">
         <h3 style={{ color: '#686D76' }}>Our Priceless Offering:</h3>
         <p style={{ color: '#686D76' }}>
-          In Tiruvanaamalai, JK Global IT Solutions was a pioneer in the internet industry. We have created thousands of portals that are successfully used by several enterprises. We also have experience creating, managing, and advertising public interface sites that have a large audience and generate a lot of traffic.
+          In Tiruvanaamalai, Hrify Digital was a pioneer in the internet industry. We have created thousands of portals that are successfully used by several enterprises. We also have experience creating, managing, and advertising public interface sites that have a large audience and generate a lot of traffic.
         </p>
         <p style={{ color: '#686D76' }}>
           We have built tools to monitor and operate the leads in addition to strategizing the right lead production formula thanks to our combined knowledge and exposure. Our firms' experiments have led to this evolving experience. With this knowledge, we can provide businesses with real lead generating services that will spur their expansion. We can provide quality leads that are well-targeted and have a high conversion rate. Our combined experience with our changing tactics gives companies a cutting-edge marketing advantage and a reliable platform for generating leads.

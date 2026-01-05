@@ -189,10 +189,10 @@ const QAConsultingStrategy = () => {
           <div className="container">
             <h2 className="section-title">Our Approach</h2>
             <p className="main-subtitle">
-              Entrust your software development to JK Global IT Solution's QA Consulting & Strategy solutions, experts in shift left testing, test automation, and agile & DevOps methodologies to experience seamless, reliable, and setback-free software development.
+              Entrust your software development to Hrify Digital's QA Consulting & Strategy solutions, experts in shift left testing, test automation, and agile & DevOps methodologies to experience seamless, reliable, and setback-free software development.
             </p>
             <p className="main-subtitle">
-              JK Global IT Solution's QA Consulting & Strategy solutions streamline early-stage software development by efficiently managing test data, non-functional validations, and test cycles. JK Global IT Solution minimizes deployment time and enhances overall software quality with a focus on optimal testing processes. Through automation, test data management, and result utilization, we at JK Global IT Solution ensure a smooth and effective software development journey, allowing you to save time and resources while achieving top-notch software quality.
+              Hrify Digital's QA Consulting & Strategy solutions streamline early-stage software development by efficiently managing test data, non-functional validations, and test cycles. Hrify Digital minimizes deployment time and enhances overall software quality with a focus on optimal testing processes. Through automation, test data management, and result utilization, we at Hrify Digital ensure a smooth and effective software development journey, allowing you to save time and resources while achieving top-notch software quality.
             </p>
           </div>
         </section>
@@ -220,7 +220,7 @@ const QAConsultingStrategy = () => {
                   </svg>
                 </div>
                 <h4>Security Protocols</h4>
-                <p>Customized QA Metrics: JK Global IT Solution collaborates closely with each client to define tailor-made QA objectives and metrics that align with their unique business goals. These metrics include defect density, test coverage, customer feedback, and response time.</p>
+                <p>Customized QA Metrics: Hrify Digital collaborates closely with each client to define tailor-made QA objectives and metrics that align with their unique business goals. These metrics include defect density, test coverage, customer feedback, and response time.</p>
               </div>
 
               <div className="feature-card">
@@ -231,7 +231,7 @@ const QAConsultingStrategy = () => {
                   </svg>
                 </div>
                 <h4>Control Preferences</h4>
-                <p>Optimal QA Tool Selection: JK Global IT Solution diligently evaluates and recommends QA testing tools that perfectly fit the technologies and systems used by our clients, enhancing the efficiency and effectiveness of testing.</p>
+                <p>Optimal QA Tool Selection: Hrify Digital diligently evaluates and recommends QA testing tools that perfectly fit the technologies and systems used by our clients, enhancing the efficiency and effectiveness of testing.</p>
               </div>
 
               <div className="feature-card">
@@ -242,7 +242,7 @@ const QAConsultingStrategy = () => {
                   </svg>
                 </div>
                 <h4>Costs & Infrastructure</h4>
-                <p>Client-Specific Cost-Benefit Analysis: JK Global IT Solution provides comprehensive client-specific cost-benefit analyses, showcasing the tangible value of our QA services. Our expert team highlights how investing in QA upfront leads to long-term benefits, such as reduced bug-fixing costs and increased customer loyalty.</p>
+                <p>Client-Specific Cost-Benefit Analysis: Hrify Digital provides comprehensive client-specific cost-benefit analyses, showcasing the tangible value of our QA services. Our expert team highlights how investing in QA upfront leads to long-term benefits, such as reduced bug-fixing costs and increased customer loyalty.</p>
               </div>
 
               <div className="feature-card">
@@ -254,7 +254,7 @@ const QAConsultingStrategy = () => {
                   </svg>
                 </div>
                 <h4>Empowering Data Governance</h4>
-                <p>Advanced Automated Testing Frameworks: JK Global IT Solution develops and implements customized automated testing frameworks, streamlining the testing process and expediting time-to-market for their clients.</p>
+                <p>Advanced Automated Testing Frameworks: Hrify Digital develops and implements customized automated testing frameworks, streamlining the testing process and expediting time-to-market for their clients.</p>
               </div>
 
               <div className="feature-card">

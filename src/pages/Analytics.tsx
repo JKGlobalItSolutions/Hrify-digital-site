@@ -358,13 +358,13 @@ const Analytics = () => {
               <div className="col-lg-8 text-center">
                 <h2 className="display-5 fw-bold section-title mb-4">Data & Analytics</h2>
                 <p className="lead text-muted">
-                  Explore JK Global IT Solution's Analytics For Advanced Statistics, Powerful Visualization, And Cutting-Edge Machine Learning For Precise Insights And Smart Decisions.
+                  Explore Hrify Digital's Analytics For Advanced Statistics, Powerful Visualization, And Cutting-Edge Machine Learning For Precise Insights And Smart Decisions.
                 </p>
               </div>
             </div>
             <div className="service-box mb-5">
               <p className="text-muted mb-0">
-                JK Global IT Solution's Data Analytics can offer top-notch risk management where analytics can identify potential threats and vulnerabilities by analyzing data, helping your business minimize losses and protect your reputation. In contrast, predictive analysis helps to anticipate changes in the markets and optimize operations and strategic decisions based on reliable data to ready your business for radical changes in the ever-changing business environment.
+                Hrify Digital's Data Analytics can offer top-notch risk management where analytics can identify potential threats and vulnerabilities by analyzing data, helping your business minimize losses and protect your reputation. In contrast, predictive analysis helps to anticipate changes in the markets and optimize operations and strategic decisions based on reliable data to ready your business for radical changes in the ever-changing business environment.
               </p>
             </div>
             <div className="text-center">
@@ -392,7 +392,7 @@ const Analytics = () => {
                   </div>
                   <h3>Data Quality & Availability</h3>
                   <p className="text-muted mb-0">
-                    We at JK Global IT Solution have successfully implemented data quality checks and data cleansing processes, ensuring accurate and reliable insights. Centralizing data sources will streamline access, enabling our team to collaborate more efficiently.
+                    We at Hrify Digital have successfully implemented data quality checks and data cleansing processes, ensuring accurate and reliable insights. Centralizing data sources will streamline access, enabling our team to collaborate more efficiently.
                   </p>
                 </div>
               </div>
@@ -403,7 +403,7 @@ const Analytics = () => {
                   </div>
                   <h3>Data Security & Privacy</h3>
                   <p className="text-muted mb-0">
-                    JK Global IT Solution takes data security seriously, enforcing strict access controls and authentication mechanisms, safeguarding sensitive information. Our commitment to compliance with data privacy regulations builds trust with customers and partners.
+                    Hrify Digital takes data security seriously, enforcing strict access controls and authentication mechanisms, safeguarding sensitive information. Our commitment to compliance with data privacy regulations builds trust with customers and partners.
                   </p>
                 </div>
               </div>
@@ -414,7 +414,7 @@ const Analytics = () => {
                   </div>
                   <h3>Integration of Data Sources</h3>
                   <p className="text-muted mb-0">
-                    JK Global IT Solution's centralized data landscape fosters better cross-departmental collaboration and data-driven decision-making. Data governance protocols facilitate seamless integration, minimizing data silos.
+                    Hrify Digital's centralized data landscape fosters better cross-departmental collaboration and data-driven decision-making. Data governance protocols facilitate seamless integration, minimizing data silos.
                   </p>
                 </div>
               </div>
@@ -425,7 +425,7 @@ const Analytics = () => {
                   </div>
                   <h3>Costs & Infrastructure</h3>
                   <p className="text-muted mb-0">
-                    By adopting cloud-based solutions, JK Global IT Solution optimizes costs and gains scalable data analytics resources. Utilizing open-source tools strategically maximizes our return on investment.
+                    By adopting cloud-based solutions, Hrify Digital optimizes costs and gains scalable data analytics resources. Utilizing open-source tools strategically maximizes our return on investment.
                   </p>
                 </div>
               </div>
@@ -436,7 +436,7 @@ const Analytics = () => {
                   </div>
                   <h3>Data Governance & Compliance</h3>
                   <p className="text-muted mb-0">
-                    JK Global IT Solution's centralized data landscape fosters better cross-departmental collaboration and data-driven decision-making. Data governance protocols facilitate seamless integration, minimizing data silos.
+                    Hrify Digital's centralized data landscape fosters better cross-departmental collaboration and data-driven decision-making. Data governance protocols facilitate seamless integration, minimizing data silos.
                   </p>
                 </div>
               </div>

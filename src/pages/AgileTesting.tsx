@@ -192,10 +192,10 @@ const AgileTesting = () => {
           <div className="container">
             <h2 className="section-title">Our Approach</h2>
             <p className="main-subtitle">
-              With JK Global IT Solution's Agile Testing services, achieve continuous testing in software development by automated tests and a collaborative team, ensuring adaptability to changing requirements for effective results.
+              With Hrify Digital's Agile Testing services, achieve continuous testing in software development by automated tests and a collaborative team, ensuring adaptability to changing requirements for effective results.
             </p>
             <p className="main-subtitle">
-              JK Global IT Solution's Agile Testing services, seamlessly embedded with development, ensure swift feature verification, defect identification, and rapid fixes, minimizing bugs in production. With continuous integration and delivery, our expert team provides your business experience with faster, high-quality software delivery aligned with your goals for enhanced productivity. JK Global IT Solution's technology pods ensure close collaboration with your teams, shifting quality gates to the left and providing superior testing support at every step of the development process.
+              Hrify Digital's Agile Testing services, seamlessly embedded with development, ensure swift feature verification, defect identification, and rapid fixes, minimizing bugs in production. With continuous integration and delivery, our expert team provides your business experience with faster, high-quality software delivery aligned with your goals for enhanced productivity. Hrify Digital's technology pods ensure close collaboration with your teams, shifting quality gates to the left and providing superior testing support at every step of the development process.
             </p>
           </div>
         </section>
@@ -216,7 +216,7 @@ const AgileTesting = () => {
                   </svg>
                 </div>
                 <h4>Integrated Agile Teams</h4>
-                <p>Our cross-functional Agile teams at JK Global IT Solution work collaboratively, ensuring seamless communication and integration between team members.</p>
+                <p>Our cross-functional Agile teams at Hrify Digital work collaboratively, ensuring seamless communication and integration between team members.</p>
               </div>
 
               <div className="feature-card">
@@ -226,7 +226,7 @@ const AgileTesting = () => {
                   </svg>
                 </div>
                 <h4>Contextual Understanding</h4>
-                <p>We at JK Global IT Solution use test impact analysis tools to identify critical areas affected by changes and prioritize testing efforts accordingly.</p>
+                <p>We at Hrify Digital use test impact analysis tools to identify critical areas affected by changes and prioritize testing efforts accordingly.</p>
               </div>
 
               <div className="feature-card">
@@ -243,7 +243,7 @@ const AgileTesting = () => {
                   </svg>
                 </div>
                 <h4>Real-world Variability</h4>
-                <p>We promote a culture of teamwork and resource pooling at JK Global IT Solution, facilitating support among testers during peak workloads.</p>
+                <p>We promote a culture of teamwork and resource pooling at Hrify Digital, facilitating support among testers during peak workloads.</p>
               </div>
 
               <div className="feature-card">
@@ -257,7 +257,7 @@ const AgileTesting = () => {
                   </svg>
                 </div>
                 <h4>Report Customization</h4>
-                <p>JK Global IT Solution uses an automated regression reporting system to swiftly detect and resolve regressions, ensuring smooth and stable software updates.</p>
+                <p>Hrify Digital uses an automated regression reporting system to swiftly detect and resolve regressions, ensuring smooth and stable software updates.</p>
               </div>
 
               <div className="feature-card">
@@ -268,7 +268,7 @@ const AgileTesting = () => {
                   </svg>
                 </div>
                 <h4>Security Concerns</h4>
-                <p>Our Team at JK Global IT Solution prioritizes testing efforts based on critical features and functionalities, following a risk-based testing strategy.</p>
+                <p>Our Team at Hrify Digital prioritizes testing efforts based on critical features and functionalities, following a risk-based testing strategy.</p>
               </div>
 
               <div className="feature-card">
@@ -278,7 +278,7 @@ const AgileTesting = () => {
                   </svg>
                 </div>
                 <h4>Cloud-Based Device Labs</h4>
-                <p>JK Global IT Solution utilizes cloud-based device labs to access diverse environments for testing, optimizing time and resources.</p>
+                <p>Hrify Digital utilizes cloud-based device labs to access diverse environments for testing, optimizing time and resources.</p>
               </div>
 
               <div className="feature-card">
@@ -288,7 +288,7 @@ const AgileTesting = () => {
                   </svg>
                 </div>
                 <h4>Seamless Model Deployment & Version Control</h4>
-                <p>We at JK Global IT Solution have implemented dynamic data masking techniques to protect sensitive data in testing environments without compromising data integrity.</p>
+                <p>We at Hrify Digital have implemented dynamic data masking techniques to protect sensitive data in testing environments without compromising data integrity.</p>
               </div>
 
               <div className="feature-card">
@@ -298,7 +298,7 @@ const AgileTesting = () => {
                   </svg>
                 </div>
                 <h4>Optimized Data Lake Architecture</h4>
-                <p>At JK Global IT Solution, we employ an innovative Smart Data Generator tool to create realistic and relevant test data tailored to our clients' application requirements.</p>
+                <p>At Hrify Digital, we employ an innovative Smart Data Generator tool to create realistic and relevant test data tailored to our clients' application requirements.</p>
               </div>
             </div>
           </div>

@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-const DomainImage1 = '/assets/images/Domains,Hosting-and-Cloud-Solutions.png';
-const DomainImage2 = '/assets/images/domain-image-2.webp';
-const DomainImage3 = '/assets/images/domain-image-3.webp';
-const Rectangle27 = '/assets/images/Rectangle-27.webp';
-const Trip = '/assets/images/trip.webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const DomainImage1 = getAssetPath('assets/images/Domains,Hosting-and-Cloud-Solutions.png');
+const DomainImage2 = getAssetPath('assets/images/domain-image-2.webp');
+const DomainImage3 = getAssetPath('assets/images/domain-image-3.webp');
+const Rectangle27 = getAssetPath('assets/images/Rectangle-27.webp');
+const Trip = getAssetPath('assets/images/trip.webp');
 
 
 const DomainsHostingCloud = () => {
@@ -34,7 +36,7 @@ const DomainsHostingCloud = () => {
       <div className="container" style={{textAlign:'justify'}}>
         <div className="row p-lg-4 p-2 align-items-center justify-content-center">
           <div className="col-12 col-lg-8">
-            <p style={{color: '#686D76'}}>    JK Global IT Solutions offers comprehensive hosting services including domain registration, SSL certificates, and maintenance, all backed by superior support. We cater to specific hosting and cloud solution needs with customized options that align with your requirements and budget. Our dedicated Server Support Team and partnerships with global hosting companies and data centers ensure seamless handling of even the most complex demands. We also provide expert assistance in selecting and installing SSL certificates, ensuring you choose the right solution for your business and receive professional setup and installation support.</p>
+            <p style={{color: '#686D76'}}>    Hrify Digital offers comprehensive hosting services including domain registration, SSL certificates, and maintenance, all backed by superior support. We cater to specific hosting and cloud solution needs with customized options that align with your requirements and budget. Our dedicated Server Support Team and partnerships with global hosting companies and data centers ensure seamless handling of even the most complex demands. We also provide expert assistance in selecting and installing SSL certificates, ensuring you choose the right solution for your business and receive professional setup and installation support.</p>
           </div>
           <div className="col-12 col-lg-4 my-5 my-lg-0">
             <img className="img-fluid" src={DomainImage2} alt="" />

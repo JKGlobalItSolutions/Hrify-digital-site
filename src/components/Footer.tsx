@@ -70,7 +70,7 @@ const Footer = () => {
             <div className="pop mb-3">
               <button
                 className="text-white p-3 px-4"
-                style={{ background: 'linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%)', border: 'none', cursor: 'pointer', fontSize: '12px', fontWeight: '600', boxShadow: '0 4px 15px rgba(30, 58, 138, 0.3)', transition: 'all 0.3s ease', borderRadius:'50px' }}
+                style={{ background: '#1B8DBB', border: 'none', cursor: 'pointer', fontSize: '12px', fontWeight: '600', boxShadow: '0 4px 15px rgba(27, 141, 187, 0.3)', transition: 'all 0.3s ease', borderRadius:'50px' }}
                 onClick={handleDownloadClick}
                 onMouseOver={(e) => (e.target as HTMLButtonElement).style.transform = 'translateY(-2px)'}
                 onMouseOut={(e) => (e.target as HTMLButtonElement).style.transform = 'translateY(0)'}

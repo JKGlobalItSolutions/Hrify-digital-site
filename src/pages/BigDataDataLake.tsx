@@ -354,13 +354,13 @@ const BigDataDataLake = () => {
               <div className="col-lg-8 text-center">
                 <h2 className="display-5 fw-bold section-title mb-4">Data & Analytics</h2>
                 <p className="lead text-muted">
-                  Excel in managing diverse information by leveraging JK Global IT Solution's Big Data and Data Lake services, unlocking valuable insights and empowering informed decision-making.
+                  Excel in managing diverse information by leveraging Hrify Digital's Big Data and Data Lake services, unlocking valuable insights and empowering informed decision-making.
                 </p>
               </div>
             </div>
             <div className="service-box mb-5">
               <p className="text-muted mb-0">
-                JK Global IT Solution's comprehensive Big Data services allow businesses to optimize their operations by effectively integrating, managing, and analyzing their data. Our cutting-edge Data Lake solution empowers organizations to scale their data infrastructure and facilitates more informed decision-making processes, leading to superior outcomes and increased success.
+                Hrify Digital's comprehensive Big Data services allow businesses to optimize their operations by effectively integrating, managing, and analyzing their data. Our cutting-edge Data Lake solution empowers organizations to scale their data infrastructure and facilitates more informed decision-making processes, leading to superior outcomes and increased success.
               </p>
             </div>
             <div className="text-center">
@@ -388,7 +388,7 @@ const BigDataDataLake = () => {
                   </div>
                   <h3>Data Quality Framework</h3>
                   <p className="text-muted mb-0">
-                    JK Global IT Solution has established robust data quality standards and implemented data validation processes. Our team regularly monitors data quality metrics and has automated data cleansing routines to ensure high-quality data.
+                    Hrify Digital has established robust data quality standards and implemented data validation processes. Our team regularly monitors data quality metrics and has automated data cleansing routines to ensure high-quality data.
                   </p>
                 </div>
               </div>
@@ -399,7 +399,7 @@ const BigDataDataLake = () => {
                   </div>
                   <h3>Advanced-Data Security Measures</h3>
                   <p className="text-muted mb-0">
-                    JK Global IT Solution employs cutting-edge encryption techniques and access controls to safeguard sensitive data from unauthorized access. We also perform regular security audits to identify and address potential vulnerabilities.
+                    Hrify Digital employs cutting-edge encryption techniques and access controls to safeguard sensitive data from unauthorized access. We also perform regular security audits to identify and address potential vulnerabilities.
                   </p>
                 </div>
               </div>
@@ -410,7 +410,7 @@ const BigDataDataLake = () => {
                   </div>
                   <h3>Centralized Access Control</h3>
                   <p className="text-muted mb-0">
-                    JK Global IT Solution has implemented a centralized access control system based on role-based access control (RBAC), ensuring that data access is governed based on user roles and responsibilities.
+                    Hrify Digital has implemented a centralized access control system based on role-based access control (RBAC), ensuring that data access is governed based on user roles and responsibilities.
                   </p>
                 </div>
               </div>
@@ -421,7 +421,7 @@ const BigDataDataLake = () => {
                   </div>
                   <h3>Robust Metadata Management</h3>
                   <p className="text-muted mb-0">
-                    JK Global IT Solution has implemented advanced metadata management tools that provide comprehensive data cataloging and documentation, enabling users to quickly discover and understand the data stored in their Data Lake.
+                    Hrify Digital has implemented advanced metadata management tools that provide comprehensive data cataloging and documentation, enabling users to quickly discover and understand the data stored in their Data Lake.
                   </p>
                 </div>
               </div>
@@ -432,7 +432,7 @@ const BigDataDataLake = () => {
                   </div>
                   <h3>Real-time Data Ingestion</h3>
                   <p className="text-muted mb-0">
-                    We at JK Global IT Solution utilize real-time data ingestion solutions that enable them to process streaming data efficiently, reducing data latency and supporting critical applications.
+                    We at Hrify Digital utilize real-time data ingestion solutions that enable them to process streaming data efficiently, reducing data latency and supporting critical applications.
                   </p>
                 </div>
               </div>

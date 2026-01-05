@@ -162,10 +162,10 @@ const IndependentCertification = () => {
             <div className="mx-auto max-w-3xl text-center space-y-8">
               <h2 className="text-4xl font-bold tracking-tighter sm:text-5xl">Our Approach</h2>
               <p className="text-muted-foreground md:text-xl">
-                JK Global IT Solution's user-centric Independent Certification solutions excel with behavior-driven black box testing, effectively addressing context difficulty, time constraints, and test boundary ambiguity.
+                Hrify Digital's user-centric Independent Certification solutions excel with behavior-driven black box testing, effectively addressing context difficulty, time constraints, and test boundary ambiguity.
               </p>
               <p className="text-muted-foreground text-lg leading-relaxed">
-                We at JK Global IT Solution offer cutting-edge, Independent Certification service with behavior-driven black box testing, ensuring feature completion and timely software deployment, regardless of mainframe or cloud-native platforms. Our user-centric approach, coupled with our in-depth understanding of the latest technologies and industry best practices, creates a compelling production environment that fosters business growth. Through thorough testing, we meet all requirements, unlocking your software's fullest potential for successful implementation, and empowering your development team to make informed decisions, leading to more robust and reliable software. Trust JK Global IT Solution for reliable, high-quality certification services that empower businesses to excel.
+                We at Hrify Digital offer cutting-edge, Independent Certification service with behavior-driven black box testing, ensuring feature completion and timely software deployment, regardless of mainframe or cloud-native platforms. Our user-centric approach, coupled with our in-depth understanding of the latest technologies and industry best practices, creates a compelling production environment that fosters business growth. Through thorough testing, we meet all requirements, unlocking your software's fullest potential for successful implementation, and empowering your development team to make informed decisions, leading to more robust and reliable software. Trust Hrify Digital for reliable, high-quality certification services that empower businesses to excel.
               </p>
             </div>
           </div>
@@ -220,7 +220,7 @@ const IndependentCertification = () => {
                 </div>
                 <div className="card-content">
                   <p className="text-sm text-muted-foreground">
-                    JK Global IT Solution has legal experts on board who guide to ensure that the certification process complies with all relevant laws and regulations. We also address any liability concerns professionally.
+                    Hrify Digital has legal experts on board who guide to ensure that the certification process complies with all relevant laws and regulations. We also address any liability concerns professionally.
                   </p>
                 </div>
               </div>
@@ -256,7 +256,7 @@ const IndependentCertification = () => {
                 </div>
                 <div className="card-content">
                   <p className="text-sm text-muted-foreground">
-                    We at JK Global IT Solution regularly review and update our certification procedures to adapt to industry advancements and emerging challenges, maintaining the highest level of credibility.
+                    We at Hrify Digital regularly review and update our certification procedures to adapt to industry advancements and emerging challenges, maintaining the highest level of credibility.
                   </p>
                 </div>
               </div>
@@ -273,7 +273,7 @@ const IndependentCertification = () => {
                 </div>
                 <div className="card-content">
                   <p className="text-sm text-muted-foreground">
-                    JK Global IT Solution has embraced cutting-edge technology to improve data management, monitoring, and reporting capabilities. This ensures accuracy, transparency, and efficiency in the certification process.
+                    Hrify Digital has embraced cutting-edge technology to improve data management, monitoring, and reporting capabilities. This ensures accuracy, transparency, and efficiency in the certification process.
                   </p>
                 </div>
               </div>

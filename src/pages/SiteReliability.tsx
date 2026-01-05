@@ -179,7 +179,7 @@ const SiteReliability = () => {
           </div>
 
           <p className="main-subtitle">
-            JK Global IT Solutions' Site Reliability Solutions automate IT operations tasks, speed software delivery, and reduce IT risks, easing the friction between development and operations teams. Experience seamless software performances with JK Global IT Solutions' Site Reliability Solutions! We at JK Global IT Solutions bridge the gap between development and operations teams, streamlining the process for continuous updates and reducing operational risks.
+            Hrify Digital's Site Reliability Solutions automate IT operations tasks, speed software delivery, and reduce IT risks, easing the friction between development and operations teams. Experience seamless software performances with Hrify Digital's Site Reliability Solutions! We at Hrify Digital bridge the gap between development and operations teams, streamlining the process for continuous updates and reducing operational risks.
           </p>
         </div>
 
@@ -191,12 +191,12 @@ const SiteReliability = () => {
             <div className="features-grid">
               <div className="feature-card">
                 <h4>Cultural Collaboration</h4>
-                <p>JK Global IT Solutions fosters a culture of collaboration, breaking down silos between development and operations teams.</p>
+                <p>Hrify Digital fosters a culture of collaboration, breaking down silos between development and operations teams.</p>
               </div>
 
               <div className="feature-card">
                 <h4>Vendor Support & SLAs</h4>
-                <p>JK Global IT Solutions strategically phases the implementation, using automation to simplify complex challenges.</p>
+                <p>Hrify Digital strategically phases the implementation, using automation to simplify complex challenges.</p>
               </div>
 
               <div className="feature-card">
@@ -206,7 +206,7 @@ const SiteReliability = () => {
 
               <div className="feature-card">
                 <h4>Incident Response</h4>
-                <p>JK Global IT Solutions' proactive monitoring ensures swift incident detection and resolution, reducing downtime.</p>
+                <p>Hrify Digital's proactive monitoring ensures swift incident detection and resolution, reducing downtime.</p>
               </div>
 
               <div className="feature-card">

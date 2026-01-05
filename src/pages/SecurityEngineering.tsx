@@ -195,12 +195,12 @@ const SecurityEngineering = () => {
 
         {/* Content Paragraphs */}
         <p className="intro-para">
-          Experience JK Global IT Solutions's innovative approach to Security Engineering Solutions through threat monitoring,
+          Experience Hrify Digital's innovative approach to Security Engineering Solutions through threat monitoring,
           user-centric design, tailored solutions, training, partnerships, and cutting-edge technology.
         </p>
 
         <p className="long-para">
-          JK Global IT Solutions, with a strategic focus on Security Engineering Solutions, prioritizes training and development
+          Hrify Digital, with a strategic focus on Security Engineering Solutions, prioritizes training and development
           for up-to-date security practices. We allocate resources based on client needs and partnerships.
           Our research team monitors threats and collaborates, and we focus on user-centric design, ensuring
           that time-to-market pressure doesn't compromise necessary security considerations. Dimiour conducts
@@ -225,7 +225,7 @@ const SecurityEngineering = () => {
             </svg>
             <h3 className="card-title">Intuitive Security Solutions</h3>
             <p className="card-desc">
-              JK Global IT Solutions invests in security training and development, leveraging expertise to create user-friendly solutions.
+              Hrify Digital invests in security training and development, leveraging expertise to create user-friendly solutions.
               We provide comprehensive documentation for streamlined processes.
             </p>
           </div>
@@ -238,7 +238,7 @@ const SecurityEngineering = () => {
             </svg>
             <h3 className="card-title">Data Security &amp; Compliance</h3>
             <p className="card-desc">
-              JK Global IT Solutions prioritizes client security needs and strategically develops collaborations with specialists
+              Hrify Digital prioritizes client security needs and strategically develops collaborations with specialists
               to expand the resource pool to offer comprehensive security services.
             </p>
           </div>
@@ -249,7 +249,7 @@ const SecurityEngineering = () => {
             </svg>
             <h3 className="card-title">Rapid Technology Advancements</h3>
             <p className="card-desc">
-              At JK Global IT Solutions, security is our top priority, and we achieve this by constantly assessing new technologies,
+              At Hrify Digital, security is our top priority, and we achieve this by constantly assessing new technologies,
               investing in research and development, and collaborating with vendors and experts.
             </p>
           </div>
@@ -262,7 +262,7 @@ const SecurityEngineering = () => {
             </svg>
             <h3 className="card-title">Regulatory Compliance</h3>
             <p className="card-desc">
-              JK Global IT Solutions creates customized compliance frameworks and tools for our security services to meet industry
+              Hrify Digital creates customized compliance frameworks and tools for our security services to meet industry
               regulations and data protection laws. Additionally, we offer compliance auditing services to identify
               gaps and ensure adherence to necessary standards.
             </p>
@@ -274,7 +274,7 @@ const SecurityEngineering = () => {
             </svg>
             <h3 className="card-title">Legacy Systems &amp; Compatibility</h3>
             <p className="card-desc">
-              JK Global IT Solutions provides security assessments and migration services to ensure clients' systems are secure
+              Hrify Digital provides security assessments and migration services to ensure clients' systems are secure
               and compatible. We can also develop custom security gateways for legacy systems.
             </p>
           </div>
@@ -286,7 +286,7 @@ const SecurityEngineering = () => {
             </svg>
             <h3 className="card-title">Awareness &amp; Training</h3>
             <p className="card-desc">
-              JK Global IT Solutions offers industry-specific security awareness training programs, ongoing education through webinars,
+              Hrify Digital offers industry-specific security awareness training programs, ongoing education through webinars,
               and user-friendly security controls and dashboards for real-time feedback and reminders to make secure choices.
             </p>
           </div>

@@ -193,7 +193,7 @@ const ComputerVision = () => {
           </div> */}
 
           <p className="main-subtitle">
-            JK Global IT Solutions' Computer Vision is a powerful tool for your business that enables machines to interpret and understand visual data, providing valuable insights that can inform decision-making and improve processes for more streamlined business operations. From manufacturing to healthcare, our solutions leverage advanced algorithms to enhance efficiency, safety, and innovation.
+            Hrify Digital's Computer Vision is a powerful tool for your business that enables machines to interpret and understand visual data, providing valuable insights that can inform decision-making and improve processes for more streamlined business operations. From manufacturing to healthcare, our solutions leverage advanced algorithms to enhance efficiency, safety, and innovation.
           </p>
 
           <p className="main-subtitle">
@@ -201,7 +201,7 @@ const ComputerVision = () => {
           </p>
 
           <p className="main-subtitle">
-            JK Global IT Solutions' cutting-edge Computer Vision services empower AI experts to analyze visuals, unlock facial recognition, object detection, autonomous vehicles, and medical image analysis. Whether you're enhancing quality control, improving safety protocols, or driving innovation, our tailored solutions deliver measurable results that transform how businesses operate and compete in a data-driven world.
+            Hrify Digital's cutting-edge Computer Vision services empower AI experts to analyze visuals, unlock facial recognition, object detection, autonomous vehicles, and medical image analysis. Whether you're enhancing quality control, improving safety protocols, or driving innovation, our tailored solutions deliver measurable results that transform how businesses operate and compete in a data-driven world.
           </p>
         </div>
 

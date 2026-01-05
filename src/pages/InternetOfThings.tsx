@@ -202,7 +202,7 @@ const InternetOfThings = () => {
           </p>
 
           <p className="main-subtitle">
-            At JK Global IT Solutions, we take IoT to the next level by offering a comprehensive suite of services that include governance, security, data analytics, and seamless integration. Our layered IoT architecture ensures smooth connectivity and intelligent automation, empowering businesses to make informed decisions.
+            At Hrify Digital, we take IoT to the next level by offering a comprehensive suite of services that include governance, security, data analytics, and seamless integration. Our layered IoT architecture ensures smooth connectivity and intelligent automation, empowering businesses to make informed decisions.
           </p>
 
           <div className="image-showcase">

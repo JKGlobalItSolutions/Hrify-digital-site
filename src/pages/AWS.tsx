@@ -51,7 +51,7 @@ const AWS = () => {
           </p>
 
           <p className="text-dark mx-auto mb-5" style={{ maxWidth: '900px' }}>
-            At JK Global IT Solutions, we provide end-to-end AWS implementation services, from initial assessment and migration planning to deployment and ongoing management. Our certified AWS professionals ensure your cloud infrastructure is secure, scalable, and cost-effective.
+            At Hrify Digital, we provide end-to-end AWS implementation services, from initial assessment and migration planning to deployment and ongoing management. Our certified AWS professionals ensure your cloud infrastructure is secure, scalable, and cost-effective.
           </p>
 
           {/* Feature Section */}

@@ -140,7 +140,8 @@ const GovernanceRiskManagementCompliance = () => {
             }
 
             .feature-card {
-              background: white;
+              background: #E8F4FA;
+              border: 1px solid #B3D9FF;
               border-radius: 12px;
               padding: 2rem;
               text-align: center;
@@ -267,12 +268,12 @@ const GovernanceRiskManagementCompliance = () => {
           <div className="container">
             <h2 className="section-title">Cybersecurity Services</h2>
             <p className="section-intro">
-              Enhance the security of your digital environment and stay up-to-date with JK Global IT Solutions's state-of-the-art Governance, Risk Management & Compliance solutions.
+              Enhance the security of your digital environment and stay up-to-date with Hrify Digital's state-of-the-art Governance, Risk Management & Compliance solutions.
             </p>
 
             <div className="service-card">
               <p>
-                JK Global IT Solutions specializes in cybersecurity, providing top-notch GRC services. We navigate complex frameworks and regulations to align robust cybersecurity measures with clients' business objectives. Leveraging technology advancements, JK Global IT Solutions delivers cutting-edge GRC services to provide real-time risk monitoring and compliance tracking. With proactive monitoring and a security-conscious culture, JK Global IT Solutions empowers clients to navigate the cybersecurity landscape confidently.
+                Hrify Digital specializes in cybersecurity, providing top-notch GRC services. We navigate complex frameworks and regulations to align robust cybersecurity measures with clients' business objectives. Leveraging technology advancements, Hrify Digital delivers cutting-edge GRC services to provide real-time risk monitoring and compliance tracking. With proactive monitoring and a security-conscious culture, Hrify Digital empowers clients to navigate the cybersecurity landscape confidently.
               </p>
               <div className="text-center mt-4">
                 <a href="#" className="cta-button">
@@ -284,7 +285,7 @@ const GovernanceRiskManagementCompliance = () => {
         </section>
 
         {/* Support Features Section */}
-        <section className="section" style={{ backgroundColor: '#fff5f5' }}>
+        <section className="section" style={{ backgroundColor: '#E8F4FA' }}>
           <div className="container">
             <h2 className="section-title">Support Features</h2>
 
@@ -319,7 +320,7 @@ const GovernanceRiskManagementCompliance = () => {
                 </svg>
                 <h3 className="feature-title">Streamlined Integration</h3>
                 <p className="feature-desc">
-                  JK Global IT Solutions integrates GRC practices into clients' processes and systems, working closely with departments and teams for smooth implementation and optimized efficiency.
+                  Hrify Digital integrates GRC practices into clients' processes and systems, working closely with departments and teams for smooth implementation and optimized efficiency.
                 </p>
               </div>
 
@@ -329,7 +330,7 @@ const GovernanceRiskManagementCompliance = () => {
                 </svg>
                 <h3 className="feature-title">Continuous Monitoring & Improvement</h3>
                 <p className="feature-desc">
-                  We at JK Global IT Solutions regularly monitor and review clients' GRC activities to ensure compliance, identify areas for improvement, and provide proactive recommendations for a strong cybersecurity posture.
+                  We at Hrify Digital regularly monitor and review clients' GRC activities to ensure compliance, identify areas for improvement, and provide proactive recommendations for a strong cybersecurity posture.
                 </p>
               </div>
 
@@ -361,7 +362,7 @@ const GovernanceRiskManagementCompliance = () => {
                 </svg>
                 <h3 className="feature-title">Technological Advancements</h3>
                 <p className="feature-desc">
-                  JK Global IT Solutions uses advanced technology to improve services. With GRC software and automation tools, Dimiour streamlines processes, monitors risk, tracks compliance, and generates reports in real-time.
+                  Hrify Digital uses advanced technology to improve services. With GRC software and automation tools, Dimiour streamlines processes, monitors risk, tracks compliance, and generates reports in real-time.
                 </p>
               </div>
             </div>
@@ -418,4 +419,3 @@ const GovernanceRiskManagementCompliance = () => {
 };
 
 export default GovernanceRiskManagementCompliance;
-

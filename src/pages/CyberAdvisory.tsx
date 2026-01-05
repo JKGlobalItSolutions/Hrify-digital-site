@@ -97,7 +97,7 @@ const CyberAdvisory = () => {
               text-align: center;
               font-size: 2.4rem;
               font-weight: 700;
-              color: #000000ff;
+              color: white;
               margin-bottom: 3rem;
             }
 
@@ -147,7 +147,8 @@ const CyberAdvisory = () => {
             }
 
             .feature-card {
-              background: white;
+              background: #E8F4FA;
+              border: 1px solid #B3D9FF;
               border-radius: 12px;
               padding: 2rem;
               text-align: center;
@@ -323,12 +324,12 @@ const CyberAdvisory = () => {
           <div className="container">
             <h2 className="section-title">Cyber Security Services</h2>
             <p className="section-intro">
-              Safeguard your digital assets with JK Global IT Solution's Advisory Services through comprehensive risk management, threat intelligence, incident response planning, and security awareness training.
+              Safeguard your digital assets with Hrify Digital's Advisory Services through comprehensive risk management, threat intelligence, incident response planning, and security awareness training.
             </p>
 
             <div className="service-card">
               <p>
-                JK Global IT Solution extends IT Advisory Services to encompass a comprehensive risk management process, bolstering organizations' capabilities in threat intelligence, incident response planning, and security awareness training. Our expertise enables us to assess and address emerging cyber threats while providing proactive guidance and strategies to our clients. With a focus on risk mitigation and resilience, JK Global IT Solution empowers organizations to enhance their security posture and effectively respond to incidents.
+                Hrify Digital extends IT Advisory Services to encompass a comprehensive risk management process, bolstering organizations' capabilities in threat intelligence, incident response planning, and security awareness training. Our expertise enables us to assess and address emerging cyber threats while providing proactive guidance and strategies to our clients. With a focus on risk mitigation and resilience, Hrify Digitalempowers organizations to enhance their security posture and effectively respond to incidents.
               </p>
               <a href="#schedule" className="cta-button">
                 Schedule a Meeting
@@ -338,7 +339,7 @@ const CyberAdvisory = () => {
         </section>
 
         {/* Support Features Section */}
-        <section className="section" style={{ backgroundColor: '#fff5f5' }}>
+        <section className="section" style={{ backgroundColor: '#E8F4FA' }}>
           <div className="container">
             <h2 className="section-title">Support Features</h2>
             <p className="section-intro">
@@ -353,7 +354,7 @@ const CyberAdvisory = () => {
                 </svg>
                 <h3 className="feature-title">Balancing Security & Usability</h3>
                 <p className="feature-desc">
-                  JK Global IT Solution balances security and usability for clients by optimizing workflow practices without compromising security.
+                  Hrify Digital balances security and usability for clients by optimizing workflow practices without compromising security.
                 </p>
               </div>
 
@@ -367,7 +368,7 @@ const CyberAdvisory = () => {
                 </svg>
                 <h3 className="feature-title">Regulatory Compliance</h3>
                 <p className="feature-desc">
-                  JK Global IT Solution helps organizations with regulatory compliance, including audits, policy development, and guidance for IT security requirements.
+                  Hrify Digital helps organizations with regulatory compliance, including audits, policy development, and guidance for IT security requirements.
                 </p>
               </div>
 
@@ -389,7 +390,7 @@ const CyberAdvisory = () => {
                 </svg>
                 <h3 className="feature-title">Scalable Solutions</h3>
                 <p className="feature-desc">
-                  JK Global IT Solution offers flexible pricing models to accommodate clients with limited resources, ensuring they receive necessary IT services within their budget.
+                  Hrify Digital offers flexible pricing models to accommodate clients with limited resources, ensuring they receive necessary IT services within their budget.
                 </p>
               </div>
 
@@ -402,7 +403,7 @@ const CyberAdvisory = () => {
                 </svg>
                 <h3 className="feature-title">Legacy Systems & Infrastructure</h3>
                 <p className="feature-desc">
-                  JK Global IT Solution consults on legacy system vulnerabilities, updating and securing infrastructure for modern IT requirements.
+                  Hrify Digital consults on legacy system vulnerabilities, updating and securing infrastructure for modern IT requirements.
                 </p>
               </div>
 
@@ -415,7 +416,7 @@ const CyberAdvisory = () => {
                 </svg>
                 <h3 className="feature-title">Vendor Risk Management</h3>
                 <p className="feature-desc">
-                  JK Global IT Solution manages vendor risk for clients, ensuring third-party vendors meet IT security standards.
+                  Hrify Digital manages vendor risk for clients, ensuring third-party vendors meet IT security standards.
                 </p>
               </div>
             </div>
@@ -474,13 +475,13 @@ const CyberAdvisory = () => {
         <section className="cta-section" id="contact">
           <div className="container">
             <h2 className="section-title">Ready to Secure Your Organization?</h2>
-            <p className="section-intro">
+            <p className="section-intro" style={{color:'black'}}>
               Schedule a consultation with our IT experts today
             </p>
             <a href="#schedule" className="btn-white">
               Schedule a Meeting
-            </a>
-            <p className="mt-3 opacity-90">
+            </a> <br/> <br/>
+            <p className="mt-3 opacity-90" style={{textAlign:'center'}}>
               Our team will get back to you within 24 hours
             </p>
           </div>
@@ -491,4 +492,3 @@ const CyberAdvisory = () => {
 };
 
 export default CyberAdvisory;
-

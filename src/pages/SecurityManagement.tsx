@@ -182,7 +182,7 @@ const SecurityManagement = () => {
           </div>
 
           <p className="section-intro">
-            In today's volatile business environment, having a dependable IT infrastructure to support your operations is critical. With JK Global IT Solutions managed services, businesses can ensure their systems run efficiently and securely.
+            In today's volatile business environment, having a dependable IT infrastructure to support your operations is critical. With Hrify Digital managed services, businesses can ensure their systems run efficiently and securely.
           </p>
         </div>
 
@@ -204,7 +204,7 @@ const SecurityManagement = () => {
 
               <div className="managed-card">
                 <h4>Cloud Services</h4>
-                <p>Empower A Seamless Business With JK Global IT Solutions Cloud Services</p>
+                <p>Empower A Seamless Business With Hrify Digital Cloud Services</p>
                 <a href="/cloudnative">Know More →</a>
               </div>
 
@@ -216,7 +216,7 @@ const SecurityManagement = () => {
 
               <div className="managed-card">
                 <h4>Site Reliability Engineering</h4>
-                <p>Embrace The Unwavering Software Performance With JK Global IT Solutions</p>
+                <p>Embrace The Unwavering Software Performance With Hrify Digital</p>
                 <a href="/sitereliability">Know More →</a>
               </div>
 

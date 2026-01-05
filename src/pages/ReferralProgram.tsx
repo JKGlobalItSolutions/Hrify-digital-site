@@ -37,7 +37,7 @@ const ReferralProgram = () => {
             .internship-hero h2 {
               font-size: 2.8rem;
               font-weight: 700;
-              color: #1e3a8a;
+              color: #1B8DBB;
               margin-bottom: 1.5rem;
               line-height: 1.3;
             }
@@ -53,7 +53,7 @@ const ReferralProgram = () => {
               text-align: center;
               font-size: 2.5rem;
               font-weight: 700;
-              color: #1e3a8a;
+              color: #1B8DBB;
               margin-bottom: 3rem;
             }
 
@@ -76,7 +76,7 @@ const ReferralProgram = () => {
             .text-content h2 {
               font-size: 1.8rem;
               font-weight: 700;
-              color: #1e3a8a;
+              color: #1B8DBB;
               margin: 2.5rem 0 1.5rem;
             }
 
@@ -99,7 +99,7 @@ const ReferralProgram = () => {
             .form-section-title {
               font-size: 1.3rem;
               font-weight: 600;
-              color: #1e3a8a;
+              color: #1B8DBB;
               margin: 2rem 0 1.5rem;
               padding-bottom: 0.5rem;
               border-bottom: 2px solid #e0e0e0;
@@ -110,7 +110,7 @@ const ReferralProgram = () => {
             }
 
             .form-label {
-              color: #1e3a8a;
+              color: #1B8DBB;
               font-weight: 600;
               margin-bottom: 0.5rem;
               font-size: 0.95rem;
@@ -125,8 +125,8 @@ const ReferralProgram = () => {
             }
 
             .form-control:focus, .form-select:focus {
-              border-color: #1e3a8a;
-              box-shadow: 0 0 0 0.2rem rgba(30, 58, 138, 0.1);
+              border-color: #1B8DBB;
+              box-shadow: 0 0 0 0.2rem rgba(27, 141, 187, 0.1);
             }
 
             textarea.form-control {
@@ -135,17 +135,17 @@ const ReferralProgram = () => {
             }
 
             .form-check-input:checked {
-              background-color: #1e3a8a;
-              border-color: #1e3a8a;
+              background-color: #1B8DBB;
+              border-color: #1B8DBB;
             }
 
             .form-check-input:focus {
-              box-shadow: 0 0 0 0.2rem rgba(30, 58, 138, 0.1);
-              border-color: #1e3a8a;
+              box-shadow: 0 0 0 0.2rem rgba(27, 141, 187, 0.1);
+              border-color: #1B8DBB;
             }
 
             .submit-btn {
-              background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+              background: linear-gradient(135deg, #1B8DBB 0%, #1B8DBB 100%);
               color: white;
               border: none;
               border-radius: 8px;
@@ -153,13 +153,13 @@ const ReferralProgram = () => {
               font-size: 1.1rem;
               font-weight: 600;
               transition: all 0.3s ease;
-              box-shadow: 0 4px 15px rgba(30, 58, 138, 0.3);
+              box-shadow: 0 4px 15px rgba(27, 141, 187, 0.3);
             }
 
             .submit-btn:hover {
               transform: translateY(-2px);
-              box-shadow: 0 6px 20px rgba(30, 58, 138, 0.4);
-              background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
+              box-shadow: 0 6px 20px rgba(27, 141, 187, 0.4);
+              background: linear-gradient(135deg, #15749A 0%, #1B8DBB 100%);
             }
 
             .upload-btn {
@@ -169,15 +169,15 @@ const ReferralProgram = () => {
               padding: 2rem;
               text-align: center;
               transition: all 0.3s ease;
-              color: #1e3a8a;
+              color: #1B8DBB;
               text-decoration: none;
               display: block;
             }
 
             .upload-btn:hover {
-              border-color: #1e3a8a;
+              border-color: #1B8DBB;
               background: #e3f2fd;
-              color: #1e3a8a;
+              color: #1B8DBB;
             }
 
             .privacy-notice, .confirmation-message {
@@ -211,9 +211,9 @@ const ReferralProgram = () => {
         {/* Hero Intro Section - Replaces old header-section */}
         <section className="internship-hero">
           <div className="text-center">
-            <h2>Spot Great Talent? Refer Them to JK Global IT Solutions!</h2>
+            <h2>Spot Great Talent? Refer Them to Hrify Digital!</h2>
             <p>
-              We're always looking for talented individuals to join our dynamic team at JK Global IT Solutions.
+              We're always looking for talented individuals to join our dynamic team at Hrify Digital.
               If you know someone who would thrive in our innovative environment and align with our vision,
               refer them to us! Let's work together to create incredible opportunities.
             </p>
@@ -223,23 +223,23 @@ const ReferralProgram = () => {
         {/* Main Text Content - All original content preserved, only classes changed for styling */}
         <section className="mb-5">
           <div className="text-content">
-            <h2 className="text-center section-title">JK Global IT Solutions Candidate Referral Program</h2>
+            <h2 className="text-center section-title">Hrify Digital Candidate Referral Program</h2>
 
-            <p>Introduce us to exceptional talent! Refer a friend, former colleague, or family member with the right skills to join JK Global IT Solutions. We are always looking for skilled professionals across diverse fields, including IT and non-IT roles.</p>
-            <p>By participating in our referral program, you play a vital role in helping us identify top candidates who align with our company's mission and values. Your recommendations contribute to building a stronger and more dynamic team at JK Global IT Solutions.</p>
+            <p>Introduce us to exceptional talent! Refer a friend, former colleague, or family member with the right skills to join Hrify Digital. We are always looking for skilled professionals across diverse fields, including IT and non-IT roles.</p>
+            <p>By participating in our referral program, you play a vital role in helping us identify top candidates who align with our company's mission and values. Your recommendations contribute to building a stronger and more dynamic team at Hrify Digital.</p>
 
             <h2>Specialized IT Talent</h2>
             <p>Access a pool of skilled IT professionals with expertise across various technologies, including software development, networking, cybersecurity, and cloud computing.</p>
             <p>We are constantly expanding our network of IT specialists who are proficient in modern frameworks and tools such as React, Angular, Python, Java, AWS, and DevOps practices. Your referrals can help us discover new talents that can innovate and drive technological advancements.</p>
-            <p>Successfully referring a candidate can earn you a one-time bonus. Refer to the JK Global IT Solutions policy below for more details. It's our way of saying thank you for connecting us with high-quality candidates who fit our culture and contribute to our success.</p>
+            <p>Successfully referring a candidate can earn you a one-time bonus. Refer to the Hrify Digital policy below for more details. It's our way of saying thank you for connecting us with high-quality candidates who fit our culture and contribute to our success.</p>
             <p>Your continued support in identifying and recommending candidates helps us maintain a robust pipeline of professionals ready to make an impact. Let's grow together!</p>
 
             <h2>Referral Bonus Policy</h2>
-            <p>JK Global IT Solutions values your referrals! Earn a referral bonus when the candidate you refer is hired by JK Global IT Solutions or its clients, subject to the following conditions.</p>
+            <p>Hrify Digital values your referrals! Earn a referral bonus when the candidate you refer is hired by Hrify Digital or its clients, subject to the following conditions.</p>
             <p>The bonus structure is designed to reward you fairly for your contribution. Payouts are processed promptly upon successful completion of the candidate's employment milestones, ensuring transparency and trust in our process.</p>
 
             <h2>Eligibility</h2>
-            <p>The referred candidate should not have been in contact with a JK Global IT Solutions recruiter in the past 3 months.</p>
+            <p>The referred candidate should not have been in contact with a Hrify Digital recruiter in the past 3 months.</p>
             <p>This policy ensures that your referrals are unique and genuinely add to our candidate pool. We encourage you to refer professionals from your network who you believe will be a great fit for our organization.</p>
 
             <h2>Employment Duration</h2>
@@ -247,11 +247,11 @@ const ReferralProgram = () => {
             <p>This time frame allows us to evaluate the candidate's performance and commitment while ensuring fair and consistent application of the referral bonus policy.</p>
 
             <h2>Policy Updates</h2>
-            <p>JK Global IT Solutions reserves the right to modify, update, or discontinue this policy at any time.</p>
+            <p>Hrify Digital reserves the right to modify, update, or discontinue this policy at any time.</p>
             <p>We are committed to keeping you informed of any changes in our referral program. Regular updates will be shared through official communication channels, ensuring you are always aware of the latest policies.</p>
             <p><strong>Note:</strong> The referral bonus currently applies only to candidates and referrers within the North America region. However, we encourage you to refer talented professionals from any location, as we are always eager to connect with exceptional individuals.</p>
 
-            <p>Let's work together to build a stronger, more talented team! Your referrals help us find outstanding professionals who contribute to our shared success and drive JK Global IT Solutions's mission forward.</p>
+            <p>Let's work together to build a stronger, more talented team! Your referrals help us find outstanding professionals who contribute to our shared success and drive Hrify Digital's mission forward.</p>
             <p>If you have any questions about the referral process or need assistance, feel free to contact our HR team. We are here to support you every step of the way and make your experience seamless and rewarding.</p>
           </div>
         </section>
@@ -339,7 +339,7 @@ const ReferralProgram = () => {
                   <div className="form-check mb-4">
                     <input className="form-check-input" type="checkbox" required id="confirmCheck" />
                     <label className="form-check-label" htmlFor="confirmCheck">
-                      I confirm that the information provided is accurate and that I have obtained the candidate's consent to share their details with JK Global IT Solutions. *
+                      I confirm that the information provided is accurate and that I have obtained the candidate's consent to share their details with Hrify Digital. *
                     </label>
                   </div>
 
@@ -361,11 +361,11 @@ const ReferralProgram = () => {
         <section className="text-center py-5">
           <div className="container">
             <div style={{
-              background: 'linear-gradient(135deg, #1e3a8a, #3b82f6)',
+              background: 'linear-gradient(135deg, #1B8DBB, #1B8DBB)',
               color: 'white',
               padding: '3rem 2rem',
               borderRadius: '16px',
-              boxShadow: '0 8px 30px rgba(30, 58, 138, 0.2)'
+              boxShadow: '0 8px 30px rgba(27, 141, 187, 0.2)'
             }}>
               <h2 className="text-white mb-3" style={{ fontSize: '2.2rem', fontWeight: '700' }}>
                 Have Questions About Referrals?
@@ -377,7 +377,7 @@ const ReferralProgram = () => {
                 href="/contact"
                 style={{
                   background: 'white',
-                  color: '#1e3a8a',
+                  color: '#1B8DBB',
                   padding: '1rem 2.5rem',
                   borderRadius: '50px',
                   fontWeight: '600',

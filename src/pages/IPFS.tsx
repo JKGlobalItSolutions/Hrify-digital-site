@@ -209,7 +209,7 @@ const IPFS = () => {
             Faster, Safer & Decentralized Web With IPFS
           </h1>
           <p className="main-subtitle">
-            Eliminate centralized servers, accelerate content delivery, and scale applications efficiently with JK Global IT Solutions IPFS solutions.
+            Eliminate centralized servers, accelerate content delivery, and scale applications efficiently with Hrify Digital IPFS solutions.
           </p>
 
           <a href="#contact" className="cta-button">
@@ -225,7 +225,7 @@ const IPFS = () => {
             <div className="about-grid">
               <div className="about-text">
                 <p className="section-intro">
-                  IPFS revolutionizes web storage by tracking file versions, enabling direct interactions, and removing reliance on centralized servers. JK Global IT Solutions solution ensures reliable access, privacy, and decentralized file sharing.
+                  IPFS revolutionizes web storage by tracking file versions, enabling direct interactions, and removing reliance on centralized servers. Hrify Digital solution ensures reliable access, privacy, and decentralized file sharing.
                 </p>
                 <p className="section-intro">
                   With blockchain integration, advanced encryption, and efficient content delivery, we provide an optimal storage system that enhances security while reducing costs.
@@ -286,7 +286,7 @@ const IPFS = () => {
         <section className="final-cta">
           <div className="container">
             <h2>Secure Your Data With IPFS</h2>
-            <p>Join the decentralized web revolution with JK Global IT Solutions advanced storage solutions.</p>
+            <p>Join the decentralized web revolution with Hrify Digital advanced storage solutions.</p>
             <a href="#contact" className="btn-white">
               Schedule a Consultation
             </a>

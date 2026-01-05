@@ -222,10 +222,10 @@ const NFT = () => {
 
             <div className="service-card">
               <p>
-                Discover JK Global IT Solutions's NFT services, offering a seamless solution for digital asset ownership and secure exchanges. Safeguard your NFTs hassle-free, with easy ownership claims and smooth transfers during selling.
+                Discover Hrify Digital's NFT services, offering a seamless solution for digital asset ownership and secure exchanges. Safeguard your NFTs hassle-free, with easy ownership claims and smooth transfers during selling.
               </p>
               <p>
-                JK Global IT Solutions cutting-edge NFT services can help protect your creative work, whether it is your digital art, music album, design, or property, making hefty processes like ownership claims and transactions easier than ever in the digital marketplace. Our expert team offers user-friendly interfaces, eco-conscious practices, and secure blockchain technology to ensure a seamless experience for our users. With JK Global IT Solutions NFT services, you can protect your intellectual property and enjoy the benefits of automated royalties while exploring exclusive partnerships and cross-chain support for added value.
+                Hrify Digital cutting-edge NFT services can help protect your creative work, whether it is your digital art, music album, design, or property, making hefty processes like ownership claims and transactions easier than ever in the digital marketplace. Our expert team offers user-friendly interfaces, eco-conscious practices, and secure blockchain technology to ensure a seamless experience for our users. With Hrify Digital NFT services, you can protect your intellectual property and enjoy the benefits of automated royalties while exploring exclusive partnerships and cross-chain support for added value.
               </p> 
               
               <a href="#contact" className="cta-button">
@@ -238,32 +238,32 @@ const NFT = () => {
             <div className="features-grid">
               <div className="feature-card">
                 <h4>Copyright & IP Protection</h4>
-                <p>JK Global IT Solutions automatically allocates a percentage of secondary sales to creators through smart contracts and implements a robust DRM system for intellectual property protection.</p>
+                <p>Hrify Digital automatically allocates a percentage of secondary sales to creators through smart contracts and implements a robust DRM system for intellectual property protection.</p>
               </div>
 
               <div className="feature-card">
                 <h4>Security Concerns</h4>
-                <p>JK Global IT Solutions conducts regular security audits, offers optional cold wallet storage, and strongly focuses on user asset protection.</p>
+                <p>Hrify Digital conducts regular security audits, offers optional cold wallet storage, and strongly focuses on user asset protection.</p>
               </div>
 
               <div className="feature-card">
                 <h4>Environmental Impact</h4>
-                <p>JK Global IT Solutions migrates to a proof-of-stake blockchain and supports environmental initiatives to offset the platform's carbon footprint.</p>
+                <p>Hrify Digital migrates to a proof-of-stake blockchain and supports environmental initiatives to offset the platform's carbon footprint.</p>
               </div>
 
               <div className="feature-card">
                 <h4>Cost of Transactions</h4>
-                <p>JK Global IT Solutions optimizes gas fees through efficient smart contract coding and implements Layer 2 scaling solutions for cost-effectiveness.</p>
+                <p>Hrify Digital optimizes gas fees through efficient smart contract coding and implements Layer 2 scaling solutions for cost-effectiveness.</p>
               </div>
 
               <div className="feature-card">
                 <h4>Regulatory Compliance</h4>
-                <p>JK Global IT Solutions collaborates with legal experts, communicates platform policies transparently, and ensures compliance with relevant regulations.</p>
+                <p>Hrify Digital collaborates with legal experts, communicates platform policies transparently, and ensures compliance with relevant regulations.</p>
               </div>
 
               <div className="feature-card">
                 <h4>Optimizing Market Saturation</h4>
-                <p>JK Global IT Solutions forms exclusive partnerships with renowned creators and emphasizes the long-term value and utility of NFTs.</p>
+                <p>Hrify Digital forms exclusive partnerships with renowned creators and emphasizes the long-term value and utility of NFTs.</p>
               </div>
             </div>
           </div>

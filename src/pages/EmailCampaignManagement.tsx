@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-const Rectangle27 = '/assets/images/Rectangle-27.webp';
-const Email1Image = '/assets/images/Email-Campaign-Management-Solutions.png';
-const EmailImage2 = '/assets/images/email-image-2.webp';
-const EmailImage3 = '/assets/images/email-image-3.webp';
-const Trip = '/assets/images/trip.webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const Rectangle27 = getAssetPath('assets/images/Rectangle-27.webp');
+const Email1Image = getAssetPath('assets/images/Email-Campaign-Management-Solutions.png');
+const EmailImage2 = getAssetPath('assets/images/email-image-2.webp');
+const EmailImage3 = getAssetPath('assets/images/email-image-3.webp');
+const Trip = getAssetPath('assets/images/trip.webp');
 
 
 
@@ -39,7 +41,7 @@ const EmailCampaignManagement = () => {
       <div className="container">
         <div className="row p-lg-4 p-2 align-items-center justify-content-center">
           <div className="col-12 col-lg-9">
-            <p style={{ color: '#686D76' , textAlign: 'justify'}}> Sending email campaigns to your customers and authorized leads has long been a fundamental marketing practice. However, due to advancements in spam filters and increasing complexities, this task has become more challenging. This is where JK Global IT Solutions offers a straightforward Email Campaign Management Solution for your business, leveraging the AWS SES mailing platform. This system is tailored for managing large volumes of email IDs efficiently. While focused on genuine user mailing and mail list management, its robust features make it a compelling choice.</p>
+            <p style={{ color: '#686D76' , textAlign: 'justify'}}> Sending email campaigns to your customers and authorized leads has long been a fundamental marketing practice. However, due to advancements in spam filters and increasing complexities, this task has become more challenging. This is where Hrify Digital offers a straightforward Email Campaign Management Solution for your business, leveraging the AWS SES mailing platform. This system is tailored for managing large volumes of email IDs efficiently. While focused on genuine user mailing and mail list management, its robust features make it a compelling choice.</p>
           </div>
           <div className="col-12 col-lg-3 my-5 my-lg-0 justify-content-center">
             <img className="img-fluid" src={EmailImage2} alt="" />
@@ -79,7 +81,7 @@ const EmailCampaignManagement = () => {
               </li>
 
               <li>
-                <p style={{ color: '#686D76' }}><i className="fa fa-circle-o" style={{ fontSize: '20px', background: 'linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}></i> &nbsp; Reliable Support Take advantage of JK Global IT Solutions' proficiency in email 
+                <p style={{ color: '#686D76' }}><i className="fa fa-circle-o" style={{ fontSize: '20px', background: 'linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}></i> &nbsp; Reliable Support Take advantage of Hrify Digital' proficiency in email 
               campaign optimization.</p>
               </li>
 

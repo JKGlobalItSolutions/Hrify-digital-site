@@ -40,21 +40,21 @@ const WorkplaceSurveillance = () => {
         <div className="row align-items-center my-5">
           <div className="col-12 col-lg-8" >
             <p style={{ color: '#686D76', fontFamily: 'system-ui, -apple-system, BlinkMacSystemFont, \'Segoe UI\', Roboto, Oxygen, Ubuntu, Cantarell, \'Open Sans\', \'Helvetica Neue\', sans-serif'}}>
-              At JK Global IT Solutions, we understand the critical importance of workplace surveillance in enhancing security, monitoring activities, and ensuring safety. Our advanced surveillance solutions provide real-time oversight, helping businesses deter potential threats, manage access, and address compliance issues promptly. By integrating our cutting-edge technologies, companies can protect their operations, secure sensitive information, and maintain a safe, productive environment for employees and assets.</p>
+              At Hrify Digital, we understand the critical importance of workplace surveillance in enhancing security, monitoring activities, and ensuring safety. Our advanced surveillance solutions provide real-time oversight, helping businesses deter potential threats, manage access, and address compliance issues promptly. By integrating our cutting-edge technologies, companies can protect their operations, secure sensitive information, and maintain a safe, productive environment for employees and assets.</p>
             <p style={{ color: '#686D76', fontFamily: 'system-ui, -apple-system, BlinkMacSystemFont, \'Segoe UI\', Roboto, Oxygen, Ubuntu, Cantarell, \'Open Sans\', \'Helvetica Neue\', sans-serif' }}>
               We offer a range of customizable solutions, from high-definition CCTV cameras and biometric access control systems to integrated fire alarms and remote monitoring capabilities. These tools collectively ensure that your workplace is continuously monitored, compliant with safety regulations, and prepared to respond effectively to any incident.</p>
             <p style={{ color: '#686D76', fontFamily: 'system-ui, -apple-system, BlinkMacSystemFont, \'Segoe UI\', Roboto, Oxygen, Ubuntu, Cantarell, \'Open Sans\', \'Helvetica Neue\', sans-serif' }}>
-              By partnering with JK Global IT Solutions, you're investing in a secure, well-managed, and efficient workplace where safety and productivity go hand in hand. Our goal is to empower your business with the technology needed to stay ahead of security challenges, enabling you to focus on growth and success with peace of mind.</p>
+              By partnering with Hrify Digital, you're investing in a secure, well-managed, and efficient workplace where safety and productivity go hand in hand. Our goal is to empower your business with the technology needed to stay ahead of security challenges, enabling you to focus on growth and success with peace of mind.</p>
             <div style={{ gap: '5px', fontFamily: 'system-ui, -apple-system, BlinkMacSystemFont, \'Segoe UI\', Roboto, Oxygen, Ubuntu, Cantarell, \'Open Sans\', \'Helvetica Neue\', sans-serif' }} className="d-flex">
-              <span style={{ fontSize: '20px', background: 'linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>○</span>
+              <span style={{ fontSize: '20px', backgroundColor: '#1B8DBB', color: 'white', borderRadius: '50%', padding: '5px', display: 'inline-block' }}>○</span>
               <p style={{ color: '#686D76' }}>Enhanced Security</p>
             </div>
             <div style={{ gap: '5px', fontFamily: 'system-ui, -apple-system, BlinkMacSystemFont, \'Segoe UI\', Roboto, Oxygen, Ubuntu, Cantarell, \'Open Sans\', \'Helvetica Neue\', sans-serif' }} className="d-flex">
-              <span style={{ fontSize: '20px', background: 'linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>○</span>
+              <span style={{ fontSize: '20px', backgroundColor: '#1B8DBB', color: 'white', borderRadius: '50%', padding: '5px', display: 'inline-block' }}>○</span>
               <p style={{ color: '#686D76' }}>Real-Time Monitoring</p>
             </div>
             <div style={{ gap: '5px', fontFamily: 'system-ui, -apple-system, BlinkMacSystemFont, \'Segoe UI\', Roboto, Oxygen, Ubuntu, Cantarell, \'Open Sans\', \'Helvetica Neue\', sans-serif' }} className="d-flex">
-              <span style={{ fontSize: '20px', background: 'linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>○</span>
+              <span style={{ fontSize: '20px', backgroundColor: '#1B8DBB', color: 'white', borderRadius: '50%', padding: '5px', display: 'inline-block' }}>○</span>
               <p style={{ color: '#686D76' }}>Improved Compliance and Safety</p>
             </div>
           </div>
@@ -100,28 +100,28 @@ const WorkplaceSurveillance = () => {
           <div className="col-12 col-lg-3 image-container my-4 my-lg-0">
             <img className="img-fluid" src={WorkplaceGlobe1} alt="Workplace Globe" />
             <div className="description">
-              <h3 className="fw-bolder" style={{ background: 'linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>24/7 Monitoring</h3>
+              <h3 className="fw-bolder" style={{ color: '#1B8DBB' }}>24/7 Monitoring</h3>
               <p style={{ color: 'black' }} className="fw-bolder">Continuous surveillance to ensure round-the-clock security.</p>
             </div>
           </div>
           <div className="col-12 col-lg-3 image-container my-4 my-lg-0">
             <img className="img-fluid" src={WorkplaceGlobe1} alt="Workplace Globe" />
             <div className="description">
-              <h3 className="fw-bolder" style={{ background: 'linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>Scalable Solutions</h3>
+              <h3 className="fw-bolder" style={{ color: '#1B8DBB' }}>Scalable Solutions</h3>
               <p style={{ color: 'black' }} className="fw-bolder">Tailored for businesses of all sizes, from small offices to large enterprises.</p>
             </div>
           </div>
           <div className="col-12 col-lg-3 image-container my-4 my-lg-0">
             <img className="img-fluid" src={WorkplaceGlobe1} alt="Workplace Globe" />
             <div className="description">
-              <h3 className="fw-bolder" style={{ background: 'linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>Easy Integration</h3>
+              <h3 className="fw-bolder" style={{ color: '#1B8DBB' }}>Easy Integration</h3>
               <p style={{ color: 'black' }} className="fw-bolder">Compatible with existing IT infrastructure and scalable to future needs.</p>
             </div>
           </div>
           <div className="col-12 col-lg-3 image-container my-4 my-lg-0">
             <img src={WorkplaceGlobe1} alt="Workplace Globe" />
             <div className="description">
-              <h3 className="fw-bolder" style={{ background: 'linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>Remote Access</h3>
+              <h3 className="fw-bolder" style={{ color: '#1B8DBB' }}>Remote Access</h3>
               <p style={{ color: 'black' }} className="fw-bolder">Monitor your workplace from anywhere via mobile or web applications.</p>
             </div>
           </div> <br/>

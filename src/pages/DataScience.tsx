@@ -278,10 +278,10 @@ const DataScience = () => {
           <div className="container">
             <h2 className="section-title">Data & Analytics</h2>
             <p className="main-subtitle">
-              JK Global IT Solution's expert Data Science services use statistical analysis, Machine Learning, and Data Insights for accurate prediction models and solutions.
+              Hrify Digital's expert Data Science services use statistical analysis, Machine Learning, and Data Insights for accurate prediction models and solutions.
             </p>
             <p className="main-subtitle">
-              JK Global IT Solution's Data Science strategy helps businesses make better decisions by analyzing a large amount of data and identifying patterns and trends, which ensures data-driven decisions that are more accurate, reliable, and informed. Our strategy also helps your business detect and prevent fraud by analyzing transactional data and identifying anomalous patterns. This can help your business minimize losses and protect your reputation.
+              Hrify Digital's Data Science strategy helps businesses make better decisions by analyzing a large amount of data and identifying patterns and trends, which ensures data-driven decisions that are more accurate, reliable, and informed. Our strategy also helps your business detect and prevent fraud by analyzing transactional data and identifying anomalous patterns. This can help your business minimize losses and protect your reputation.
             </p>
 
             <a href="#contact" className="cta-button">
@@ -304,7 +304,7 @@ const DataScience = () => {
                   <i className="fas fa-users"></i>
                 </div>
                 <h4>Collaborating for Success</h4>
-                <p>JK Global IT Solution facilitates interdisciplinary collaboration through regular meetings, workshops, and data visualization techniques to ensure insights are accessible to all stakeholders.</p>
+                <p>Hrify Digital facilitates interdisciplinary collaboration through regular meetings, workshops, and data visualization techniques to ensure insights are accessible to all stakeholders.</p>
               </div>
 
               <div className="feature-card">
@@ -312,7 +312,7 @@ const DataScience = () => {
                   <i className="fas fa-shield-alt"></i>
                 </div>
                 <h4>Robust Privacy Measures</h4>
-                <p>At JK Global IT Solution, we prioritize data privacy and security by implementing robust measures, including encryption and strict access controls.</p>
+                <p>At Hrify Digital, we prioritize data privacy and security by implementing robust measures, including encryption and strict access controls.</p>
               </div>
 
               <div className="feature-card">
@@ -320,7 +320,7 @@ const DataScience = () => {
                   <i className="fas fa-lightbulb"></i>
                 </div>
                 <h4>Understanding Complexity</h4>
-                <p>JK Global IT Solution offers model interpretability solutions, including the use of interpretable models and model-agnostic techniques for complex models.</p>
+                <p>Hrify Digital offers model interpretability solutions, including the use of interpretable models and model-agnostic techniques for complex models.</p>
               </div>
 
               <div className="feature-card">
@@ -328,7 +328,7 @@ const DataScience = () => {
                   <i className="fas fa-chart-pie"></i>
                 </div>
                 <h4>Maximizing ROI</h4>
-                <p>JK Global IT Solution defines clear objectives and KPIs for Data Science projects, regularly assessing and measuring their impact for a strong ROI.</p>
+                <p>Hrify Digital defines clear objectives and KPIs for Data Science projects, regularly assessing and measuring their impact for a strong ROI.</p>
               </div>
 
               <div className="feature-card">
@@ -336,7 +336,7 @@ const DataScience = () => {
                   <i className="fas fa-cogs"></i>
                 </div>
                 <h4>Seamless Integration</h4>
-                <p>We at JK Global IT Solution ensure the seamless adoption and integration of Data Science solutions by involving stakeholders from the beginning and providing ongoing support.</p>
+                <p>We at Hrify Digital ensure the seamless adoption and integration of Data Science solutions by involving stakeholders from the beginning and providing ongoing support.</p>
               </div>
 
               <div className="feature-card">
@@ -344,7 +344,7 @@ const DataScience = () => {
                   <i className="fas fa-balance-scale"></i>
                 </div>
                 <h4>Ethical Data Governance</h4>
-                <p>JK Global IT Solution emphasizes ethical data governance through well-defined policies, designated data stewards, and continuous education for our Data Science teams.</p>
+                <p>Hrify Digital emphasizes ethical data governance through well-defined policies, designated data stewards, and continuous education for our Data Science teams.</p>
               </div>
             </div>
           </div>

@@ -86,7 +86,7 @@ const CyberResilience = () => {
               text-align: center;
               font-size: 2.4rem;
               font-weight: 700;
-              color: #1B8DBB;
+              color: white;
               margin-bottom: 3rem;
             }
 
@@ -136,7 +136,8 @@ const CyberResilience = () => {
             }
 
             .feature-card {
-              background: white;
+              background: #E8F4FA;
+              border: 1px solid #B3D9FF;
               border-radius: 12px;
               padding: 2rem;
               text-align: center;
@@ -201,12 +202,12 @@ const CyberResilience = () => {
           <div className="container">
             <h2 className="section-title">Cybersecurity Services</h2>
             <p className="section-intro">
-              From end-to-end detection capabilities to data-led intelligence solutions, JK Global IT Solutions, using advanced expertise and cutting-edge technology, excels in delivering comprehensive Cyber resilience solutions that help businesses mitigate various cyber risks effectively.
+              From end-to-end detection capabilities to data-led intelligence solutions, Hrify Digital, using advanced expertise and cutting-edge technology, excels in delivering comprehensive Cyber resilience solutions that help businesses mitigate various cyber risks effectively.
             </p>
 
             <div className="service-card">
               <p>
-                JK Global IT Solutions provides robust cyber resilience solutions for organizations to ensure uninterrupted business continuity amidst complex IT landscapes and challenging cyber threats. With customized awareness programs, optimized resource allocation, threat intelligence collaboration, and user-centric security measures, trust JK Global IT Solutions to safeguard your business swiftly and expertly against all cyber threats.
+                Hrify Digital provides robust cyber resilience solutions for organizations to ensure uninterrupted business continuity amidst complex IT landscapes and challenging cyber threats. With customized awareness programs, optimized resource allocation, threat intelligence collaboration, and user-centric security measures, trust Hrify Digital to safeguard your business swiftly and expertly against all cyber threats.
               </p>
               <a href="#contact" className="cta-button">
                 Talk to Our Expert
@@ -220,7 +221,7 @@ const CyberResilience = () => {
         </section>
 
         {/* Support Features Section */}
-        <section className="section" style={{ backgroundColor: '#fff5f5' }}>
+        <section className="section" style={{ backgroundColor: '#E8F4FA' }}>
           <div className="container">
             <h2 className="section-title">Support Features</h2>
 
@@ -231,7 +232,7 @@ const CyberResilience = () => {
                 </svg>
                 <h3 className="feature-title">Resource Optimization</h3>
                 <p className="feature-desc">
-                  JK Global IT Solutions helps clients optimize cybersecurity investments through thorough risk assessments and prioritization of resource allocation based on risk levels.
+                  Hrify Digital helps clients optimize cybersecurity investments through thorough risk assessments and prioritization of resource allocation based on risk levels.
                 </p>
               </div>
 
@@ -243,7 +244,7 @@ const CyberResilience = () => {
                 </svg>
                 <h3 className="feature-title">Threat Intelligence & Collaboration</h3>
                 <p className="feature-desc">
-                  JK Global IT Solutions partners with industry peers and threat intelligence providers to gather and share timely threat information with clients, helping them defend against emerging cyber threats.
+                  Hrify Digital partners with industry peers and threat intelligence providers to gather and share timely threat information with clients, helping them defend against emerging cyber threats.
                 </p>
               </div>
 
@@ -254,7 +255,7 @@ const CyberResilience = () => {
                 </svg>
                 <h3 className="feature-title">Simplified Security Solutions</h3>
                 <p className="feature-desc">
-                  JK Global IT Solutions provides user-friendly security platforms with centralized dashboards for effective management and monitoring of comprehensive protection for clients.
+                  Hrify Digital provides user-friendly security platforms with centralized dashboards for effective management and monitoring of comprehensive protection for clients.
                 </p>
               </div>
 
@@ -265,7 +266,7 @@ const CyberResilience = () => {
                 </svg>
                 <h3 className="feature-title">Legacy System Upgrades</h3>
                 <p className="feature-desc">
-                  JK Global IT Solutions helps clients upgrade or replace legacy systems while implementing compensating controls to reduce vulnerabilities and risks.
+                  Hrify Digital helps clients upgrade or replace legacy systems while implementing compensating controls to reduce vulnerabilities and risks.
                 </p>
               </div>
 
@@ -278,7 +279,7 @@ const CyberResilience = () => {
                 </svg>
                 <h3 className="feature-title">Third-Party Risk Management</h3>
                 <p className="feature-desc">
-                  JK Global IT Solutions provides third-party risk management services, ensuring clients' vendors and partners meet high-security standards through assessments and contractual agreements.
+                  Hrify Digital provides third-party risk management services, ensuring clients' vendors and partners meet high-security standards through assessments and contractual agreements.
                 </p>
               </div>
 
@@ -289,7 +290,7 @@ const CyberResilience = () => {
                 </svg>
                 <h3 className="feature-title">Awareness</h3>
                 <p className="feature-desc">
-                  JK Global IT Solutions provides tailored cybersecurity awareness programs, including webinars, to help organizations educate their employees on cyber resilience and threat recognition.
+                  Hrify Digital provides tailored cybersecurity awareness programs, including webinars, to help organizations educate their employees on cyber resilience and threat recognition.
                 </p>
               </div>
             </div>
@@ -301,4 +302,3 @@ const CyberResilience = () => {
 };
 
 export default CyberResilience;
-

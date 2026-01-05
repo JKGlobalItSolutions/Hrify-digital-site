@@ -43,7 +43,7 @@
 
 .services-container {
   padding: 60px 20px;
-  background: linear-gradient(135deg, #0f172a 0%, #1e40af 100%);
+  background: linear-gradient(135deg, #1B8DBB 0%, #1B8DBB 100%);
   min-height: 100vh;
 }
 
@@ -88,7 +88,7 @@
 }
 
 .title-blue-gradient {
-  background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+  background: linear-gradient(135deg, #1B8DBB 0%, #1B8DBB 100%);
 }
 
 .service-name {

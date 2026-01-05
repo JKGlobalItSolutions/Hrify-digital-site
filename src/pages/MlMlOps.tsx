@@ -277,7 +277,7 @@ const MlMlOps = () => {
           <div className="container">
             <h2 className="section-title">Intelligent Data Solutions</h2>
             <p className="main-subtitle">
-              JK Global IT Solution delivers state-of-the-art ML & MLOps services that transform raw data into actionable intelligence for your business.
+              Hrify Digital delivers state-of-the-art ML & MLOps services that transform raw data into actionable intelligence for your business.
             </p>
             <p className="main-subtitle">
               Our advanced machine learning algorithms unlock hidden patterns in your data, enabling smarter decision-making across your organization. With our MLOps expertise, we ensure your AI models remain accurate, up-to-date, and continuously improving. From predictive analytics to natural language processing, our solutions are tailored to your specific industry challenges. We don't just implement technology – we partner with you to create sustainable competitive advantages through data-driven innovation.

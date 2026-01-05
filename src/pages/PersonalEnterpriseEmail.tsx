@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-const PersonalImage1 = '/assets/images/Personal-and-Enterprise-Email-Solutions.png';
-const PersonalImage2 = '/assets/images/personal-image-2.webp';
-const Rectangle27 = '/assets/images/Rectangle-27.webp';
-const Trip = '/assets/images/trip.webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const PersonalImage1 = getAssetPath('assets/images/Personal-and-Enterprise-Email-Solutions.png');
+const PersonalImage2 = getAssetPath('assets/images/personal-image-2.webp');
+const Rectangle27 = getAssetPath('assets/images/Rectangle-27.webp');
+const Trip = getAssetPath('assets/images/trip.webp');
 
 
 const PersonalEnterpriseEmail = () => {

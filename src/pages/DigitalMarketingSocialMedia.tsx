@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-const Rectangle27 = '/assets/images/Rectangle-27.webp';
-const DigitalImage1 = '/assets/images/DigitalMarketing&SocialMediaSolutions.png';
-const DigitalImage2 = '/assets/images/digital-image-2.webp';
-const Trip = '/assets/images/trip.webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const Rectangle27 = getAssetPath('assets/images/Rectangle-27.webp');
+const DigitalImage1 = getAssetPath('assets/images/DigitalMarketing&SocialMediaSolutions.png');
+const DigitalImage2 = getAssetPath('assets/images/digital-image-2.webp');
+const Trip = getAssetPath('assets/images/trip.webp');
 
 const DigitalMarketingSocialMedia = () => {
   return (
@@ -33,7 +35,7 @@ const DigitalMarketingSocialMedia = () => {
         <div className="row align-items-center justify-content-center ms-lg-3">
           <div className="col-12 col-lg-8 p-4">
             <p style={{ color: '#686D76',  textAlign: 'justify' }}>Over the last ten years, social media and digital marketing have emerged as the most sought-after strategies for driving online sales and clientele for businesses. The method of advertising websites to search engines and social media platforms has never changed, even when the platforms, algorithms, and techniques for these are updated annually.</p>
-            <p style={{ color: '#686D76',  textAlign: 'justify' }}>At JK Global IT Solutions, we have a particular plan that uses only a few tactics to have targeted digital marketing for businesses. Better ranking, more traffic, and more traction are the outcomes of this.  We carefully combine off-page advertising and organic SEO to improve your search engine ranking. Improved traffic and more business conversions are the outcomes when combined with our focused social media marketing.</p>
+            <p style={{ color: '#686D76',  textAlign: 'justify' }}>At Hrify Digital, we have a particular plan that uses only a few tactics to have targeted digital marketing for businesses. Better ranking, more traffic, and more traction are the outcomes of this.  We carefully combine off-page advertising and organic SEO to improve your search engine ranking. Improved traffic and more business conversions are the outcomes when combined with our focused social media marketing.</p>
           </div>
           <div className="col-12 col-lg-4">
             <img className="img-fluid" src={DigitalImage2} alt="" />

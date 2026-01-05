@@ -28,7 +28,7 @@ const Careers = () => {
         <style>
           {`
             .careers-hero {
-              background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+              background: linear-gradient(135deg, #1B8DBB 0%, #1B8DBB 100%);
               border-radius: 16px;
               padding: 4rem 2rem;
               margin-bottom: 4rem;
@@ -59,7 +59,7 @@ const Careers = () => {
               text-align: center;
               font-size: 2.5rem;
               font-weight: 700;
-              color: #1e3a8a;
+              color: #1B8DBB;
               margin-bottom: 3rem;
             }
 
@@ -125,7 +125,7 @@ const Careers = () => {
             .value-card h3 {
               font-size: 1.5rem;
               font-weight: 600;
-              color: #1e3a8a;
+              color: #1B8DBB;
               margin-bottom: 1rem;
             }
 
@@ -152,7 +152,7 @@ const Careers = () => {
             }
 
             .form-label {
-              color: #1e3a8a;
+              color: #1B8DBB;
               font-weight: 600;
               margin-bottom: 0.5rem;
               font-size: 0.95rem;
@@ -167,8 +167,8 @@ const Careers = () => {
             }
 
             .form-control:focus, .form-select:focus {
-              border-color: #1e3a8a;
-              box-shadow: 0 0 0 0.2rem rgba(30, 58, 138, 0.1);
+              border-color: #1B8DBB;
+              box-shadow: 0 0 0 0.2rem rgba(27, 141, 187, 0.1);
             }
 
             textarea.form-control {
@@ -177,7 +177,7 @@ const Careers = () => {
             }
 
             .submit-btn {
-              background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+              background: linear-gradient(135deg, #1B8DBB 0%, #1B8DBB 100%);
               color: white;
               border: none;
               border-radius: 50px;
@@ -185,13 +185,13 @@ const Careers = () => {
               font-size: 1.1rem;
               font-weight: 600;
               transition: all 0.3s ease;
-              box-shadow: 0 4px 15px rgba(30, 58, 138, 0.3);
+              box-shadow: 0 4px 15px rgba(27, 141, 187, 0.3);
             }
 
             .submit-btn:hover {
               transform: translateY(-2px);
-              box-shadow: 0 6px 20px rgba(30, 58, 138, 0.4);
-              background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
+              box-shadow: 0 6px 20px rgba(27, 141, 187, 0.4);
+              background: linear-gradient(135deg, #15749A 0%, #1B8DBB 100%);
             }
 
             .privacy-notice {
@@ -252,7 +252,7 @@ const Careers = () => {
 
         {/* Why Join Us Section */}
         <section className="values-section">
-          <h2 className="section-title">Why JK Global IT Solutions?</h2>
+          <h2 className="section-title">Why Hrify Digital?</h2>
           <p className="section-subtitle">
             We believe in empowering our people to do their best work while making a meaningful difference in the tech industry.
           </p>
@@ -410,7 +410,7 @@ const Careers = () => {
                   </div>
 
                   <div className="col-12">
-                    <label className="form-label">Why JK Global IT Solutions? *</label>
+                    <label className="form-label">Why Hrify Digital? *</label>
                     <textarea
                       className="form-control"
                       placeholder="What excites you about joining our team? How do you see yourself contributing to our mission?"
@@ -445,23 +445,23 @@ const Careers = () => {
         <section className="text-center py-5">
           <div className="container">
             <div style={{
-              background: 'linear-gradient(135deg, #1e3a8a, #3b82f6)',
+              background: 'linear-gradient(135deg, #1B8DBB, #1B8DBB)',
               color: 'white',
               padding: '3rem 2rem',
               borderRadius: '16px',
-              boxShadow: '0 8px 30px rgba(30, 58, 138, 0.2)'
+              boxShadow: '0 8px 30px rgba(27, 141, 187, 0.2)'
             }}>
               <h2 className="text-white mb-3" style={{ fontSize: '2.2rem', fontWeight: '700' }}>
                 Questions About Joining Our Team?
               </h2>
               <p className="mb-4" style={{ fontSize: '1.1rem', maxWidth: '700px', margin: '0 auto 2rem', opacity: '0.95' }}>
-                Reach out to our HR team at careers@jkglobalit.com or call us at +91 123-456-7890. We're here to help!
+                Reach out to our HR team at careers@hrifyglobalit.com or call us at +91 123-456-7890. We're here to help!
               </p>
               <a
                 href="/contact"
                 style={{
                   background: 'white',
-                  color: '#1e3a8a',
+                  color: '#1B8DBB',
                   padding: '1rem 2.5rem',
                   borderRadius: '50px',
                   fontWeight: '600',

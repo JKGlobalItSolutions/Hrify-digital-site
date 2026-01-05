@@ -42,7 +42,7 @@ const InfrastructureManagement = () => {
       <div className="container">
         <div className="row align-items-center my-5">
           <div className="col-12 col-lg-8">
-            <p style={{ color: '#686D76', fontFamily: 'system-ui, -apple-system, BlinkMacSystemFont, \'Segoe UI\', Roboto, Oxygen, Ubuntu, Cantarell, \'Open Sans\', \'Helvetica Neue\', sans-serif', textAlign: 'justify' }}>At JK Global IT Solution, our Infrastructure Management services are designed to ensure that your IT environment operates at peak efficiency. We manage and optimize your entire infrastructure, from servers and networks to cloud services and data centers. Our proactive approach includes continuous monitoring, regular updates, and strategic planning to prevent issues and minimize downtime. By leveraging the latest technologies and best practices, we provide a stable, scalable, and secure infrastructure that supports your business's growth and adaptability in an ever-changing digital landscape.</p>
+            <p style={{ color: '#686D76', fontFamily: 'system-ui, -apple-system, BlinkMacSystemFont, \'Segoe UI\', Roboto, Oxygen, Ubuntu, Cantarell, \'Open Sans\', \'Helvetica Neue\', sans-serif', textAlign: 'justify' }}>At Hrify Digital, our Infrastructure Management services are designed to ensure that your IT environment operates at peak efficiency. We manage and optimize your entire infrastructure, from servers and networks to cloud services and data centers. Our proactive approach includes continuous monitoring, regular updates, and strategic planning to prevent issues and minimize downtime. By leveraging the latest technologies and best practices, we provide a stable, scalable, and secure infrastructure that supports your business's growth and adaptability in an ever-changing digital landscape.</p>
           </div>
           <div className="col-12 col-lg-4 text-center">
             <img className="img-fluid" src={InfraImage2} alt="" />
@@ -55,13 +55,13 @@ const InfrastructureManagement = () => {
         <div className="row">
           <div className="col-12 col-lg-6 justify-content-center">
             <div className="text-center">
-              <img className="text-center" style={{ height: '50px' }} src={InfraL1} alt="" />
+              <img className="text-center" style={{ height: '50px', filter: 'hue-rotate(180deg) saturate(1.5) brightness(0.8)' }} src={InfraL1} alt="" />
             </div>
             <p>A complete range of server and storage solutions with reliable backup systems to securely manage your data.</p>
           </div>
           <div className="col-12 col-lg-6 justify-content-center">
             <div className="text-center">
-              <img className="text-center" style={{ height: '50px' }} src={InfraL2} alt="" />
+              <img className="text-center" style={{ height: '50px', filter: 'hue-rotate(180deg) saturate(1.5) brightness(0.8)' }} src={InfraL2} alt="" />
             </div>
             <p>We offer high-performance laptops with licensed software, the latest Windows OS, and fast M.2 SSDs, plus customizable desktops and laptops from authorized vendors, all ready for instant use.</p>
           </div>
@@ -69,15 +69,15 @@ const InfrastructureManagement = () => {
         <div className="row">
           <div className="col-12 col-lg-6 justify-content-center">
             <div className="text-center">
-              <img className="text-center" style={{ height: '50px' }} src={InfraL3} alt="" />
+              <img className="text-center" style={{ height: '50px', filter: 'hue-rotate(180deg) saturate(1.5) brightness(0.8)' }} src={InfraL3} alt="" />
             </div>
-            <p>JK Global IT Solution delivers SaaS solutions tailored to meet customers' on-demand and dynamic needs.</p>
+            <p>Hrify Digital delivers SaaS solutions tailored to meet customers' on-demand and dynamic needs.</p>
           </div>
           <div className="col-12 col-lg-6 justify-content-center">
             <div className="text-center">
-              <img className="text-center" style={{ height: '50px' }} src={InfraL4} alt="" />
+              <img className="text-center" style={{ height: '50px', filter: 'hue-rotate(180deg) saturate(1.5) brightness(0.8)' }} src={InfraL4} alt="" />
             </div>
-            <p>JK Global IT Solution designs and delivers high-end, Intel-based IT infrastructure with customizable configurations and top processors on demand.</p>
+            <p>Hrify Digital designs and delivers high-end, Intel-based IT infrastructure with customizable configurations and top processors on demand.</p>
           </div>
         </div>
       </div>

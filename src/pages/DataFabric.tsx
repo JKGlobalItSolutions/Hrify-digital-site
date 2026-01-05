@@ -356,13 +356,13 @@ const DataFabric = () => {
               <div className="col-lg-8 text-center">
                 <h2 className="display-5 fw-bold section-title mb-4">Data & Analytics</h2>
                 <p className="lead text-muted">
-                  By integrating and synchronizing data from various sources in real-time, JK Global IT Solution ensures accuracy and security for your business with Data Fabric solutions.
+                  By integrating and synchronizing data from various sources in real-time, Hrify Digital ensures accuracy and security for your business with Data Fabric solutions.
                 </p>
               </div>
             </div>
             <div className="service-box mb-5">
               <p className="text-muted mb-0">
-                JK Global IT Solution's data fabric solution is designed to provide your business with the best-in-class data integration to provide a unified view of data from various sources, allowing your business to integrate data from different systems and applications quickly. Our team ensures accuracy and real-time access while maintaining strong data security against unauthorized access or loss. Seamlessly integrate, access, and protect your data with our comprehensive solution.
+                Hrify Digital's data fabric solution is designed to provide your business with the best-in-class data integration to provide a unified view of data from various sources, allowing your business to integrate data from different systems and applications quickly. Our team ensures accuracy and real-time access while maintaining strong data security against unauthorized access or loss. Seamlessly integrate, access, and protect your data with our comprehensive solution.
               </p>
             </div>
             <div className="text-center">
@@ -390,7 +390,7 @@ const DataFabric = () => {
                   </div>
                   <h3>Seamless Data Integration</h3>
                   <p className="text-muted mb-0">
-                    We at JK Global IT Solution excel in connecting data sources seamlessly, empowering our clients with easy access to unified data.
+                    We at Hrify Digital excel in connecting data sources seamlessly, empowering our clients with easy access to unified data.
                   </p>
                 </div>
               </div>
@@ -401,7 +401,7 @@ const DataFabric = () => {
                   </div>
                   <h3>Top-tier Data Security</h3>
                   <p className="text-muted mb-0">
-                    At JK Global IT Solution, Data Security is our top priority. We implement strong encryption, strict access controls, and regulatory compliance to ensure data safety.
+                    At Hrify Digital, Data Security is our top priority. We implement strong encryption, strict access controls, and regulatory compliance to ensure data safety.
                   </p>
                 </div>
               </div>
@@ -412,7 +412,7 @@ const DataFabric = () => {
                   </div>
                   <h3>Scalability on Demand</h3>
                   <p className="text-muted mb-0">
-                    Our team at JK Global IT Solution offers cloud-based solutions that scale effortlessly to meet our clients' growing data demands.
+                    Our team at Hrify Digital offers cloud-based solutions that scale effortlessly to meet our clients' growing data demands.
                   </p>
                 </div>
               </div>
@@ -423,7 +423,7 @@ const DataFabric = () => {
                   </div>
                   <h3>Empowering Data Governance</h3>
                   <p className="text-muted mb-0">
-                    JK Global IT Solution empowers our clients with comprehensive data cataloging and lineage tracking, fostering better data governance practices.
+                    Hrify Digital empowers our clients with comprehensive data cataloging and lineage tracking, fostering better data governance practices.
                   </p>
                 </div>
               </div>
@@ -434,7 +434,7 @@ const DataFabric = () => {
                   </div>
                   <h3>Reliable Data Quality</h3>
                   <p className="text-muted mb-0">
-                    At JK Global IT Solution, we are committed to delivering reliable data quality management, providing our clients with accurate and consistent data.
+                    At Hrify Digital, we are committed to delivering reliable data quality management, providing our clients with accurate and consistent data.
                   </p>
                 </div>
               </div>
@@ -445,7 +445,7 @@ const DataFabric = () => {
                   </div>
                   <h3>Legacy Systems Compatibility</h3>
                   <p className="text-muted mb-0">
-                    Our team at JK Global IT Solution specializes in the seamless integration of legacy systems with modern data fabric technologies.
+                    Our team at Hrify Digital specializes in the seamless integration of legacy systems with modern data fabric technologies.
                   </p>
                 </div>
               </div>

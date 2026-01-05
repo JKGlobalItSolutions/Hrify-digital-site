@@ -1,7 +1,9 @@
 import React from "react";
-const MobileAppImage = '/assets/images/Mobile Application.png';
-const MobileImage2 = '/assets/images/mobile-image-2.webp';
-const Rectangle27 = '/assets/images/Rectangle-27.webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const MobileAppImage = getAssetPath('assets/images/Mobile Application.png');
+const MobileImage2 = getAssetPath('assets/images/mobile-image-2.webp');
+const Rectangle27 = getAssetPath('assets/images/Rectangle-27.webp');
 
 const MobileApplication = () => {
   return (
@@ -34,7 +36,7 @@ const MobileApplication = () => {
               Mobile Application Company In Chennai
             </h1>
             <p style={{ color: "#686D76" }}>
-              JK Global IT Solutions, established in 2023, has emerged as a
+              Hrify Digital, established in 2023, has emerged as a
               leading app development firm in Tiruvannamalai, serving a wide
               range of industries. With a proven track record of over 100+
               successful app development projects, we are recognized as a
@@ -47,7 +49,7 @@ const MobileApplication = () => {
               connecting businesses with their customers and enhancing user
               experiences. For small businesses aiming to expand their reach and
               engage with users effectively, partnering with a reliable app
-              development company like JK Global IT Solutions is essential. With
+              development company like Hrify Digital is essential. With
               our extensive experience in crafting high-quality, cost-effective
               app solutions, we are dedicated to helping your business excel in
               the mobile landscape.

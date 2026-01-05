@@ -192,11 +192,11 @@ const HelpDesk = () => {
           </div>
 
           <p className="main-subtitle">
-            Offering the right computer support services and assistance, JK Global IT Solutions' Help Desk/End User services provide efficient IT issue resolution, ensuring smooth business functioning, enhanced productivity, and long-term success.
+            Offering the right computer support services and assistance, Hrify Digital's Help Desk/End User services provide efficient IT issue resolution, ensuring smooth business functioning, enhanced productivity, and long-term success.
           </p>
 
           <p className="main-subtitle">
-            JK Global IT Solutions recognizes the significance of Help Desk/End User Computing services in minimizing business IT risks. Our team provides prompt and dependable support to end-users, reducing the downtime associated with IT issues. By proactively addressing challenges, we help maximize productivity, reduce costs associated with expensive downtime, and minimize the need for costly IT repairs. We recognize the significance of a robust support system that can elevate your business operations, and with a customer-centric mindset, our team strives to promptly address real-time queries, ensuring that your team can work seamlessly without disruptions.
+            Hrify Digital srecognizes the significance of Help Desk/End User Computing services in minimizing business IT risks. Our team provides prompt and dependable support to end-users, reducing the downtime associated with IT issues. By proactively addressing challenges, we help maximize productivity, reduce costs associated with expensive downtime, and minimize the need for costly IT repairs. We recognize the significance of a robust support system that can elevate your business operations, and with a customer-centric mindset, our team strives to promptly address real-time queries, ensuring that your team can work seamlessly without disruptions.
           </p>
 
           <a href="#contact" className="cta-button">
@@ -212,27 +212,27 @@ const HelpDesk = () => {
             <div className="features-grid">
               <div className="feature-card">
                 <h4>Vendor Support & SLAs</h4>
-                <p>JK Global IT Solutions empowers its users by offering a comprehensive knowledge base and intuitive self-help resources, allowing them to resolve common issues independently. Regular user training sessions are conducted to enhance technical skills and optimize IT resource utilization.</p>
+                <p>Hrify Digital sempowers its users by offering a comprehensive knowledge base and intuitive self-help resources, allowing them to resolve common issues independently. Regular user training sessions are conducted to enhance technical skills and optimize IT resource utilization.</p>
               </div>
 
               <div className="feature-card">
                 <h4>Ticket Volume Management</h4>
-                <p>JK Global IT Solutions efficiently manages ticket volume through a streamlined ticket triage process that prioritizes urgent issues. Leveraging automation tools, routine tasks are automated, enabling the support team to focus on complex challenges.</p>
+                <p>Hrify Digital sefficiently manages ticket volume through a streamlined ticket triage process that prioritizes urgent issues. Leveraging automation tools, routine tasks are automated, enabling the support team to focus on complex challenges.</p>
               </div>
 
               <div className="feature-card">
                 <h4>Handling Complex IT Environment</h4>
-                <p>JK Global IT Solutions' standardized hardware and software configurations facilitate seamless troubleshooting and support. Our support tiers efficiently handle different levels of complexity within the diverse IT environment.</p>
+                <p>Hrify Digital's standardized hardware and software configurations facilitate seamless troubleshooting and support. Our support tiers efficiently handle different levels of complexity within the diverse IT environment.</p>
               </div>
 
               <div className="feature-card">
                 <h4>Ticket Escalation Procedures</h4>
-                <p>JK Global IT Solutions' well-defined escalation procedures enable swift handling of complex issues, ensuring that they reach the appropriate teams promptly for resolution.</p>
+                <p>Hrify Digital's well-defined escalation procedures enable swift handling of complex issues, ensuring that they reach the appropriate teams promptly for resolution.</p>
               </div>
 
               <div className="feature-card">
                 <h4>Remote Support</h4>
-                <p>Through remote desktop software and other advanced tools, JK Global IT Solutions delivers efficient support to off-site users, resolving issues promptly.</p>
+                <p>Through remote desktop software and other advanced tools, Hrify Digital delivers efficient support to off-site users, resolving issues promptly.</p>
               </div>
 
               <div className="feature-card">

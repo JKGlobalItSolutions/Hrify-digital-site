@@ -269,7 +269,7 @@ const ZeroTrustArchitecture = () => {
             Get Your Access Authorized, Encrypted, & Secured With Zero Trust Architecture
           </h1>
           <p className="main-subtitle">
-            Minimize the attack surface, prevent data breaches, and eliminate threats with JK Global IT Solution's comprehensive Zero Trust approach.
+            Minimize the attack surface, prevent data breaches, and eliminate threats with Hrify Digital's comprehensive Zero Trust approach.
           </p>
 
           <div className="btn-group">
@@ -311,7 +311,7 @@ const ZeroTrustArchitecture = () => {
           <div className="container">
             <h2 className="section-title">Streamlined Zero Trust Implementation</h2>
             <p className="section-intro">
-              JK Global IT Solution simplifies Zero Trust Architecture implementation and offers tailored solutions to tackle implementation challenges. We assess compatibility, upgrade legacy systems, and prioritize user experience with friendly authentication and training.
+              Hrify Digital simplifies Zero Trust Architecture implementation and offers tailored solutions to tackle implementation challenges. We assess compatibility, upgrade legacy systems, and prioritize user experience with friendly authentication and training.
             </p>
 
             <div className="card-grid">
@@ -335,7 +335,7 @@ const ZeroTrustArchitecture = () => {
                 <i className="fas fa-users"></i>
                 <h3 className="card-title">Expert Training</h3>
                 <p className="card-body">
-                  Trust JK Global IT Solution for effective implementation of Zero Trust Architecture with comprehensive training and support.
+                  Trust Hrify Digital for effective implementation of Zero Trust Architecture with comprehensive training and support.
                 </p>
               </div>
             </div>
@@ -354,7 +354,7 @@ const ZeroTrustArchitecture = () => {
                 </div>
                 <div className="feature-content">
                   <h3>Comprehensive Implementation Strategy</h3>
-                  <p>JK Global IT Solution creates customized implementation plans for clients to implement Zero Trust Architecture and offers guidance and support throughout the process.</p>
+                  <p>Hrify Digital creates customized implementation plans for clients to implement Zero Trust Architecture and offers guidance and support throughout the process.</p>
                 </div>
               </div>
 
@@ -364,7 +364,7 @@ const ZeroTrustArchitecture = () => {
                 </div>
                 <div className="feature-content">
                   <h3>Legacy Systems</h3>
-                  <p>JK Global IT Solution assesses client legacy systems for compatibility with Zero Trust principles. We help clients upgrade or replace systems and give modernization recommendations.</p>
+                  <p>Hrify Digital assesses client legacy systems for compatibility with Zero Trust principles. We help clients upgrade or replace systems and give modernization recommendations.</p>
                 </div>
               </div>
 
@@ -374,7 +374,7 @@ const ZeroTrustArchitecture = () => {
                 </div>
                 <div className="feature-content">
                   <h3>User Experience</h3>
-                  <p>JK Global IT Solution designs user-friendly authentication methods tailored to clients' needs and offers expertise in implementing these technologies with training and documentation.</p>
+                  <p>Hrify Digital designs user-friendly authentication methods tailored to clients' needs and offers expertise in implementing these technologies with training and documentation.</p>
                 </div>
               </div>
 
@@ -384,7 +384,7 @@ const ZeroTrustArchitecture = () => {
                 </div>
                 <div className="feature-content">
                   <h3>Tackling Cultural Resistance</h3>
-                  <p>JK Global IT Solution creates change management strategies for organizational culture and customized communication plans, showcasing successful Zero Trust implementations.</p>
+                  <p>Hrify Digital creates change management strategies for organizational culture and customized communication plans, showcasing successful Zero Trust implementations.</p>
                 </div>
               </div>
 
@@ -394,7 +394,7 @@ const ZeroTrustArchitecture = () => {
                 </div>
                 <div className="feature-content">
                   <h3>Visibility & Monitoring</h3>
-                  <p>JK Global IT Solution offers customizable security monitoring solutions to meet clients' specific needs and regulatory requirements with real-time visibility into network traffic.</p>
+                  <p>Hrify Digital offers customizable security monitoring solutions to meet clients' specific needs and regulatory requirements with real-time visibility into network traffic.</p>
                 </div>
               </div>
 
@@ -404,7 +404,7 @@ const ZeroTrustArchitecture = () => {
                 </div>
                 <div className="feature-content">
                   <h3>Change Management</h3>
-                  <p>JK Global IT Solution develops customized communication plans for clients, with industry-specific training and resources to address challenges during implementation.</p>
+                  <p>Hrify Digital develops customized communication plans for clients, with industry-specific training and resources to address challenges during implementation.</p>
                 </div>
               </div>
             </div>

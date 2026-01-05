@@ -345,13 +345,13 @@ const Reports = () => {
               <div className="col-lg-8 text-center">
                 <h2 className="display-5 fw-bold section-title mb-4">Data & Analytics</h2>
                 <p className="lead text-muted">
-                  Gain valuable insights for performance monitoring, business intelligence, risk management, forecasting, and informed decision-making with JK Global IT Solution's Report solutions.
+                  Gain valuable insights for performance monitoring, business intelligence, risk management, forecasting, and informed decision-making with Hrify Digital's Report solutions.
                 </p>
               </div>
             </div>
             <div className="service-box mb-5">
               <p className="text-muted mb-0">
-                JK Global IT Solution's approach in reports with Data & Analytics is very valuable, enabling your business to analyze data, gain insights, and make informed decisions. In our structured format, reports can further help your business monitor performance, gain business intelligence, manage risks, and forecast future trends and outcomes, ultimately helping them to achieve better business outcomes.
+                Hrify Digital's approach in reports with Data & Analytics is very valuable, enabling your business to analyze data, gain insights, and make informed decisions. In our structured format, reports can further help your business monitor performance, gain business intelligence, manage risks, and forecast future trends and outcomes, ultimately helping them to achieve better business outcomes.
               </p>
             </div>
             <div className="text-center">
@@ -379,7 +379,7 @@ const Reports = () => {
                   </div>
                   <h3>Performance & Latency</h3>
                   <p className="text-muted mb-0">
-                    JK Global IT Solution's experienced database optimization team continuously fine-tunes queries and indexing, ensuring efficient data retrieval for faster report generation.
+                    Hrify Digital's experienced database optimization team continuously fine-tunes queries and indexing, ensuring efficient data retrieval for faster report generation.
                   </p>
                 </div>
               </div>
@@ -390,7 +390,7 @@ const Reports = () => {
                   </div>
                   <h3>User Interface & Experience</h3>
                   <p className="text-muted mb-0">
-                    JK Global IT Solution's customizable report templates and interactive visualizations allow clients to tailor reports according to their preferences easily.
+                    Hrify Digital's customizable report templates and interactive visualizations allow clients to tailor reports according to their preferences easily.
                   </p>
                 </div>
               </div>
@@ -401,7 +401,7 @@ const Reports = () => {
                   </div>
                   <h3>Integration with Existing Systems</h3>
                   <p className="text-muted mb-0">
-                    JK Global IT Solution offers seamless integration with various data warehouses and analytics tools, supported by their extensive library of data connectors and APIs.
+                    Hrify Digital offers seamless integration with various data warehouses and analytics tools, supported by their extensive library of data connectors and APIs.
                   </p>
                 </div>
               </div>
@@ -412,7 +412,7 @@ const Reports = () => {
                   </div>
                   <h3>Report Customization</h3>
                   <p className="text-muted mb-0">
-                    JK Global IT Solution's report is designed with flexibility in mind, allowing clients to create custom reports using the company's intuitive report builder.
+                    Hrify Digital's report is designed with flexibility in mind, allowing clients to create custom reports using the company's intuitive report builder.
                   </p>
                 </div>
               </div>
@@ -423,7 +423,7 @@ const Reports = () => {
                   </div>
                   <h3>Costs & Licensing</h3>
                   <p className="text-muted mb-0">
-                    JK Global IT Solution offers transparent pricing models, tailoring solutions to each client's unique needs, ensuring a cost-effective service without compromising quality.
+                    Hrify Digital offers transparent pricing models, tailoring solutions to each client's unique needs, ensuring a cost-effective service without compromising quality.
                   </p>
                 </div>
               </div>
@@ -434,7 +434,7 @@ const Reports = () => {
                   </div>
                   <h3>Report Performance Optimization</h3>
                   <p className="text-muted mb-0">
-                    JK Global IT Solution implements data optimization strategies, such as materialized views and query optimization, to enhance report performance and reduce processing times for their clients.
+                    Hrify Digital implements data optimization strategies, such as materialized views and query optimization, to enhance report performance and reduce processing times for their clients.
                   </p>
                 </div>
               </div>

@@ -251,7 +251,7 @@ const Enterprise = () => {
         {/* Main Features Section */}
         <section className="section">
           <div className="container">
-            <h2 className="section-title">Transform Your Business with JK ERP</h2>
+            <h2 className="section-title">Transform Your Business with Hrify ERP</h2>
 
             <div className="features-grid">
               <div className="feature-card">
@@ -323,7 +323,7 @@ const Enterprise = () => {
               <div className="feature-card">
                 <img src="/assets/images/erp/mobilefrendly.png" alt="Mobile Accessibility" />
                 <h4>Mobile Accessibility</h4>
-                <p>Access JK ERP on the go with a user-friendly mobile app, anywhere, anytime.</p>
+                <p>Access Hrify ERP on the go with a user-friendly mobile app, anywhere, anytime.</p>
               </div>
             </div>
           </div>
@@ -359,12 +359,12 @@ const Enterprise = () => {
         {/* Empower Section */}
         <section className="section">
           <div className="container">
-            <h2 className="section-title">Empower Your Business with JK ERP</h2>
+            <h2 className="section-title">Empower Your Business with Hrify ERP</h2>
 
             <ul className="empower-list">
               <li><strong>Reduce Manual Work and Human Errors:</strong> Automate processes to increase efficiency and accuracy, minimizing human errors.</li>
               <li><strong>Access Real-Time Data:</strong> Stay updated with live data, enabling smarter and more timely decisions.</li>
-              <li><strong>Scale Seamlessly as Your Business Grows:</strong> JK ERP adapts to your growing business, ensuring consistent performance as you expand.</li>
+              <li><strong>Scale Seamlessly as Your Business Grows:</strong> Hrify Digital ERP adapts to your growing business, ensuring consistent performance as you expand.</li>
               <li><strong>24/7 Access to All Modules:</strong> Stay connected and manage your business from anywhere, at any time.</li>
             </ul>
           </div>

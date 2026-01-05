@@ -27,9 +27,7 @@ const ManagedTestingServices = () => {
             .main-title {
               font-size: 2.8rem;
               font-weight: 700;
-              background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
-              -webkit-background-clip: text;
-              -webkit-text-fill-color: transparent;
+              color: #1B8DBB;
               margin-bottom: 1.5rem;
             }
 
@@ -44,7 +42,7 @@ const ManagedTestingServices = () => {
             .cta-button {
               display: block;
               width: fit-content;
-              background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+              background: #1B8DBB;
               color: white;
               padding: 0.9rem 2.5rem;
               border-radius: 9999px;
@@ -56,10 +54,10 @@ const ManagedTestingServices = () => {
             }
 
             .cta-button:hover {
-              background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
+              background: #15749A;
               color: white;
               transform: translateY(-2px);
-              box-shadow: 0 4px 12px rgba(30, 58, 138, 0.3);
+              box-shadow: 0 4px 12px rgba(27, 141, 187, 0.3);
             }
 
             .section {
@@ -70,14 +68,13 @@ const ManagedTestingServices = () => {
               text-align: center;
               font-size: 2.4rem;
               font-weight: 700;
-              background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
-              -webkit-background-clip: text;
-              -webkit-text-fill-color: transparent;
+              color: #1B8DBB;
               margin-bottom: 3rem;
             }
 
             .feature-card {
-              background: white;
+              background: #E8F4FA;
+              border: 1px solid #B3D9FF;
               border-radius: 16px;
               padding: 2rem;
               text-align: center;
@@ -96,9 +93,7 @@ const ManagedTestingServices = () => {
             .feature-card h4 {
               font-size: 1.4rem;
               font-weight: 600;
-              background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
-              -webkit-background-clip: text;
-              -webkit-text-fill-color: transparent;
+              color: #1B8DBB;
               margin-bottom: 1rem;
             }
 
@@ -111,7 +106,7 @@ const ManagedTestingServices = () => {
             .icon-wrapper {
               width: 80px;
               height: 80px;
-              background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+              background: transparent;
               border-radius: 50%;
               display: flex;
               align-items: center;
@@ -122,7 +117,7 @@ const ManagedTestingServices = () => {
             .icon-wrapper svg {
               width: 40px;
               height: 40px;
-              stroke: white;
+              stroke: #1B8DBB;
             }
 
             .image-grid-container {
@@ -160,9 +155,7 @@ const ManagedTestingServices = () => {
             .grid-card-title {
               font-size: 1rem;
               font-weight: 600;
-              background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
-              -webkit-background-clip: text;
-              -webkit-text-fill-color: transparent;
+              color: #1B8DBB;
               margin-bottom: 0.5rem;
             }
 
@@ -287,16 +280,16 @@ const ManagedTestingServices = () => {
           <div className="container">
             <h2 className="section-title">Our Approach</h2>
             <p className="main-subtitle " style={{textAlign:'justify', alignItems:'center'}}>
-              JK Global IT Solution's Managed Testing Services deliver meticulous and specialized testing, ensuring precise software execution. We alleviate testing complexities and time-to-market pressures, empowering excellence in applications.
+              Hrify Digital's Managed Testing Services deliver meticulous and specialized testing, ensuring precise software execution. We alleviate testing complexities and time-to-market pressures, empowering excellence in applications.
             </p>
             <p className="main-subtitle " style={{textAlign:'justify'}}>
-              JK Global IT Solution's Managed Testing Services offer a complete solution for testing and certifying business functionality, performance, and security. We use our in-house tools and our team's expertise to deliver high-quality output, measurable improvements, and effective defect identification in the production ecosystem. By maintaining proactive and transparent communication with our clients, JK Global IT Solution enhances businesses to focus on their core activities with confidence, knowing that their software is reliable and precise.
+              Hrify Digital's Managed Testing Services offer a complete solution for testing and certifying business functionality, performance, and security. We use our in-house tools and our team's expertise to deliver high-quality output, measurable improvements, and effective defect identification in the production ecosystem. By maintaining proactive and transparent communication with our clients, Hrify Digital enhances businesses to focus on their core activities with confidence, knowing that their software is reliable and precise.
             </p>
           </div>
         </section>
 
         {/* Support Features Section */}
-        <section className="section" style={{ background: 'linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%)', borderRadius: '16px', padding: '4rem 2rem' }}>
+        <section className="section" style={{ backgroundColor: '#E8F4FA', borderRadius: '16px', padding: '4rem 2rem' }}>
           <div className="container">
             <h2 className="section-title">Support Features</h2>
             <div className="row g-4">
@@ -326,7 +319,7 @@ const ManagedTestingServices = () => {
                   <h4>Data Security & Privacy</h4>
                   <p className="text-muted">Data Security & Confidentiality</p>
                   <p>
-                    JK Global IT Solution prioritizes data security and confidentiality. By implementing robust encryption protocols, secure data storage practices, and adherence to industry regulations, we instill confidence in clients regarding protecting their sensitive information.
+                    Hrify Digital prioritizes data security and confidentiality. By implementing robust encryption protocols, secure data storage practices, and adherence to industry regulations, we instill confidence in clients regarding protecting their sensitive information.
                   </p>
                 </div>
               </div>
@@ -375,7 +368,7 @@ const ManagedTestingServices = () => {
                   <h4>Continuous Improvement</h4>
                   <p className="text-muted">Flexibility & Scalability</p>
                   <p>
-                    JK Global IT Solution offers flexible service packages to accommodate varying testing needs. The ability to scale resources ensures clients receive tailored testing solutions.
+                    Hrify Digital offers flexible service packages to accommodate varying testing needs. The ability to scale resources ensures clients receive tailored testing solutions.
                   </p>
                 </div>
               </div>
@@ -404,11 +397,11 @@ const ManagedTestingServices = () => {
         <section className="section">
           <div className="container text-center">
             <div style={{
-              background: 'linear-gradient(135deg, #1e3a8a, #3b82f6)',
+              background: '#1B8DBB',
               color: 'white',
               padding: '4rem 2rem',
               borderRadius: '16px',
-              boxShadow: '0 8px 30px rgba(30, 58, 138, 0.2)'
+              boxShadow: '0 8px 30px rgba(27, 141, 187, 0.2)'
             }}>
               <h2 className="text-white mb-4" style={{ fontSize: '2.5rem', fontWeight: '700' }}>
                 Quality Engineering Case Studies
@@ -417,8 +410,8 @@ const ManagedTestingServices = () => {
                 Discover how we've helped businesses achieve excellence through our comprehensive testing solutions
               </p>
               <a href="#" style={{
-                background: 'white',
-                color: '#1e3a8a',
+                background: '#1B8DBB',
+                color: 'white',
                 padding: '1rem 2.5rem',
                 borderRadius: '9999px',
                 fontWeight: '600',
@@ -427,8 +420,8 @@ const ManagedTestingServices = () => {
                 display: 'inline-block',
                 transition: 'all 0.3s ease'
               }}
-              onMouseOver={(e) => (e.target as HTMLAnchorElement).style.background = '#f0f0f0'}
-              onMouseOut={(e) => (e.target as HTMLAnchorElement).style.background = 'white'}
+              onMouseOver={(e) => (e.target as HTMLAnchorElement).style.background = '#15749A'}
+              onMouseOut={(e) => (e.target as HTMLAnchorElement).style.background = '#1B8DBB'}
               >
                 View Case Studies
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ marginLeft: '8px', display: 'inline-block', verticalAlign: 'middle' }}>
@@ -448,4 +441,3 @@ const ManagedTestingServices = () => {
 };
 
 export default ManagedTestingServices;
-

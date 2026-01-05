@@ -37,7 +37,7 @@ const Internship = () => {
             .internship-hero h2 {
               font-size: 2.8rem;
               font-weight: 700;
-              color: #1e3a8a;
+              color: #1B8DBB;
               margin-bottom: 1.5rem;
               line-height: 1.3;
             }
@@ -53,7 +53,7 @@ const Internship = () => {
               text-align: center;
               font-size: 2.5rem;
               font-weight: 700;
-              color: #1e3a8a;
+              color: #1B8DBB;
               margin-bottom: 3rem;
             }
 
@@ -72,7 +72,7 @@ const Internship = () => {
               box-shadow: 0 8px 24px rgba(0,0,0,0.06);
               transition: all 0.3s ease;
               height: 100%;
-              border-left: 4px solid #1e3a8a;
+              border-left: 4px solid #1B8DBB;
             }
 
             .program-card:hover {
@@ -83,7 +83,7 @@ const Internship = () => {
             .program-card h3 {
               font-size: 1.4rem;
               font-weight: 600;
-              color: #1e3a8a;
+              color: #1B8DBB;
               margin-bottom: 1rem;
             }
 
@@ -149,7 +149,7 @@ const Internship = () => {
             .benefit-card h3 {
               font-size: 1.5rem;
               font-weight: 600;
-              color: #1e3a8a;
+              color: #1B8DBB;
               margin-bottom: 1rem;
             }
 
@@ -178,7 +178,7 @@ const Internship = () => {
             .form-section-title {
               font-size: 1.3rem;
               font-weight: 600;
-              color: #1e3a8a;
+              color: #1B8DBB;
               margin: 2rem 0 1.5rem;
               padding-bottom: 0.5rem;
               border-bottom: 2px solid #e0e0e0;
@@ -189,7 +189,7 @@ const Internship = () => {
             }
 
             .form-label {
-              color: #1e3a8a;
+              color: #1B8DBB;
               font-weight: 600;
               margin-bottom: 0.5rem;
               font-size: 0.95rem;
@@ -204,8 +204,8 @@ const Internship = () => {
             }
 
             .form-control:focus, .form-select:focus {
-              border-color: #1e3a8a;
-              box-shadow: 0 0 0 0.2rem rgba(30, 58, 138, 0.1);
+              border-color: #1B8DBB;
+              box-shadow: 0 0 0 0.2rem rgba(27, 141, 187, 0.1);
             }
 
             textarea.form-control {
@@ -214,17 +214,17 @@ const Internship = () => {
             }
 
             .form-check-input:checked {
-              background-color: #1e3a8a;
-              border-color: #1e3a8a;
+              background-color: #1B8DBB;
+              border-color: #1B8DBB;
             }
 
             .form-check-input:focus {
-              box-shadow: 0 0 0 0.2rem rgba(30, 58, 138, 0.1);
-              border-color: #1e3a8a;
+              box-shadow: 0 0 0 0.2rem rgba(27, 141, 187, 0.1);
+              border-color: #1B8DBB;
             }
 
             .submit-btn {
-              background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+              background: linear-gradient(135deg, #1B8DBB 0%, #1B8DBB 100%);
               color: white;
               border: none;
               border-radius: 50px;
@@ -232,13 +232,13 @@ const Internship = () => {
               font-size: 1.1rem;
               font-weight: 600;
               transition: all 0.3s ease;
-              box-shadow: 0 4px 15px rgba(30, 58, 138, 0.3);
+              box-shadow: 0 4px 15px rgba(27, 141, 187, 0.3);
             }
 
             .submit-btn:hover {
               transform: translateY(-2px);
-              box-shadow: 0 6px 20px rgba(30, 58, 138, 0.4);
-              background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
+              box-shadow: 0 6px 20px rgba(27, 141, 187, 0.4);
+              background: linear-gradient(135deg, #15749A 0%, #1B8DBB 100%);
             }
 
             .privacy-notice {
@@ -307,7 +307,7 @@ const Internship = () => {
             <div className="col-12 col-lg-8">
               <h2>Unlock Your Potential with Real-World Experience</h2>
               <p>
-                At JK Global IT Solutions, our internship program is designed to unlock the true potential of students and young professionals by providing hands-on learning experiences. We nurture talent, spark innovation, and help interns discover their strengths through structured training and real-world projects.
+                At Hrify Digital, our internship program is designed to unlock the true potential of students and young professionals by providing hands-on learning experiences. We nurture talent, spark innovation, and help interns discover their strengths through structured training and real-world projects.
               </p>
               <p>
                 Join us to transform your academic knowledge into practical skills while working alongside experienced professionals in a collaborative, growth-focused environment.
@@ -419,7 +419,7 @@ const Internship = () => {
         <section className="mb-5">
           <h2 className="section-title">Success Stories</h2>
           <p className="section-subtitle">
-            Many of our interns have transitioned into full-time roles at JK Global IT Solutions or leading companies worldwide.
+            Many of our interns have transitioned into full-time roles at Hrify Digital or leading companies worldwide.
           </p>
           <div className="row g-4">
             <div className="col-12 col-md-6">
@@ -434,7 +434,7 @@ const Internship = () => {
               <div className="success-story">
                 <h4>Arjun Menon - Frontend Developer</h4>
                 <p>
-                  "Started as a frontend intern and was hired by an ed-tech startup after showcasing my React-based portfolio built during my time here. JK Global IT Solutions launched my career!"
+                  "Started as a frontend intern and was hired by an ed-tech startup after showcasing my React-based portfolio built during my time here. Hrify Digital launched my career!"
                 </p>
               </div>
             </div>
@@ -697,7 +697,7 @@ const Internship = () => {
                           style={{ flexShrink: 0 }}
                         />
                         <label className="form-check-label text-start" htmlFor="codeOfConduct">
-                          I agree to follow JK Global IT Solutions' code of conduct and professional standards *
+                          I agree to follow Hrify Digital's code of conduct and professional standards *
                         </label>
                       </div>
                     </div>
@@ -739,11 +739,11 @@ const Internship = () => {
         <section className="text-center py-5">
           <div className="container">
             <div style={{
-              background: 'linear-gradient(135deg, #1e3a8a, #3b82f6)',
+              background: 'linear-gradient(135deg, #1B8DBB, #1B8DBB)',
               color: 'white',
               padding: '3rem 2rem',
               borderRadius: '16px',
-              boxShadow: '0 8px 30px rgba(30, 58, 138, 0.2)'
+              boxShadow: '0 8px 30px rgba(27, 141, 187, 0.2)'
             }}>
               <h2 className="text-white mb-3" style={{ fontSize: '2.2rem', fontWeight: '700' }}>
                 Questions About Our Internship Program?
@@ -755,7 +755,7 @@ const Internship = () => {
                 href="/contact"
                 style={{
                   background: 'white',
-                  color: '#1e3a8a',
+                  color: '#1B8DBB',
                   padding: '1rem 2.5rem',
                   borderRadius: '50px',
                   fontWeight: '600',

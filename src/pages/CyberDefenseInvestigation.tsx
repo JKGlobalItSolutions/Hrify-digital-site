@@ -147,7 +147,8 @@ const CyberDefenseInvestigation = () => {
             }
 
             .feature-card {
-              background: white;
+              background: #E8F4FA;
+              border: 1px solid #B3D9FF;
               border-radius: 12px;
               padding: 2rem;
               text-align: center;
@@ -356,14 +357,14 @@ const CyberDefenseInvestigation = () => {
         {/* Services Section */}
         <section className="section">
           <div className="container">
-            <h2 className="section-title">Elevate your Cyber Defense with JK Global IT Solutions</h2>
+            <h2 className="section-title">Elevate your Cyber Defense withHrify Digital</h2>
             <p className="section-intro">
               Align, automate, collaborate, excel in investigations, and ensure compliance effortlessly.
             </p>
 
             <div className="service-card">
               <p>
-                JK Global IT Solutions, a leading provider of integrated Cyber Defense and Investigation services, seamlessly aligns cybersecurity measures with your organizational goals. Skilled professionals and legal experts tackle complexities, ensuring compliance. With robust data acquisition and preservation, including advanced forensics, evidence integrity is maintained. Facilitating collaboration through a centralized system, we advocate for increased budgets and prioritize resource investments. Committed to fortifying cyber defense, JK Global IT Solutions excels in investigations.
+                Hrify Digital, a leading provider of integrated Cyber Defense and Investigation services, seamlessly aligns cybersecurity measures with your organizational goals. Skilled professionals and legal experts tackle complexities, ensuring compliance. With robust data acquisition and preservation, including advanced forensics, evidence integrity is maintained. Facilitating collaboration through a centralized system, we advocate for increased budgets and prioritize resource investments. Committed to fortifying cyber defense, Hrify Digital excels in investigations.
               </p>
               <a href="#contact" className="cta-button">
                 Schedule a Consultation
@@ -373,7 +374,7 @@ const CyberDefenseInvestigation = () => {
         </section>
 
         {/* Support Features Section */}
-        <section className="section" style={{ backgroundColor: '#fff5f5' }}>
+        <section className="section" style={{ backgroundColor: '#E8F4FA' }}>
           <div className="container">
             <h2 className="section-title">Support Features</h2>
             <p className="section-intro">
@@ -389,7 +390,7 @@ const CyberDefenseInvestigation = () => {
                 </svg>
                 <h3 className="feature-title">Threat Intelligence Network</h3>
                 <p className="feature-desc">
-                  JK Global IT Solutions extensive partnerships provide real-time threat intelligence, trend updates, and collaborative sharing.
+                  Hrify Digital extensive partnerships provide real-time threat intelligence, trend updates, and collaborative sharing.
                 </p>
               </div>
 
@@ -412,7 +413,7 @@ const CyberDefenseInvestigation = () => {
                 </svg>
                 <h3 className="feature-title">Legacy System Risk Mitigation Plan</h3>
                 <p className="feature-desc">
-                  JK Global IT Solutions addresses vulnerable legacy systems using network segmentation, intrusion detection, patching, and upgrades/replacements.
+                  Hrify Digital addresses vulnerable legacy systems using network segmentation, intrusion detection, patching, and upgrades/replacements.
                 </p>
               </div>
 
@@ -437,7 +438,7 @@ const CyberDefenseInvestigation = () => {
                 </svg>
                 <h3 className="feature-title">Strategic Budget Allocation</h3>
                 <p className="feature-desc">
-                  We at JK Global IT Solutions take cybersecurity seriously, investing in tech and skilled professionals to avoid financial and reputational harm from cyber attacks.
+                  We at Hrify Digital take cybersecurity seriously, investing in tech and skilled professionals to avoid financial and reputational harm from cyber attacks.
                 </p>
               </div>
 
@@ -448,7 +449,7 @@ const CyberDefenseInvestigation = () => {
                 </svg>
                 <h3 className="feature-title">Cybersecurity Awareness Program</h3>
                 <p className="feature-desc">
-                  JK Global IT Solutions implements a comprehensive cybersecurity awareness program, encompassing training, workshops, and campaigns to educate employees on threats and best practices for security.
+                  Hrify Digital implements a comprehensive cybersecurity awareness program, encompassing training, workshops, and campaigns to educate employees on threats and best practices for security.
                 </p>
               </div>
             </div>
@@ -475,7 +476,7 @@ const CyberDefenseInvestigation = () => {
                   <p className="case-category">Banking & Finance</p>
                   <h3 className="case-title">Financial Institution Breach Prevention</h3>
                   <p className="case-desc">
-                    A major financial institution faced sophisticated phishing attacks targeting customer data. JK Global IT Solutions implemented advanced threat detection systems and employee training, reducing successful attacks by 98% within three months.
+                    A major financial institution faced sophisticated phishing attacks targeting customer data. Hrify Digital implemented advanced threat detection systems and employee training, reducing successful attacks by 98% within three months.
                   </p>
                 </div>
               </div>
@@ -508,7 +509,7 @@ const CyberDefenseInvestigation = () => {
                   <p className="case-category">Manufacturing</p>
                   <h3 className="case-title">Manufacturing Supply Chain Security</h3>
                   <p className="case-desc">
-                    A global manufacturer experienced supply chain disruptions due to security vulnerabilities. JK Global IT Solutions secured their entire supply chain network, preventing an estimated $4.2M in potential losses from future attacks.
+                    A global manufacturer experienced supply chain disruptions due to security vulnerabilities. Hrify Digital secured their entire supply chain network, preventing an estimated $4.2M in potential losses from future attacks.
                   </p>
                 </div>
               </div>
@@ -564,4 +565,3 @@ const CyberDefenseInvestigation = () => {
 };
 
 export default CyberDefenseInvestigation;
-

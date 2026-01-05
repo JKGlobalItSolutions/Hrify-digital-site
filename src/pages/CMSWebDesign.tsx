@@ -45,7 +45,7 @@ const CMSWebDesign = () => {
                         the one thing on these websites that guarantees your target traffic is brought towards you and
                         allows you to conduct business is the content. The king is the content.</p>
                     <p style={{color: '#686D76'}}>A content management system is essential if you want your website's material to be current,
-                        relevant, and green at all times. JK Global IT Solutions offers CMS websites on WordPress with
+                        relevant, and green at all times. Hrify Digital offers CMS websites on WordPress with
                         the newest trends in technology and security by utilizing the characteristics of the WordPress
                         backend system.</p>
                     <p style={{color: '#686D76'}}>Our CMS solutions are easy to use and quick to pick up, giving business owners the advantage of
@@ -60,7 +60,7 @@ const CMSWebDesign = () => {
         <div className="container">
           <div className="row">
             <div  className="p-4  col-12" style={{textAlign:'justify'}}> <br/>
-                <h3 style={{color: '#686D76'}}>Benefits of Content Management System</h3> <br/>
+                <h3 style={{color: '##1B8DBB'}}>Benefits of Content Management System</h3> <br/>
                 <p style={{color: '#686D76'}}><i className="fa fa-circle-o" style={{fontSize:'20px',background: 'linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}></i> &nbsp; we provide effortless website maintenance and seamless platform updates for smooth operation.</p>
                 <p style={{color: '#686D76'}}><i className="fa fa-circle-o" style={{fontSize:'20px',background: 'linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}></i> &nbsp; Small adjustments can be performed quickly.</p>
                 <p style={{color: '#686D76'}}><i className="fa fa-circle-o" style={{fontSize:'20px',background: 'linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}></i> &nbsp; Infinite production of pages</p>

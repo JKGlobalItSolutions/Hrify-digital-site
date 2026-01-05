@@ -108,7 +108,7 @@ const Home = () => {
       <div className="container p-4">
         <div className="row align-items-center">
           <div className="col-12 col-lg-8">
-            <h3 className="fw-bolder" style={{ background: 'linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>Software Development</h3>
+            <h3 className="fw-bolder" style={{ color: '#1B8DBB' }}>Software Development</h3> <br/>
             <p style={{ fontFamily: 'urbanist' }}>
               Our Software Development Services turn your ideas into innovative, functional, and scalable solutions tailored to your business needs. We provide end-to-end services, including requirements analysis, design, development, testing, and deployment, ensuring a seamless process. Using the latest technologies and agile methodologies, we deliver secure, efficient, and user-friendly software. Whether you need custom applications, system integration, or software enhancements, our solutions are designed to streamline operations, boost productivity, and drive business success.
             </p>
@@ -128,23 +128,23 @@ const Home = () => {
 
       {/* Why Choose Us */}
       <div className="container p-lg-5 p-3">
-        <h3 className="text-center fw-bolder" style={{ background: 'linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>Why Choose Us?</h3>
+        <h3 className="text-center fw-bolder" style={{ color: '#1B8DBB' }}>Why Choose Us?</h3>
         <div className="row align-items-center">
           <div className="col-12 col-lg-8">
             <p className="fw-bolder" style={{ color: '#686D76' }}>
-              <i className="fa fa-circle-o" style={{ fontSize: '20px', background: 'linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}></i> &nbsp;Commitment to core values and mission empowers clients with effective solutions.
+              <i className="fa fa-circle-o" style={{ fontSize: '20px', color: '#1B8DBB' }}></i> &nbsp;Commitment to core values and mission empowers clients with effective solutions.
             </p>
             <p className="fw-bolder" style={{ color: '#686D76' }}>
-              <i className="fa fa-circle-o" style={{ fontSize: '20px', background: 'linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}></i> &nbsp; Maintaining client trust and delivering exceptional results consistently.
+              <i className="fa fa-circle-o" style={{ fontSize: '20px', color: '#1B8DBB' }}></i> &nbsp; Maintaining client trust and delivering exceptional results consistently.
             </p>
             <p className="fw-bolder" style={{ color: '#686D76' }}>
-              <i className="fa fa-circle-o" style={{ fontSize: '20px', background: 'linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}></i> &nbsp;Skilled experts and established processes ensure efficient business support.
+              <i className="fa fa-circle-o" style={{ fontSize: '20px', color: '#1B8DBB' }}></i> &nbsp;Skilled experts and established processes ensure efficient business support.
             </p>
             <p className="fw-bolder" style={{ color: '#686D76' }}>
-              <i className="fa fa-circle-o" style={{ fontSize: '20px', background: 'linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}></i> &nbsp;Prioritizing clients' technological investments for optimal outcomes.
+              <i className="fa fa-circle-o" style={{ fontSize: '20px', color: '#1B8DBB' }}></i> &nbsp;Prioritizing clients' technological investments for optimal outcomes.
             </p>
             <p className="fw-bolder" style={{ color: '#686D76' }}>
-              <i className="fa fa-circle-o" style={{ fontSize: '20px', background: 'linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}></i> &nbsp;Leading software development company in Tiruvannamalai, dedicated to client satisfaction.
+              <i className="fa fa-circle-o" style={{ fontSize: '20px', color: '#1B8DBB' }}></i> &nbsp;Leading software development company in Tiruvannamalai, dedicated to client satisfaction.
             </p>
           </div>
           <div className="col-12 col-lg-4 text-center">
@@ -157,4 +157,3 @@ const Home = () => {
 };
 
 export default Home;
-

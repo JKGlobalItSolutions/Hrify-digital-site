@@ -40,9 +40,9 @@ const BusinessWebDesign = () => {
       <div className="container mb-5">
         <div className="row justify-content-center align-items-center">
           <div className="col-12 col-lg-8">
-            <h3 className="text-primary"><b>Website Design Services</b></h3><br/>
+            <h3 style={{ color: '#1B8DBB' }}><b>Website Design Services</b></h3><br/>
             <p style={{ color: '#686D76' }}>Our wide range of web design solutions caters to each customer's unique requirements, taking into account their industry and the kind of solution needed. Any business, no matter how big or little, needs a dedicated website that caters to a certain audience. It is crucial to identify the target and create an engaging website that will fulfill the objective of the company.</p>
-            <p style={{ color: '#686D76' }}>JK Global IT Solutions is aware of this, and we use our knowledge and experience to recommend the best website design for your company. Business web design is appropriate for individual professionals seeking a website for their portfolio or for multinational companies needing a large corporate gateway. A basic static website or a complex website with a content-management system for regularly updated content are the options available here. We provide our professional services for both custom and template-driven mobile responsive website designs.</p>
+            <p style={{ color: '#686D76' }}>Hrify Digital is aware of this, and we use our knowledge and experience to recommend the best website design for your company. Business web design is appropriate for individual professionals seeking a website for their portfolio or for multinational companies needing a large corporate gateway. A basic static website or a complex website with a content-management system for regularly updated content are the options available here. We provide our professional services for both custom and template-driven mobile responsive website designs.</p>
           </div>
           <div className="col-12 col-lg-4">
           <img className="img-fluid my-4" src={WorkFlow} alt="" />

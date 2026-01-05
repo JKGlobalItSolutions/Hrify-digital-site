@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-const ECommerceImage1 = '/assets/images/E-Commerce-Web-Solutions.png';
-const ECommerceImage2 = '/assets/images/e-commerce-image-2.webp';
-const Rectangle27 = '/assets/images/Rectangle-27.webp';
-const Trip = '/assets/images/trip.webp';
+import { getAssetPath } from '../utils/assetPath';
+
+const ECommerceImage1 = getAssetPath('assets/images/E-Commerce-Web-Solutions.png');
+const ECommerceImage2 = getAssetPath('assets/images/e-commerce-image-2.webp');
+const Rectangle27 = getAssetPath('assets/images/Rectangle-27.webp');
+const Trip = getAssetPath('assets/images/trip.webp');
 
 
 const ECommerceWebSolutions = () => {
@@ -33,8 +35,8 @@ const ECommerceWebSolutions = () => {
       <div className="container my-4">
         <div className="row justify-content-center align-items-center" style={{textAlign:"justify"}}>
           <div className="col-12 col-lg-8">
-            <p style={{color: '#686D76'}}>Selling your products or services online is the simplest method to operate in this digital age, and it is far simpler with our specialized e-Commerce Web Solutions. We offer adaptable e-commerce and shopping cart solutions that are full featured, safe, and simple to use for small and medium-sized enterprises. Our solutions at JK Global IT Solutions are tailored to your product type, target market, business procedure, and operability. We have effectively provided simple-to-manage B2C and B2B e-Commerce solutions. We create e-commerce solutions for WordPress and Opencart as , which may be adjusted to your specifications and integrated with extra plugins to function.</p>
-            <p style={{color: '#686D76'}}>Our e-commerce and shopping cart solutions are safe and user-friendly, making them suitable for small and medium enterprises. JK Global IT Solutions offers solutions tailored to your product type, target audience, business process, and operability. We have implemented manageable e-Commerce solutions for both B2C and B2B. We offer customized eCommerce solutions for Wordpress and Opencart, with optional plugins to meet your specific needs.</p>
+            <p style={{color: '#686D76'}}>Selling your products or services online is the simplest method to operate in this digital age, and it is far simpler with our specialized e-Commerce Web Solutions. We offer adaptable e-commerce and shopping cart solutions that are full featured, safe, and simple to use for small and medium-sized enterprises. Our solutions at Hrify Digital are tailored to your product type, target market, business procedure, and operability. We have effectively provided simple-to-manage B2C and B2B e-Commerce solutions. We create e-commerce solutions for WordPress and Opencart as , which may be adjusted to your specifications and integrated with extra plugins to function.</p>
+            <p style={{color: '#686D76'}}>Our e-commerce and shopping cart solutions are safe and user-friendly, making them suitable for small and medium enterprises. Hrify Digital offers solutions tailored to your product type, target audience, business process, and operability. We have implemented manageable e-Commerce solutions for both B2C and B2B. We offer customized eCommerce solutions for Wordpress and Opencart, with optional plugins to meet your specific needs.</p>
           </div>
           <div className="col-12 col-lg-4">
             <img className="img-fluid" src={ECommerceImage2} alt="" />

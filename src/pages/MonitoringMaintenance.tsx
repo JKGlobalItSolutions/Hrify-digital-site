@@ -169,7 +169,7 @@ const MonitoringMaintenance = () => {
             Maximize Outputs & Ensure Service Excellence
           </p>
           <p className="main-subtitle">
-            JK Global IT Solutions' 360 Monitoring and Maintenance services deliver rapid response times and reliable systems, tailored to your unique needs—on-site or remote.
+            Hrify Digital's 360 Monitoring and Maintenance services deliver rapid response times and reliable systems, tailored to your unique needs—on-site or remote.
           </p>
 
           <div className="tags-container">
@@ -180,7 +180,7 @@ const MonitoringMaintenance = () => {
           </div>
 
           <p className="main-subtitle">
-            At JK Global IT Solutions, we provide agile 360 Managed Services to monitor and maintain your business infrastructure. By overseeing a vast array of devices and ensuring they stay updated, we emphasize compliance, transparency, and regular communication. Our well-defined escalation procedures and integration requirements minimize disruptions, reduce risks, and optimize operational costs.
+            At Hrify Digital, we provide agile 360 Managed Services to monitor and maintain your business infrastructure. By overseeing a vast array of devices and ensuring they stay updated, we emphasize compliance, transparency, and regular communication. Our well-defined escalation procedures and integration requirements minimize disruptions, reduce risks, and optimize operational costs.
           </p>
         </div>
 
