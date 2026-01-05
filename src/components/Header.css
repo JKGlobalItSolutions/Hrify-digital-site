@@ -98,12 +98,12 @@
 /* Navbar */
 .modern-navbar {
   background: transparent !important;
-  padding: 8px 0;
+  padding: 10px 0;
   transition: all 0.3s ease;
 }
 
 .modern-navbar-header.scrolled .modern-navbar {
-  padding: 5px 0;
+  padding: 8px 0;
 }
 
 /* Logo */
@@ -120,7 +120,6 @@
 }
 
 .navbar-brand img {
-  max-height: 40px;
   width: auto;
 }
 
@@ -448,7 +447,7 @@
 
 /* Body Padding for Fixed Navbar */
 body {
-  padding-top: 50px;
+  padding-top: 90px;
 }
 
 /* Responsive Design */
@@ -458,15 +457,17 @@ body {
   }
 
   .modern-navbar {
-    padding: 10px 0;
+    padding: 8px 0;
   }
 
   .navbar-brand img {
-    height: 35px;
+    height: 45px !important;
+    width: auto !important;
+    margin-left: 20px !important;
   }
 
   body {
-    padding-top: 50px;
+    padding-top: 70px;
   }
 }
 
@@ -476,11 +477,13 @@ body {
   }
 
   .modern-navbar-header.scrolled .modern-navbar {
-    padding: 8px 0;
+    padding: 6px 0;
   }
 
   .navbar-brand img {
-    height: 30px;
+    height: 40px !important;
+    width: auto !important;
+    margin-left: 15px !important;
   }
 
   .contact-btn {
@@ -488,6 +491,19 @@ body {
   }
 
   body {
-    padding-top: 40px;
+    padding-top: 65px;
+  }
+}
+
+/* Logo crisp rendering */
+.navbar-brand img {
+  image-rendering: crisp-edges;
+}
+
+/* Mobile logo positioning fix */
+@media (max-width: 768px) {
+  .navbar-brand {
+    margin-left: 0 !important;
+    padding-left: 15px;
   }
 }

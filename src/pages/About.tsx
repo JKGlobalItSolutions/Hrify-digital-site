@@ -125,7 +125,7 @@ const About = () => {
       <section className="py-5 text-white text-center" style={{ backgroundColor: '#1B8DBB' }}>
         <div className="container">
           <h3 className="fw-bold mb-3">Ready to Transform Your Business?</h3>
-          <p className="mb-4">Contact us today to discuss how we can help you achieve your technology goals.</p>
+          <p className="mb-4" style={{textAlign:'center'}}>Contact us today to discuss how we can help you achieve your technology goals.</p>
           <a href="/contact" className="btn btn-light btn-lg px-5 py-3 fw-bold">Get In Touch</a>
         </div>
       </section>

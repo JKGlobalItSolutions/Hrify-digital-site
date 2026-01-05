@@ -74,7 +74,7 @@ const Contact = () => {
               </h3>
               <h6 style={{ color: '#686D76' }}>
                 <i className="fa fa-map-marker" style={{ fontSize: '30px', background: 'linear-gradient(135deg, #1B8DBB 0%, #1B8DBB 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }} aria-hidden="true"></i>{' '}
-                NO.7 4th Street, Shanmuga Nagar-2, Near Collector Office, Vengikkal, Tiruvannamalai 606604
+               Annai Parvathi Nagar, Opp. collectorate Office, Vengikkal, Tiruvannamalai - 606 604.
               </h6>
             </div>
           </div>

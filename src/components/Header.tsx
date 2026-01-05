@@ -120,10 +120,10 @@ const Header = () => {
 
   return (
     <header className={`modern-navbar-header ${isScrolled ? 'scrolled' : ''}`}>
-      <nav className="navbar navbar-expand-lg navbar-light modern-navbar" style={{marginTop: '20px'}}>
+      <nav className="navbar navbar-expand-lg navbar-light modern-navbar">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/" onClick={closeMobileMenu}>
-            <img src={HrifyLogo} alt="Hrify Digital" style={{ marginLeft: '100px', height:'140px', width:'130px' }} />
+            <img src={HrifyLogo} alt="Hrify Digital" style={{ marginLeft: '100px', height:'60px', width:'auto' }} />
           </Link>
 
           <button
