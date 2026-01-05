@@ -115,7 +115,7 @@
 }
 
 .navbar-brand:hover {
-  color: #007bff !important;
+  color: #1B8DBB !important;
   transform: scale(1.05);
 }
 
@@ -144,8 +144,8 @@
 }
 
 .navbar-nav .nav-link:hover {
-  color: #007bff !important;
-  background: rgba(0, 123, 255, 0.05);
+  color: #1B8DBB !important;
+  background: rgba(27, 141, 187, 0.05);
   transform: translateY(-1px);
 }
 
@@ -156,13 +156,22 @@
   left: 50%;
   width: 0;
   height: 2px;
-  background: #007bff;
+  background: #1B8DBB;
   transition: all 0.3s ease;
   transform: translateX(-50%);
 }
 
 .navbar-nav .nav-link:hover::before {
   width: 100%;
+}
+
+.navbar-nav .nav-link.active {
+  color: #1B8DBB !important;
+}
+
+.navbar-nav .nav-link.active::before {
+  width: 100%;
+  background: #1B8DBB;
 }
 
 /* Dropdown Toggle */
@@ -217,9 +226,14 @@
 }
 
 .dropdown-item:hover {
-  background: rgba(0, 123, 255, 0.1);
-  color: #007bff !important;
+  background: rgba(27, 141, 187, 0.1);
+  color: #1B8DBB !important;
   transform: translateX(5px);
+}
+
+.dropdown-item.active {
+  background: rgba(27, 141, 187, 0.1);
+  color: #1B8DBB !important;
 }
 
 /* Mega Menu */
@@ -244,7 +258,7 @@
 }
 
 .mega-menu .dropdown-header {
-  color: #007bff;
+  color: #1B8DBB;
   font-weight: 600;
   font-size: 15px;
   text-transform: uppercase;
@@ -263,12 +277,12 @@
 
 .mega-menu .dropdown-item:hover {
   background: #f0f8ff;
-  color: #007bff !important;
+  color: #1B8DBB !important;
   transform: translateX(4px);
 }
 
 .dropdown-header {
-  color: #007bff;
+  color: #1B8DBB;
   font-weight: 600;
   padding: 15px 0 8px;
   margin-bottom: 8px;
@@ -279,7 +293,7 @@
 
 /* Contact Button */
 .contact-btn {
-  background: #007bff !important;
+  background: #1B8DBB !important;
   border: none;
   color: #fff !important;
   padding: 8px 20px;
@@ -292,9 +306,9 @@
 }
 
 .contact-btn:hover {
-  background: #0056d2 !important;
+  background: #15749A !important;
   transform: scale(1.05);
-  box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
+  box-shadow: 0 4px 15px rgba(27, 141, 187, 0.3);
 }
 
 /* Mobile Menu Overlay */
@@ -367,8 +381,13 @@
 }
 
 .mobile-nav a:hover {
-  color: #007bff;
+  color: #1B8DBB;
   transform: translateX(10px);
+}
+
+.mobile-nav a.active {
+  color: #1B8DBB;
+  font-weight: 600;
 }
 
 .mobile-dropdown span {

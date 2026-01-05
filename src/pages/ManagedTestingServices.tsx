@@ -1,7 +1,7 @@
 import React from 'react';
 import { getAssetPath } from '../utils/assetPath';
 
-const ManagedTestingServices1 = getAssetPath('assets/images/newBanner/ma.ser.webp');
+const ManagedTestingServices1 = getAssetPath('/assets/images/newBanner/ma.ser.webp');
 const Performance = getAssetPath('assets/images/placeholder.webp');
 const Ci = getAssetPath('assets/images/placeholder.webp');
 const Softwarvald = getAssetPath('assets/images/placeholder.webp');
@@ -18,7 +18,7 @@ const ManagedTestingServices = () => {
       <div className="slider">
         <div className="slides">
           <div className="slide">
-            <img src="/assets/images/newBanner/ma.ser.webp" alt="Managed Testing Services Banner" />
+            <img src={ManagedTestingServices1} alt="Managed Testing Services Banner" />
           </div>
         </div>
       </div>

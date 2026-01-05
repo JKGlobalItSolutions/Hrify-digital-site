@@ -1,7 +1,7 @@
 import React from 'react';
 import { getAssetPath } from '../utils/assetPath';
 
-const Monitoring = getAssetPath('assets/images/Banner/newbanimg/monitoring.webp');
+const Monitoring = getAssetPath('/assets/images/newBanner/data.an.webp');
 
 const MonitoringMaintenance = () => {
   return (
@@ -10,7 +10,7 @@ const MonitoringMaintenance = () => {
       <div className="slider">
         <div className="slides">
           <div className="slide">
-            <img src="/assets/images/newBanner/data.an.webp" alt="Monitoring & Maintenance Banner" />
+            <img src={Monitoring} alt="Monitoring & Maintenance Banner" />
           </div>
         </div>
       </div>

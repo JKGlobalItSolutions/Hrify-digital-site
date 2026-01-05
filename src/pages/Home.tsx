@@ -2,11 +2,15 @@ import React, { useEffect } from 'react';
 import './Home.css';
 import { getAssetPath } from '../utils/assetPath';
 
-const Frame1293 = getAssetPath('assets/images/HomeSlider/Frame 1293.png');
-const Frame1291 = getAssetPath('assets/images/HomeSlider/Frame 1291.png');
-const Frame1290 = getAssetPath('assets/images/HomeSlider/Frame 1290.png');
-const Frame1292 = getAssetPath('assets/images/HomeSlider/Frame 1292.png');
-const Frame1294 = getAssetPath('assets/images/HomeSlider/Frame 1294.png');
+const AIML = getAssetPath('assets/images/HomeSlider/AI&ML.png');
+const BlockChain = getAssetPath('assets/images/HomeSlider/BlockChain.png');
+const BusinessSolutions = getAssetPath('assets/images/HomeSlider/BusinessSolutions.png');
+const CyberSecurity = getAssetPath('assets/images/HomeSlider/CyberSecurity.png');
+const DesignDevelopment = getAssetPath('assets/images/HomeSlider/Design&Development.png');
+const Enterprise = getAssetPath('assets/images/HomeSlider/Enterprise.png');
+const ManagedService = getAssetPath('assets/images/HomeSlider/ManagedService.png');
+const NetworkingSolutions = getAssetPath('assets/images/HomeSlider/NetworkingSolutions.png');
+const QualityEngineering = getAssetPath('assets/images/HomeSlider/QualityEngineering.png');
 const Img32 = getAssetPath('assets/images/Talent/img3-(2).webp');
 const Im7 = getAssetPath('assets/images/Talent/im7.webp');
 const Icon32 = getAssetPath('assets/images/Talent/icon3-(2).webp');
@@ -88,17 +92,25 @@ const Home = () => {
       {/* Banner section */}
       <div className="slider">
         <div className="slides">
-          <div className="slide"><img src={Frame1293} alt="Frame 1293" /></div>
-          <div className="slide"><img src={Frame1291} alt="Frame 1291" /></div>
-          <div className="slide"><img src={Frame1290} alt="Frame 1290" /></div>
-          <div className="slide"><img src={Frame1292} alt="Frame 1292" /></div>
-          <div className="slide"><img src={Frame1294} alt="Frame 1294" /></div>
+          <div className="slide"><img src={DesignDevelopment} alt="Design & Development" /></div>
+          <div className="slide"><img src={BusinessSolutions} alt="Business Solutions" /></div>
+          <div className="slide"><img src={CyberSecurity} alt="Cyber Security" /></div>
+          <div className="slide"><img src={NetworkingSolutions} alt="Networking Solutions" /></div>
+          <div className="slide"><img src={BlockChain} alt="Block Chain" /></div>
+          <div className="slide"><img src={Enterprise} alt="Enterprise" /></div>
+          <div className="slide"><img src={ManagedService} alt="Managed Service" /></div>
+          <div className="slide"><img src={AIML} alt="AI & ML" /></div>
+          <div className="slide"><img src={QualityEngineering} alt="Quality Engineering" /></div>
           {/* Duplicates for seamless scrolling */}
-          <div className="slide"><img src={Frame1293} alt="Frame 1293" /></div>
-          <div className="slide"><img src={Frame1291} alt="Frame 1291" /></div>
-          <div className="slide"><img src={Frame1290} alt="Frame 1290" /></div>
-          <div className="slide"><img src={Frame1292} alt="Frame 1292" /></div>
-          <div className="slide"><img src={Frame1294} alt="Frame 1294" /></div>
+          <div className="slide"><img src={DesignDevelopment} alt="Design & Development" /></div>
+          <div className="slide"><img src={BusinessSolutions} alt="Business Solutions" /></div>
+          <div className="slide"><img src={CyberSecurity} alt="Cyber Security" /></div>
+          <div className="slide"><img src={NetworkingSolutions} alt="Networking Solutions" /></div>
+          <div className="slide"><img src={BlockChain} alt="Block Chain" /></div>
+          <div className="slide"><img src={Enterprise} alt="Enterprise" /></div>
+          <div className="slide"><img src={ManagedService} alt="Managed Service" /></div>
+          <div className="slide"><img src={AIML} alt="AI & ML" /></div>
+          <div className="slide"><img src={QualityEngineering} alt="Quality Engineering" /></div>
         </div>
         <button className="nav-button prev">&#10094;</button>
         <button className="nav-button next">&#10095;</button>

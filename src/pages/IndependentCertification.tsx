@@ -1,7 +1,7 @@
 import React from 'react';
 import { getAssetPath } from '../utils/assetPath';
 
-const HeroIndepcertbodiesRemovebgPreview1 = getAssetPath('assets/images/Banner/newbanimg/hero-indepcertbodies-removebg-preview-1.webp');
+const HeroIndepcertbodiesRemovebgPreview1 = getAssetPath('/assets/images/newBanner/Qua.Eng.webp');
 
 const IndependentCertification = () => {
   return (
@@ -10,7 +10,7 @@ const IndependentCertification = () => {
       <div className="slider">
         <div className="slides">
           <div className="slide">
-            <img src="/assets/images/newBanner/Qua.Eng.webp" alt="Independent Certification Banner" />
+            <img src={HeroIndepcertbodiesRemovebgPreview1} alt="Independent Certification Banner" />
           </div>
         </div>
       </div>

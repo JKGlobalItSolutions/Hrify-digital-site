@@ -1,4 +1,6 @@
 import React from 'react';
+import { getAssetPath } from '@/utils/assetPath';
+const SiteReliabilityImg = getAssetPath('/assets/images/newBanner/ma_ser4.webp');
 
 const SiteReliability = () => {
   return (
@@ -7,7 +9,7 @@ const SiteReliability = () => {
       <div className="slider">
         <div className="slides">
           <div className="slide">
-            <img src="/assets/images/newBanner/ma_ser4.webp" alt="Site Reliability Banner" />
+            <img src={SiteReliabilityImg} alt="Site Reliability Banner" />
           </div>
         </div>
       </div>

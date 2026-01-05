@@ -1,66 +1,30 @@
 import React from 'react';
 import { getAssetPath } from '../utils/assetPath';
 
-const MlMlOpsImg = getAssetPath('assets/images/Banner/newbanimg/mlmlops.webp');
+const MlMlOpsBanner = getAssetPath('assets/images/M_MLOPS.jpg');
 
 const MlMlOps = () => {
   return (
     <main>
-      {/* Updated Banner Section - Properly Aligned & Responsive */}
-      <div className="banner container-fluid d-flex align-items-center justify-content-center" style={{ backgroundColor: '#e6f7ff' }}>
-        <div className="row w-100 h-100 gx-0">
-          <div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center text-center px-4 py-5">
-            <h2 className="fw-bolder mb-0" style={{ fontSize: '4rem', color: '#000', lineHeight: '1.2' }}>
-              Cognitive Computing
-            </h2>
-          </div>
-          <div className="col-12 col-lg-6 d-flex justify-content-center align-items-center p-4">
-            <img
-              className="img-fluid"
-              src={MlMlOpsImg}
-              alt="ML / MLOps"
-              style={{ maxHeight: '520px', objectFit: 'contain' }}
-            />
-          </div>
+        {/* Full-width Banner Image */}
+        <div className="banner-full-image">
+          <img src={MlMlOpsBanner} alt="ML / MLOps Banner" className="banner-img" />
         </div>
-      </div>
 
-      {/* Banner-specific responsive styles */}
-      <style dangerouslySetInnerHTML={{
-        __html: `
-          .banner {
-            min-height: 600px;
-            background-color: #e6f7ff;
-          }
+        {/* Banner styles */}
+        <style dangerouslySetInnerHTML={{
+          __html: `
+            .banner-full-image {
+              width: 100%;
+              overflow: hidden;
+            }
 
-          @media (max-width: 992px) {
-            .banner h2 {
-              font-size: 3.2rem !important;
+            .banner-img {
+              width: 100%;
+              display: block;
             }
-          }
-
-          @media (max-width: 768px) {
-            .banner {
-              min-height: 500px;
-            }
-            .banner h2 {
-              font-size: 2.8rem !important;
-            }
-          }
-
-          @media (max-width: 576px) {
-            .banner {
-              min-height: 450px;
-            }
-            .banner h2 {
-              font-size: 2.3rem !important;
-            }
-            .banner img {
-              max-height: 300px !important;
-            }
-          }
-        `
-      }} />
+          `
+        }} />
 
       <div className="container py-5">
         <style>
@@ -409,4 +373,3 @@ const MlMlOps = () => {
 };
 
 export default MlMlOps;
-

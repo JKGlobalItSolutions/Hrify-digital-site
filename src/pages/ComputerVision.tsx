@@ -1,7 +1,7 @@
 import React from 'react';
 import { getAssetPath } from '../utils/assetPath';
 
-const ComputerVisionImg = getAssetPath('assets/images/Banner/newbanimg/computervision.webp');
+const ComputerVisionImg = getAssetPath('/assets/images/newBanner/Data_an.webp');
 
 const ComputerVision = () => {
   return (
@@ -10,7 +10,7 @@ const ComputerVision = () => {
       <div className="slider">
         <div className="slides">
           <div className="slide">
-            <img src="/assets/images/newBanner/Data_an.webp" alt="Computer Vision Banner" />
+            <img src={ComputerVisionImg} alt="Computer Vision Banner" />
           </div>
         </div>
       </div>

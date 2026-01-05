@@ -8,10 +8,6 @@ const Frame638 = getAssetPath('assets/images/contactLogos/Frame 638.png');
 const Frame639 = getAssetPath('assets/images/contactLogos/Frame 639.png');
 const Frame641 = getAssetPath('assets/images/contactLogos/Frame 641.png');
 const Frame640 = getAssetPath('assets/images/contactLogos/Frame 640.png');
-const DownloadIcon = getAssetPath('assets/images/download-icon.webp');
-const Fevicol = getAssetPath('assets/images/fevicol.webp');
-const Brochure = getAssetPath('assets/images/JK Global IT Solutions Portfolio.pdf');
-const NetworkingBrochure = getAssetPath('assets/images/Networking Solutions Brochure.pdf');
 
 
 const Contact = () => {
@@ -45,23 +41,6 @@ const Contact = () => {
         hidePopup();
       });
     }
-
-    // Download Brochure Popup Logic
-    const downloadBtn = document.getElementById('downloadBtn');
-    const brochurePopup = document.getElementById('popup');
-
-    if (downloadBtn && brochurePopup) {
-      downloadBtn.onclick = function (e) {
-        e.preventDefault();
-        brochurePopup.style.display = 'block';
-      };
-
-      brochurePopup.onclick = function (e) {
-        if (e.target === brochurePopup) {
-          brochurePopup.style.display = 'none';
-        }
-      };
-    }
   }, []);
 
   return (
@@ -90,11 +69,11 @@ const Contact = () => {
         <div className="container my-4 p-4">
           <div className="row">
             <div className="col-12 text-center">
-              <h3 className="text-primary my-2" style={{ fontWeight: 700 }}>
+              <h3 style={{ color: '#1B8DBB', fontWeight: 700 }} className="my-2">
                 Registered Office:
               </h3>
               <h6 style={{ color: '#686D76' }}>
-                <i className="fa fa-map-marker" style={{ fontSize: '30px', background: 'linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }} aria-hidden="true"></i>{' '}
+                <i className="fa fa-map-marker" style={{ fontSize: '30px', background: 'linear-gradient(135deg, #1B8DBB 0%, #1B8DBB 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }} aria-hidden="true"></i>{' '}
                 NO.7 4th Street, Shanmuga Nagar-2, Near Collector Office, Vengikkal, Tiruvannamalai 606604
               </h6>
             </div>
@@ -105,7 +84,7 @@ const Contact = () => {
         <div className="container p-4">
           <div className="row align-items-center text-center">
             <div className="col-lg-5 col-12">
-              <h3 className="text-primary" style={{ color: '#686D76' }}>
+              <h3 style={{ color: '#1B8DBB' }}>
                 Phone
               </h3>
               <h6 style={{ color: '#686D76' }}>8438438413</h6>
@@ -114,7 +93,7 @@ const Contact = () => {
               <h1 style={{ color: '#686D76' }}>|</h1>
             </div>
             <div className="col-lg-5 col-12">
-              <h3 style={{ background: 'linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>Email</h3>
+              <h3 style={{ background: 'linear-gradient(135deg, #1B8DBB 0%, #1B8DBB 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>Email</h3>
               <h6>hrifydigital@gmail.com</h6>
             </div>
           </div>
@@ -123,15 +102,11 @@ const Contact = () => {
         {/* Quick Links Grid */}
         <div className="container my-4 p-4">
           <div className="row text-center">
-            <div className="col-4 d-flex flex-column align-items-center justify-content-center" style={{ minHeight: '150px' }}>
-              <img src={Frame637} alt="Download Brochure" className="img-fluid mb-2" style={{ width: '60px', height: '60px', objectFit: 'contain' }} />
-              <p style={{ color: '#686D76', margin: 0 }}>Download Brochure</p>
-            </div>
-            <div className="col-4 d-flex flex-column align-items-center justify-content-center" style={{ minHeight: '150px' }}>
+            <div className="col-6 d-flex flex-column align-items-center justify-content-center" style={{ minHeight: '150px' }}>
               <img src={Frame636} alt="Payment Options" className="img-fluid mb-2" style={{ width: '60px', height: '60px', objectFit: 'contain' }} />
               <p style={{ color: '#686D76', margin: 0 }}>Payment Options</p>
             </div>
-            <div className="col-4 d-flex flex-column align-items-center justify-content-center" style={{ minHeight: '150px' }}>
+            <div className="col-6 d-flex flex-column align-items-center justify-content-center" style={{ minHeight: '150px' }}>
               <a href="careers.html" style={{ textDecoration: 'none', color: 'inherit' }}>
                 <img src={Frame637} alt="Career" className="img-fluid mb-2" style={{ width: '60px', height: '60px', objectFit: 'contain' }} />
               </a>
@@ -182,50 +157,7 @@ const Contact = () => {
         </div>
       </div>
 
-      {/* Download Brochure Trigger Button (placed where it was in footer) */}
-      <div className="pop" style={{ position: 'fixed', bottom: '20px', right: '20px', zIndex: 999 }}>
-        <a
-          href="#"
-          className="text-light p-3 px-4 rounded shadow"
-          style={{ backgroundColor: '#1e3a8a', textDecoration: 'none' }}
-          id="downloadBtn"
-        >
-          Download Brochure
-        </a>
-      </div>
 
-      {/* Brochure Download Popup */}
-      <div id="popup" className="popup" style={{ display: 'none' }}>
-        <div className="popup-content">
-          <div className="container">
-            <img src={Fevicol} alt="JK Global IT Solutions Logo" className="logo img-fluid" />
-            <hr style={{ border: '2px solid black' }} />
-            <div className="row d-flex align-items-center brochure py-3">
-              <div className="col-12 col-lg-9 text-center text-lg-start">
-                <h4>Download IT Brochure</h4>
-              </div>
-              <div className="col-12 col-lg-3 text-center">
-                <a href={Brochure} target="_blank" rel="noopener noreferrer">
-                  <img className="img-fluid" src={DownloadIcon} alt="Download IT Brochure" />
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="container">
-            <hr style={{ border: '2px solid black' }} />
-            <div className="row d-flex align-items-center brochure py-3">
-              <div className="col-12 col-lg-9 text-center text-lg-start">
-                <h4>Download Networking Solutions Brochure</h4>
-              </div>
-              <div className="col-12 col-lg-3 text-center">
-                <a href={NetworkingBrochure} target="_blank" rel="noopener noreferrer">
-                  <img className="img-fluid" src={DownloadIcon} alt="Download Networking Brochure" />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
       {/* All Required Inline Styles */}
       <style>{`
@@ -302,14 +234,14 @@ const Contact = () => {
           width: 100%;
           padding: 10px;
           margin-top: 5px;
-          border: 1px solid #1e3a8a;
+          border: 1px solid #1B8DBB;
           border-radius: 4px;
         }
 
         button {
           margin-top: 20px;
           padding: 12px;
-          background-color: #1e3a8a;
+          background-color: #1B8DBB;
           color: white;
           border: none;
           border-radius: 4px;
@@ -318,7 +250,7 @@ const Contact = () => {
         }
 
         button:hover {
-          background-color: #3b82f6;
+          background-color: #15749A;
         }
 
         @media (max-width: 768px) {

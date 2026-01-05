@@ -1,12 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { getAssetPath } from '../utils/assetPath';
+const CloudNativeSolutionWebBanner = getAssetPath('/assets/images/CloudNativeSolutions.png');
 
 const CloudNativeSolutions = () => {
   return (
     <main>
       {/* Full-width Banner Image */}
       <div className="banner-full-image">
-        <img src="/assets/images/CloudNativeSolutions.png" alt="Cloud Native Solutions Banner" className="banner-img" />
+        <img src={CloudNativeSolutionWebBanner} alt="Cloud Native Solutions Banner" className="banner-img" />
       </div>
 
       {/* Banner styles */}
