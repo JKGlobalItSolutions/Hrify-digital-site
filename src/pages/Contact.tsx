@@ -84,7 +84,7 @@ const Contact = () => {
                   }}
                   aria-hidden="true"
                 ></i>{' '}
-                Annai Parvathi Nagar, Opp. collectorate Office, Vengikkal, Tiruvannamalai - 606 604.
+                1794 Annai Parvathi Nagar, Opp. collectorate Office, Vengikkal, Tiruvannamalai - 606 604.
               </h6>
 
             </div>
@@ -106,6 +106,7 @@ const Contact = () => {
             <div className="col-lg-5 col-12">
               <h3 style={{ background: 'linear-gradient(135deg, #1B8DBB 0%, #1B8DBB 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>Email</h3>
               <h6>hrifydigital@gmail.com</h6>
+              <h6>support@hrifydigital.com</h6>
             </div>
           </div>
         </div>

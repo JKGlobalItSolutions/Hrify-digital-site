@@ -1,5 +1,6 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import {  Routes, Route, HashRouter } from 'react-router-dom';
+import ScrollToTop from "./components/ScrollToTop";
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -76,7 +77,8 @@ import './App.css';
 
 function App() {
   return (
-    <BrowserRouter basename={import.meta.env.MODE === 'production' ? '/Hrify-digital-site/' : '/'}>
+    <HashRouter basename={import.meta.env.MODE === 'production' ? '/Hrify-digital-site/' : '/'}>
+       <ScrollToTop />
       <div className="App d-flex flex-column min-vh-100">
         <Header />
         <main className="flex-grow-1">
@@ -156,7 +158,7 @@ function App() {
         </main>
         <Footer />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
