@@ -77,7 +77,7 @@ import './App.css';
 
 function App() {
   return (
-    <HashRouter basename={import.meta.env.MODE === 'production' ? '/Hrify-digital-site/' : '/'}>
+    <HashRouter>
        <ScrollToTop />
       <div className="App d-flex flex-column min-vh-100">
         <Header />
