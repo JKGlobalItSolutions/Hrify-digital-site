@@ -89,3 +89,71 @@ a { text-decoration: none; }
 .feature-card .feature-icon {
   margin-bottom: 16px;
 }
+
+/* Infinite Scrolling Marquee */
+.marquee-container {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  width: 100%;
+  padding: 1.5rem 0;
+  display: flex;
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+}
+
+.marquee-track-left {
+  animation: marquee-scroll-left 25s linear infinite;
+}
+
+.marquee-track-right {
+  animation: marquee-scroll-right 25s linear infinite;
+}
+
+/* Smooth transition when pausing marquee on hover */
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+.marquee-item {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.marquee-logo {
+  height: 80px;
+  width: auto;
+  margin: 0 40px;
+  object-fit: contain;
+  display: inline-block !important; /* override global display: block for img */
+  transition: transform 0.3s ease;
+}
+
+.marquee-logo:hover {
+  transform: scale(1.05);
+}
+
+@keyframes marquee-scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes marquee-scroll-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+

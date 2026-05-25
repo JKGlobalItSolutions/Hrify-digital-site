@@ -3,6 +3,23 @@ import { getAssetPath } from '../utils/assetPath';
 
 const AboutImg = getAssetPath('assets/images/About.png');
 const Biggest = getAssetPath('assets/images/biggest.webp');
+const cl1 = getAssetPath('assets/images/clientlogo/cl1.jpeg');
+const cl2 = getAssetPath('assets/images/clientlogo/cl2.jpeg');
+const cl3 = getAssetPath('assets/images/clientlogo/cl3.jpeg');
+const cl4 = getAssetPath('assets/images/clientlogo/cl4.jpeg');
+const cl5 = getAssetPath('assets/images/clientlogo/cl5.jpeg');
+const cl6 = getAssetPath('assets/images/clientlogo/cl6.jpeg');
+const cl7 = getAssetPath('assets/images/clientlogo/cl7.jpeg');
+const cl8 = getAssetPath('assets/images/clientlogo/cl8.jpeg');
+const cl9 = getAssetPath('assets/images/clientlogo/cl9.jpeg');
+const cl10 = getAssetPath('assets/images/clientlogo/cl10.jpeg');
+const cl11 = getAssetPath('assets/images/clientlogo/cl11.jpeg');
+const cl12 = getAssetPath('assets/images/clientlogo/cl12.jpeg');
+const cl13 = getAssetPath('assets/images/clientlogo/cl13.jpeg');
+const cl14 = getAssetPath('assets/images/clientlogo/cl14.jpeg');
+const cl15 = getAssetPath('assets/images/clientlogo/cl15.jpeg');
+const cl16 = getAssetPath('assets/images/clientlogo/cl16.jpeg');
+const cl17 = getAssetPath('assets/images/clientlogo/cl17.jpeg');
 const AboutBannerImg = getAssetPath('assets/images/about-banner.webp');
 
 
@@ -70,6 +87,78 @@ const About = () => {
         </div>
       </section>
 
+
+
+
+
+
+
+
+      {/* Trusted Partners */}
+      <section className="text-center py-5" style={{ backgroundColor: '#E0F7FF' }}>
+        <h5 className="fw-bold mb-4" style={{color:"#1B8DBB", fontSize:"30px"}}>Our Valued Clients</h5>
+
+        {/* Row 1: Left to Right */}
+        <div className="marquee-container mb-3">
+          <div className="marquee-track marquee-track-right">
+            {/* First set of logos */}
+            {[cl1, cl2, cl3, cl4, cl5, cl6, cl7, cl8, cl9, cl10, cl11, cl12, cl13, cl14, cl15, cl16, cl17 ].map((img, i) => (
+              <div key={`partner-a-${i}`} className="marquee-item">
+                <img
+                  src={img}
+                  alt={`partner-${i}`}
+                  className="marquee-logo"
+                />
+              </div>
+            ))}
+            {/* Duplicate set of logos for seamless infinite looping */}
+            {[cl1, cl2, cl3, cl4, cl5, cl6, cl7, cl8, cl9, cl10, cl11,cl12, cl13, cl14, cl15, cl16, cl17].map((img, i) => (
+              <div key={`partner-b-${i}`} className="marquee-item">
+                <img
+                  src={img}
+                  alt={`partner-dup-${i}`}
+                  className="marquee-logo"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Row 2: Right to Left */}
+        <div className="marquee-container">
+          <div className="marquee-track marquee-track-left">
+            {/* First set of logos in reversed order for visual variety */}
+            {[cl11, cl10, cl9, cl8, cl7, cl6, cl5, cl4, cl3, cl2, cl1].map((img, i) => (
+              <div key={`partner-c-${i}`} className="marquee-item">
+                <img
+                  src={img}
+                  alt={`partner-rev-${i}`}
+                  className="marquee-logo"
+                />
+              </div>
+            ))}
+            {/* Duplicate set of logos for seamless infinite looping */}
+            {[cl11, cl10, cl9, cl8, cl7, cl6, cl5, cl4, cl3, cl2, cl1].map((img, i) => (
+              <div key={`partner-d-${i}`} className="marquee-item">
+                <img
+                  src={img}
+                  alt={`partner-rev-dup-${i}`}
+                  className="marquee-logo"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
       {/* Why Choose Us Section */}
       <section className="py-5 bg-light">
         <div className="container">
@@ -125,7 +214,7 @@ const About = () => {
       <section className="py-5 text-white text-center" style={{ backgroundColor: '#1B8DBB' }}>
         <div className="container">
           <h3 className="fw-bold mb-3">Ready to Transform Your Business?</h3>
-          <p className="mb-4" style={{textAlign:'center'}}>Contact us today to discuss how we can help you achieve your technology goals.</p>
+          <p className="mb-4" style={{ textAlign: 'center' }}>Contact us today to discuss how we can help you achieve your technology goals.</p>
           <a href="/contact" className="btn btn-light btn-lg px-5 py-3 fw-bold">Get In Touch</a>
         </div>
       </section>
