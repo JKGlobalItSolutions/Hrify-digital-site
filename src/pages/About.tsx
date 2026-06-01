@@ -102,7 +102,7 @@ const About = () => {
         <div className="marquee-container mb-3">
           <div className="marquee-track marquee-track-right">
             {/* First set of logos */}
-            {[cl1, cl2, cl3, cl4, cl5, cl6, cl7, cl8, cl9, cl10, cl11, cl12, cl13, cl14, cl15, cl16, cl17 ].map((img, i) => (
+            {[cl1, cl2, cl3, cl4, cl5, cl6, cl7, cl8, cl9 ].map((img, i) => (
               <div key={`partner-a-${i}`} className="marquee-item">
                 <img
                   src={img}
@@ -112,7 +112,7 @@ const About = () => {
               </div>
             ))}
             {/* Duplicate set of logos for seamless infinite looping */}
-            {[cl1, cl2, cl3, cl4, cl5, cl6, cl7, cl8, cl9, cl10, cl11,cl12, cl13, cl14, cl15, cl16, cl17].map((img, i) => (
+            {[cl1, cl2, cl3, cl4, cl5, cl6, cl7, cl8, cl9].map((img, i) => (
               <div key={`partner-b-${i}`} className="marquee-item">
                 <img
                   src={img}
@@ -128,7 +128,7 @@ const About = () => {
         <div className="marquee-container">
           <div className="marquee-track marquee-track-left">
             {/* First set of logos in reversed order for visual variety */}
-            {[cl11, cl10, cl9, cl8, cl7, cl6, cl5, cl4, cl3, cl2, cl1].map((img, i) => (
+            {[cl10, cl11, cl12, cl13, cl14, cl15, cl16, cl17].map((img, i) => (
               <div key={`partner-c-${i}`} className="marquee-item">
                 <img
                   src={img}
@@ -138,7 +138,7 @@ const About = () => {
               </div>
             ))}
             {/* Duplicate set of logos for seamless infinite looping */}
-            {[cl11, cl10, cl9, cl8, cl7, cl6, cl5, cl4, cl3, cl2, cl1].map((img, i) => (
+            {[cl10, cl11, cl12, cl13, cl14, cl15, cl16, cl17].map((img, i) => (
               <div key={`partner-d-${i}`} className="marquee-item">
                 <img
                   src={img}
